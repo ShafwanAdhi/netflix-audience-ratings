@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { heatmapStyle } from "../../lib/dataColors";
 import { useEvaluation, modelName, percent } from "../../lib/api";
 import {
   Help,
@@ -173,10 +174,7 @@ export function EvaluationPage() {
                     <td
                       key={j}
                       title={`Actual ${data.labels[i]}, predicted ${data.labels[j]}: ${normalized ? percent(value) : value}`}
-                      style={{
-                        background: `rgba(0, 0, 0, ${0.025 + (0.9 * value) / max})`,
-                        color: value / max > 0.65 ? "#fff" : "#000000",
-                      }}
+                      style={heatmapStyle(value, max)}
                     >
                       {normalized
                         ? value > 0
@@ -190,9 +188,18 @@ export function EvaluationPage() {
             </tbody>
           </table>
         </div>
+        <div
+          className="heatmap-scale"
+          aria-label={`Confusion matrix scale: zero to ${normalized ? "one per actual-label row" : max + " titles"}`}
+        >
+          <span>0</span>
+          <span className="heatmap-scale-strip" aria-hidden="true" />
+          <span>{normalized ? "1.00 / row" : `${max} titles`}</span>
+        </div>
         <p className="table-note">
           All 14 labels remain visible, including classes never predicted.
-          Darker cells represent larger values.
+          Darker blue cells represent larger values; exact values are printed in
+          each cell.
         </p>
       </section>
       <Note>

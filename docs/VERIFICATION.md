@@ -66,3 +66,7 @@ Playwright against the public HTTPS origin: **51 checks passed**, no uncaught br
 [Run/container/browser evidence](../submissions/deployment/production/verification.json) ? [Desktop capture](../submissions/deployment/production/desktop-overview.png) ? [Mobile capture](../submissions/deployment/production/390px-dataset.png).
 
 Production verification exposed a missing Overview audit in the image. The image now includes `reports/task-03/dataset-audit.json`, and both the build validator and health check verify it. A CI request also checks the Overview endpoint. The production memory limit was raised to 768 MiB based on observed use. The incomplete first image is excluded from the saved rollback target; the corrected release is the first good production baseline.
+
+## Semantic data visualization audit - 2026-11-08
+
+The neutral RawBlock frame now permits semantic data colors. Every task page was reviewed; legends, values and point/line styles complement color. See the [color contract](architecture/data-visualization.md) and [current local evidence](../submissions/data-visualization/README.md). This task passed its build, 2 frontend tests, 51 full UI regression checks and 22 visualization checks. Saved model/checksum identities are unchanged. Earlier sections above describe historical releases.

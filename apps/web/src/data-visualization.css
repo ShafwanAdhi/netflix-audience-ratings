@@ -1,0 +1,75 @@
+/* Data color is a semantic layer over the neutral RawBlock workspace. */
+.data-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+  font: 12px/1.6 var(--mono);
+}
+.data-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.data-key {
+  display: inline-block;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 12px;
+  background: var(--data-color);
+  border: 1px solid #000;
+}
+.data-key--dashed {
+  height: 0;
+  background: transparent;
+  border: 0;
+  border-top: 3px dashed var(--data-color);
+}
+.data-key--band {
+  height: 16px;
+}
+.heatmap-scale {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  font: 12px var(--mono);
+}
+.heatmap-scale-strip {
+  width: 160px;
+  height: 16px;
+  border: 1px solid #000;
+  background: linear-gradient(to right, #eff6ff, #1e40af);
+}
+/* Keep swatches visible on hover/selected chips and in the group directory. */
+.cluster-swatch {
+  display: inline-block;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+}
+.cluster-directory > a {
+  grid-template-columns: 16px minmax(0, 1fr) auto;
+}
+.cluster-chip-list button i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid currentColor;
+  flex-shrink: 0;
+}
+.cluster-profile {
+  border-left-color: var(--cluster-color, #000);
+}
+.legend-dot {
+  background: #0f766e;
+}
+/* Text stays high-contrast; the Recharts legend markers retain series colors. */
+.recharts-default-tooltip .recharts-tooltip-item,
+.recharts-default-tooltip .recharts-tooltip-label {
+  color: #fff !important;
+}

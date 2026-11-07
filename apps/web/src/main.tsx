@@ -6,6 +6,7 @@ import * as Tooltip from "@radix-ui/react-tooltip";
 import { App } from "./app/App";
 import "./styles.css";
 import "./motion.css";
+import "./data-visualization.css";
 const client = new QueryClient({
   defaultOptions: { queries: { retry: 1, staleTime: 300_000 } },
 });

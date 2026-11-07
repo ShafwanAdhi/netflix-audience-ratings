@@ -1,3 +1,4 @@
+import { ratingFamily } from "../../lib/dataColors";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -259,7 +260,12 @@ export function PredictPage() {
               }
             >
               <p className="eyebrow">PREDICTED AUDIENCE RATING</p>
-              <div className="rating-label">{mutation.data.label}</div>
+              <div
+                className="rating-label"
+                style={{ background: ratingFamily(mutation.data.label).color }}
+              >
+                {mutation.data.label}
+              </div>
               <h3>{mutation.data.meaning}</h3>
               <p className="muted">Estimated from your content metadata.</p>
               <div className="probability-list">
@@ -274,11 +280,20 @@ export function PredictPage() {
                       <strong>{percent(item.probability)}</strong>
                     </div>
                     <div className="probability-track">
-                      <i style={{ width: percent(item.probability) }} />
+                      <i
+                        style={{
+                          width: percent(item.probability),
+                          background: ratingFamily(item.label).color,
+                        }}
+                      />
                     </div>
                   </div>
                 ))}
               </div>
+              <p className="table-note">
+                Color follows the audience family shown in Overview. Bar length
+                shows model probability, not calibrated certainty.
+              </p>
               <div className="support-line">
                 <span>Training examples for {mutation.data.label}</span>
                 <strong>

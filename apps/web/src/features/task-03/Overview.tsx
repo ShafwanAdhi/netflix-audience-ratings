@@ -7,7 +7,10 @@ import {
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
+  Cell,
 } from "recharts";
+import { ratingFamily, RATING_FAMILIES } from "../../lib/dataColors";
+import { DataLegend } from "../../components/DataLegend";
 import { useOverview } from "../../lib/api";
 import { Note, PageHeading, State } from "../../components/Shared";
 export function OverviewPage() {
@@ -104,21 +107,22 @@ export function OverviewPage() {
                     borderRadius: 4,
                   }}
                 />
-                <Bar
-                  dataKey="count"
-                  name="Titles"
-                  fill="#000000"
-                  isAnimationActive={false}
-                />
+                <Bar dataKey="count" name="Titles" isAnimationActive={false}>
+                  {ratings.map(({ label }) => (
+                    <Cell key={label} fill={ratingFamily(label).color} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <div className="chart-footnote">
-            <span>
-              <i className="legend-dot" /> Audience rating
-            </span>
-            <span>Counts before deduplication</span>
-          </div>
+          <DataLegend
+            items={RATING_FAMILIES}
+            label="Audience rating color families"
+          />
+          <p className="table-note">
+            Colors identify audience families for display only; all 14 labels
+            remain separate. Counts before deduplication.
+          </p>
         </div>
         <aside className="dataset-aside">
           <h2>Inside the dataset</h2>
