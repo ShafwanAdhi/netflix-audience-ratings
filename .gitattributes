@@ -2,3 +2,6 @@
 Dockerfile text eol=lf
 *.yaml text eol=lf
 *.template text eol=lf
+
+# Immutable bundles are byte-addressed; never normalize their line endings.
+/artifacts/** -text whitespace=cr-at-eol

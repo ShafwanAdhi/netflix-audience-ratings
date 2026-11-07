@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - Dockerfile
+      - .gitattributes
       - compose.yaml
       - deploy/**
       - apps/**
@@ -17,6 +18,7 @@ on:
   pull_request:
     paths:
       - Dockerfile
+      - .gitattributes
       - compose.yaml
       - deploy/**
       - apps/**
