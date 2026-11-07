@@ -1,6 +1,6 @@
 # Docker deployment — Task 3
 
-Status: Docker build, Nginx syntax and container health/SPA/API smoke checks passed in Linux CI; see [verification results](VERIFICATION.md). VPS application deployment, Nginx installation and HTTPS certificate issuance remain pending.
+Status: **deployed on 2026-11-07 (Asia/Jakarta)** at [https://netflix-audience-ratings.shafwan.digital](https://netflix-audience-ratings.shafwan.digital). Docker container healthy, HTTPS active and public browser checks passed. See [production evidence](../submissions/deployment/production/verification.json).
 
 One multi-stage image builds React and installs the frozen Python workspace. FastAPI serves the SPA and API under one origin. The runtime is non-root, read-only, and contains the selected model bundle and dataset profile; source CSV, development dependencies and private environment files are excluded. Image construction validates artifact readiness and run identity. One Uvicorn worker limits duplicate model memory. Native math threads are limited to one.
 

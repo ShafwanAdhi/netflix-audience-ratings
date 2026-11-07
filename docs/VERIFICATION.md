@@ -56,3 +56,13 @@ The first Linux CI build exposed historical Git line-ending normalization of che
 Verified Linux execution: image build including non-root bundle validation passed; Nginx site syntax passed; the read-only/resource-limited Compose container reached healthy state; direct SPA `/dataset` and API health smoke requests passed. Standard application CI also passed. This verifies the container on the GitHub runner, not its deployment to the VPS or production load capacity.
 
 [Successful container workflow](https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42369436274) ? [Successful application CI](https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42369436261) ? [Machine-readable evidence](../submissions/deployment/verification.json).
+
+## VPS production deployment ? 2026-11-07
+
+Live: [https://netflix-audience-ratings.shafwan.digital](https://netflix-audience-ratings.shafwan.digital). One Docker container serves frontend/API behind host Nginx; only localhost port 8303 is bound. Public HTTP redirects to HTTPS. TLS certificate validation, task/model identity and dataset/model run consistency passed. Certbot renewal timer is active.
+
+Playwright against the public HTTPS origin: **51 checks passed**, no uncaught browser exceptions; all five sections, real task interactions, keyboard/reduced-motion behavior and 1440/768/390/320px layout checks. Controlled dataset-503 fixtures are browser-only. Other VPS applications remained running. No load, failover or certificate-renewal dry-run test is claimed.
+
+[Run/container/browser evidence](../submissions/deployment/production/verification.json) ? [Desktop capture](../submissions/deployment/production/desktop-overview.png) ? [Mobile capture](../submissions/deployment/production/390px-dataset.png).
+
+Production verification exposed a missing Overview audit in the image. The image now includes `reports/task-03/dataset-audit.json`, and both the build validator and health check verify it. A CI request also checks the Overview endpoint. The production memory limit was raised to 768 MiB based on observed use. The incomplete first image is excluded from the saved rollback target; the corrected release is the first good production baseline.
