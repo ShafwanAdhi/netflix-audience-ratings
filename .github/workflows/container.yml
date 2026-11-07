@@ -53,6 +53,7 @@ jobs:
           docker compose --env-file deploy/production.env.example up -d --no-build --wait --wait-timeout 180
           curl --fail http://127.0.0.1:8303/dataset
           curl --fail http://127.0.0.1:8303/api/v1/health
+          curl --fail http://127.0.0.1:8303/api/v1/tasks/3/overview
       - name: Container diagnostics
         if: always()
         run: docker compose logs --no-color

@@ -27,6 +27,7 @@ COPY --from=python-build /lab/.venv /lab/.venv
 COPY --from=web /lab/apps/web/dist apps/web/dist
 COPY artifacts/task-03 artifacts/task-03
 COPY reports/dataset-profile.json reports/dataset-profile.json
+COPY reports/task-03/dataset-audit.json reports/task-03/dataset-audit.json
 COPY deploy/healthcheck.py deploy/validate_bundle.py deploy/
 USER 10001:10001
 RUN /lab/.venv/bin/python deploy/validate_bundle.py

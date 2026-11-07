@@ -18,6 +18,8 @@ async def validate():
         assert profile["run_id"] == service.metadata["run_id"], "Dataset run mismatch"
         assert profile["task_id"] == int(os.environ["NETFLIX_TASK_ID"]), "Wrong task bundle"
         assert (base / "apps/web/dist/index.html").is_file(), "Built frontend is absent"
+        audit = json.loads((base / "reports/task-03/dataset-audit.json").read_text())
+        assert audit["rows"] > 0, "Overview audit is absent or empty"
         print(f"Validated task {profile['task_id']}, run {profile['run_id']}")
 
 
