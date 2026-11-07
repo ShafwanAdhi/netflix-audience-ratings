@@ -1,0 +1,59 @@
+name: Container verification
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - Dockerfile
+      - compose.yaml
+      - deploy/**
+      - apps/**
+      - packages/**
+      - artifacts/**
+      - reports/dataset-profile.json
+      - uv.lock
+      - pnpm-lock.yaml
+      - .github/workflows/container.yml
+  pull_request:
+    paths:
+      - Dockerfile
+      - compose.yaml
+      - deploy/**
+      - apps/**
+      - packages/**
+      - artifacts/**
+      - reports/dataset-profile.json
+      - uv.lock
+      - pnpm-lock.yaml
+      - .github/workflows/container.yml
+permissions:
+  contents: read
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          tags: netflix-audience-ratings:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Validate Nginx site syntax
+        run: docker run --rm -v "$PWD/deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro" nginx:stable-alpine nginx -t
+      - name: Start and verify container readiness
+        env:
+          APP_IMAGE: netflix-audience-ratings:ci
+        run: |
+          docker compose --env-file deploy/production.env.example up -d --no-build --wait --wait-timeout 180
+          curl --fail http://127.0.0.1:8303/dataset
+          curl --fail http://127.0.0.1:8303/api/v1/health
+      - name: Container diagnostics
+        if: always()
+        run: docker compose logs --no-color
+      - name: Stop container
+        if: always()
+        run: docker compose down

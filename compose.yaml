@@ -1,0 +1,27 @@
+name: netflix-audience-ratings
+services:
+  app:
+    image: ${APP_IMAGE:-netflix-audience-ratings:local}
+    build:
+      context: .
+      target: runtime
+    restart: unless-stopped
+    init: true
+    ports:
+      - "127.0.0.1:${HOST_PORT:-8303}:8000"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: ${MEMORY_LIMIT:-512m}
+    cpus: "${CPU_LIMIT:-1.0}"
+    pids_limit: 128
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

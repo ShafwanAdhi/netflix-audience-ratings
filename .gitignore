@@ -26,3 +26,8 @@ submissions/**/*.zip
 /docs/design/
 # Superseded interface captures; current submission evidence is retained
 /submissions/interface-baseline/
+
+# Private deployment settings and local image history
+.env.production
+.env.production.*
+.deploy-state/

@@ -14,9 +14,7 @@ The ML package retains task-specific module paths required by joblib. Shared sou
 
 ## Deployment preparation
 
-Run `corepack pnpm build` then `uv run python -m uvicorn netflix_api.main:app --host 0.0.0.0 --port 8000`. The API serves the built SPA and `/api` under one origin. Root and direct section URLs work through the SPA fallback; unknown API paths remain 404.
-
-Alternatively `docker build -t netflix-audience-ratings .` and `docker run --rm -p 8000:8000 netflix-audience-ratings`. The container includes only the selected task bundle and reports, with a non-root runtime user. Container definition is provided; a successful Docker build is not implied unless recorded in verification results.
+See [Docker / VPS deployment](DEPLOYMENT.md) for the production image, isolated Compose service, localhost port 8303, existing host Nginx, subdomain/HTTPS setup, updates and rollback. No raw data or training is required to serve the included validated bundle. The API serves the built SPA and `/api` under one origin; unknown API paths remain 404. Container build/runtime verification is recorded separately from configuration preparation.
 
 ## Troubleshooting
 

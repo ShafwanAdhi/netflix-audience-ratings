@@ -42,3 +42,11 @@ To replay after building, start `uv run uvicorn netflix_api.main:app --host 127.
 npx --yes --package @playwright/cli playwright-cli open http://127.0.0.1:8765
 npx --yes --package @playwright/cli playwright-cli run-code --filename=scripts/browser-check-motion.js
 ```
+
+## Docker deployment preparation ? 2026-11-07
+
+Implemented: independent multi-stage image, frozen non-editable Python installation, bundled React SPA and selected artifacts, non-root/read-only runtime, resource limits, rotating logs, localhost-only Compose binding, run-bound health check, Nginx subdomain site, and commit/timestamp-tagged deploy helper with previous-image rollback. No private source dataset is copied. The container verification workflow builds the image, tests Nginx syntax and waits for container readiness; it has not been run for this change.
+
+Verified locally: all four Compose configurations parse and use distinct localhost ports; Bash syntax checks pass; the build-time bundle validator passes against the existing local Python environment and built SPA. Three mocked orchestration scenarios pass per task: build-before-replace, recovery after failed readiness, and manual previous-image rollback. Ruff and upload preflight pass. These are configuration and orchestration checks, not real container execution.
+
+VPS read-only inspection confirmed Docker Compose, host Nginx, public HTTP/HTTPS listeners and unused ports 8303?8306. No remote files, containers, Nginx sites, DNS or certificates were modified. Docker Desktop's Linux engine was unavailable locally, so image build, runtime limits and real container health remain unverified until the documented workflow or operator build runs. See [deployment guide](DEPLOYMENT.md).
