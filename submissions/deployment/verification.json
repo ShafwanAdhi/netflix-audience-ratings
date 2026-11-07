@@ -1,0 +1,19 @@
+{
+  "verified_source_commit": "1a1a85fab0e42b402eca0a54f28a3a4d52b01032",
+  "task_id": 3,
+  "domain": "netflix-audience-ratings.shafwan.digital",
+  "verified_at": "2026-11-07T11:47:03Z",
+  "checks": [
+    {
+      "name": "Verify standalone task",
+      "conclusion": "success",
+      "url": "https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42369436261"
+    },
+    {
+      "name": "Container verification",
+      "conclusion": "success",
+      "url": "https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42369436274"
+    }
+  ],
+  "scope": "Linux CI Docker build, Nginx syntax, read-only/resource-limited container readiness and localhost SPA/API smoke checks. VPS application deployment and HTTPS issuance remain pending."
+}
