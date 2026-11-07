@@ -1,0 +1,15 @@
+{
+  "name": "netflix-audience-ratings",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "pnpm --filter @lab/web build",
+    "test": "pnpm --filter @lab/web test",
+    "types": "uv run python scripts/export_openapi.py && pnpm --filter @lab/web generate:types",
+    "verify": "uv run python scripts/verify_project.py"
+  }
+}

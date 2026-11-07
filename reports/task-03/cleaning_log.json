@@ -1,0 +1,130 @@
+{
+  "source_sha256": "90b02beeb554921f81d3b9a774d0f7766f6a65240162565f6b4082165dc2a1d3",
+  "raw_rows": 8790,
+  "cleaned_rows": 8787,
+  "duplicate_mapping": [
+    {
+      "removed_id": "s5965",
+      "retained_id": "s3997"
+    },
+    {
+      "removed_id": "s5966",
+      "retained_id": "s4523"
+    },
+    {
+      "removed_id": "s5967",
+      "retained_id": "s3963"
+    }
+  ],
+  "train_rows": 7029,
+  "test_rows": 1758,
+  "split_sha256": "dad1ed3f8a263fbd30ad846dd218e3553cee17c07cfa2ee5dbb3ec72e64323a6",
+  "cv_sha256": "de5ee4ca35ff797f4188d3fd83229d48f7d5f17cea4620d918cbb8ad3b31303e",
+  "date_anomalies": [
+    "s5395",
+    "s7064",
+    "s7113",
+    "s1552",
+    "s1697",
+    "s2921",
+    "s3169",
+    "s3288",
+    "s3370",
+    "s3434",
+    "s4845",
+    "s4846",
+    "s5659",
+    "s5678"
+  ],
+  "entity_review": "Four reviewed repeated entities remain training-only; conflicting ratings preserved",
+  "reviewed_entities": [
+    {
+      "show_id": "s160",
+      "title": "Love in a Puff",
+      "rating": "TV-MA",
+      "entity_key": "love in a puff|Movie|2010"
+    },
+    {
+      "show_id": "s304",
+      "title": "Esperando la carroza",
+      "rating": "TV-MA",
+      "entity_key": "esperando la carroza|Movie|1985"
+    },
+    {
+      "show_id": "s3372",
+      "title": "Consequences",
+      "rating": "TV-MA",
+      "entity_key": "consequences|Movie|2014"
+    },
+    {
+      "show_id": "s6530",
+      "title": "Consequences ",
+      "rating": "TV-MA",
+      "entity_key": "consequences|Movie|2014"
+    },
+    {
+      "show_id": "s6706",
+      "title": "Esperando La Carroza",
+      "rating": "NR",
+      "entity_key": "esperando la carroza|Movie|1985"
+    },
+    {
+      "show_id": "s7346",
+      "title": "Love In A Puff",
+      "rating": "TV-MA",
+      "entity_key": "love in a puff|Movie|2010"
+    },
+    {
+      "show_id": "s1271",
+      "title": "Sin senos sí hay paraíso",
+      "rating": "TV-MA",
+      "entity_key": "sin senos sí hay paraíso|TV Show|2018"
+    },
+    {
+      "show_id": "s8023",
+      "title": "Sin Senos sí Hay Paraíso",
+      "rating": "TV-MA",
+      "entity_key": "sin senos sí hay paraíso|TV Show|2018"
+    }
+  ],
+  "cv_seeds": [
+    42,
+    43,
+    44
+  ],
+  "cv_protocol": "Three repeated stratified group-disjoint 2-fold partitions; full-label support checked",
+  "label_support": {
+    "test": {
+      "G": 8,
+      "NC-17": 1,
+      "NR": 16,
+      "PG": 57,
+      "PG-13": 98,
+      "R": 160,
+      "TV-14": 431,
+      "TV-G": 44,
+      "TV-MA": 641,
+      "TV-PG": 172,
+      "TV-Y": 61,
+      "TV-Y7": 67,
+      "TV-Y7-FV": 1,
+      "UR": 1
+    },
+    "train": {
+      "G": 33,
+      "NC-17": 2,
+      "NR": 63,
+      "PG": 230,
+      "PG-13": 392,
+      "R": 638,
+      "TV-14": 1724,
+      "TV-G": 176,
+      "TV-MA": 2564,
+      "TV-PG": 689,
+      "TV-Y": 245,
+      "TV-Y7": 266,
+      "TV-Y7-FV": 5,
+      "UR": 2
+    }
+  }
+}

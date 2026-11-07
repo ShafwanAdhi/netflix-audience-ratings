@@ -1,0 +1,197 @@
+{
+  "source_path": "C:\\Users\\shafw\\Downloads\\Dataset.csv",
+  "source_sha256": "90b02beeb554921f81d3b9a774d0f7766f6a65240162565f6b4082165dc2a1d3",
+  "rows": 8790,
+  "columns": [
+    "show_id",
+    "type",
+    "title",
+    "director",
+    "country",
+    "date_added",
+    "release_year",
+    "rating",
+    "duration",
+    "listed_in"
+  ],
+  "missing_cells_by_column": {
+    "show_id": 0,
+    "type": 0,
+    "title": 0,
+    "director": 0,
+    "country": 0,
+    "date_added": 0,
+    "release_year": 0,
+    "rating": 0,
+    "duration": 0,
+    "listed_in": 0
+  },
+  "semantic_missing_values": {
+    "director": {
+      "value": "Not Given",
+      "count": 2588
+    },
+    "country": {
+      "value": "Not Given",
+      "count": 287
+    }
+  },
+  "rating_counts": {
+    "TV-MA": 3205,
+    "TV-14": 2157,
+    "TV-PG": 861,
+    "R": 799,
+    "PG-13": 490,
+    "TV-Y7": 333,
+    "TV-Y": 306,
+    "PG": 287,
+    "TV-G": 220,
+    "NR": 79,
+    "G": 41,
+    "TV-Y7-FV": 6,
+    "NC-17": 3,
+    "UR": 3
+  },
+  "rating_by_type": {
+    "Movie": {
+      "G": 41,
+      "NC-17": 3,
+      "NR": 75,
+      "PG": 287,
+      "PG-13": 490,
+      "R": 797,
+      "TV-14": 1427,
+      "TV-G": 126,
+      "TV-MA": 2062,
+      "TV-PG": 540,
+      "TV-Y": 131,
+      "TV-Y7": 139,
+      "TV-Y7-FV": 5,
+      "UR": 3
+    },
+    "TV Show": {
+      "G": 0,
+      "NC-17": 0,
+      "NR": 4,
+      "PG": 0,
+      "PG-13": 0,
+      "R": 2,
+      "TV-14": 730,
+      "TV-G": 94,
+      "TV-MA": 1143,
+      "TV-PG": 321,
+      "TV-Y": 175,
+      "TV-Y7": 194,
+      "TV-Y7-FV": 1,
+      "UR": 0
+    }
+  },
+  "type_counts": {
+    "Movie": 6126,
+    "TV Show": 2664
+  },
+  "duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "duplicate_content_rows_excluding_id": 3,
+  "duplicate_content_records": [
+    {
+      "show_id": "s3997",
+      "type": "TV Show",
+      "title": "9-Feb",
+      "director": "Not Given",
+      "country": "Pakistan",
+      "date_added": "3/20/2019",
+      "release_year": 2018,
+      "rating": "TV-14",
+      "duration": "1 Season",
+      "listed_in": "International TV Shows, TV Dramas"
+    },
+    {
+      "show_id": "s5965",
+      "type": "TV Show",
+      "title": "9-Feb",
+      "director": "Not Given",
+      "country": "Pakistan",
+      "date_added": "3/20/2019",
+      "release_year": 2018,
+      "rating": "TV-14",
+      "duration": "1 Season",
+      "listed_in": "International TV Shows, TV Dramas"
+    },
+    {
+      "show_id": "s3963",
+      "type": "Movie",
+      "title": "15-Aug",
+      "director": "Swapnaneel Jayakar",
+      "country": "India",
+      "date_added": "3/29/2019",
+      "release_year": 2019,
+      "rating": "TV-14",
+      "duration": "124 min",
+      "listed_in": "Comedies, Dramas, Independent Movies"
+    },
+    {
+      "show_id": "s4523",
+      "type": "Movie",
+      "title": "22-Jul",
+      "director": "Paul Greengrass",
+      "country": "Norway",
+      "date_added": "10/10/2018",
+      "release_year": 2018,
+      "rating": "R",
+      "duration": "144 min",
+      "listed_in": "Dramas, Thrillers"
+    },
+    {
+      "show_id": "s5966",
+      "type": "Movie",
+      "title": "22-Jul",
+      "director": "Paul Greengrass",
+      "country": "Norway",
+      "date_added": "10/10/2018",
+      "release_year": 2018,
+      "rating": "R",
+      "duration": "144 min",
+      "listed_in": "Dramas, Thrillers"
+    },
+    {
+      "show_id": "s5967",
+      "type": "Movie",
+      "title": "15-Aug",
+      "director": "Swapnaneel Jayakar",
+      "country": "India",
+      "date_added": "3/29/2019",
+      "release_year": 2019,
+      "rating": "TV-14",
+      "duration": "124 min",
+      "listed_in": "Comedies, Dramas, Independent Movies"
+    }
+  ],
+  "rows_after_content_deduplication": 8787,
+  "rating_counts_after_content_deduplication": {
+    "TV-MA": 3205,
+    "TV-14": 2155,
+    "TV-PG": 861,
+    "R": 798,
+    "PG-13": 490,
+    "TV-Y7": 333,
+    "TV-Y": 306,
+    "PG": 287,
+    "TV-G": 220,
+    "NR": 79,
+    "G": 41,
+    "TV-Y7-FV": 6,
+    "NC-17": 3,
+    "UR": 3
+  },
+  "majority_class_share_raw": 0.3646188850967008,
+  "date_added_min": "2008-01-01",
+  "date_added_max": "2021-09-25",
+  "unparseable_dates": 0,
+  "release_year_min": 1925,
+  "release_year_max": 2021,
+  "date_added_before_release_year": 14,
+  "invalid_duration_format": 0,
+  "type_duration_mismatch": 0,
+  "no_model_trained": true
+}

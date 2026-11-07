@@ -1,0 +1,28 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+data/raw/*.csv
+data/processed/
+*.log
+output/
+.playwright-cli/
+.cache/
+*.tsbuildinfo
+
+submissions/**/*.zip
+*.zip
+*.pem
+*.key
+.github-token*
+
+# Local publishing instructions, migration notes and design references
+/docs/GITHUB.md
+/docs/MIGRATION.md
+/docs/design/
+# Superseded interface captures; current submission evidence is retained
+/submissions/interface-baseline/

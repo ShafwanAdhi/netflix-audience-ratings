@@ -1,0 +1,7 @@
+{
+  "task_id": 3,
+  "title": "Audience Rating Classification",
+  "repository": "netflix-audience-ratings",
+  "run_id": "20261106T111736917654Z",
+  "ui_status": "RawBlock design implemented; see docs/design and docs/VERIFICATION.md for verification"
+}

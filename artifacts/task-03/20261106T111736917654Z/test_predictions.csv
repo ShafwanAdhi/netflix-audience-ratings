@@ -1,0 +1,1759 @@
+show_id,title,type,rating,prediction,correct
+s13,Je Suis Karl,Movie,TV-MA,TV-MA,True
+s941,Motu Patlu: Deep Sea Adventure,Movie,TV-Y7,TV-Y7,True
+s730,Bling Empire - The Afterparty,Movie,TV-MA,TV-MA,True
+s4,Jailbirds New Orleans,TV Show,TV-MA,TV-MA,True
+s12,Bangkok Breaking,TV Show,TV-MA,TV-MA,True
+s187,Hometown Cha-Cha-Cha,TV Show,TV-14,TV-MA,False
+s188,The Ingenuity of the Househusband,TV Show,TV-G,TV-MA,False
+s31,Ankahi Kahaniya,Movie,TV-14,TV-MA,False
+s43,Jaws 2,Movie,PG,PG,True
+s498,Cat People,TV Show,TV-14,TV-PG,False
+s62,Naruto the Movie 2: Legend of the Stone of Gelel,Movie,TV-PG,TV-PG,True
+s244,Everything Will Be Fine,TV Show,TV-MA,TV-MA,True
+s380,Tattoo Redo,TV Show,TV-MA,TV-PG,False
+s87,Prey,Movie,TV-MA,TV-MA,True
+s431,Sexy Beasts,TV Show,TV-14,TV-G,False
+s572,Generation 56k,TV Show,TV-MA,TV-MA,True
+s659,"Nevertheless,",TV Show,TV-14,TV-14,True
+s102,Untold: Breaking Point,Movie,TV-MA,TV-MA,True
+s739,Trese After Dark,Movie,TV-14,TV-PG,False
+s958,Pet Stars,TV Show,TV-PG,TV-PG,True
+s968,Headspace Guide to Sleep,TV Show,TV-G,TV-PG,False
+s111,Money Heist: From Tokyo to Berlin,TV Show,TV-MA,TV-MA,True
+s118,Final Account,Movie,PG-13,TV-14,False
+s123,In the Cut,Movie,R,PG-13,False
+s132,Blade Runner: The Final Cut,Movie,R,PG,False
+s153,Janoskians: Untold and Untrue,Movie,TV-MA,R,False
+s1225,Last Chance U: Basketball,TV Show,TV-MA,TV-PG,False
+s142,Extraction,Movie,R,R,True
+s147,House Party 3,Movie,R,PG-13,False
+s150,I Got the Hook Up,Movie,R,PG-13,False
+s151,In Too Deep,Movie,R,R,True
+s156,Labyrinth,Movie,PG,PG,True
+s170,Poseidon,Movie,PG-13,R,False
+s1915,Journey of an African Colony,TV Show,TV-MA,TV-PG,False
+s171,Rhyme & Reason,Movie,R,PG-13,False
+s175,Tears of the Sun,Movie,R,PG-13,False
+s184,In the Line of Fire,Movie,R,R,True
+s2041,Transformers: Cyberverse,TV Show,TV-Y7,TV-Y,False
+s2059,The Witcher: A Look Inside the Episodes,TV Show,TV-MA,TV-PG,False
+s191,Thimmarusu,Movie,TV-14,TV-14,True
+s2496,Especial 20 años Fútbol de Primera,TV Show,TV-14,TV-MA,False
+s211,Ragini MMS,Movie,TV-MA,TV-14,False
+s212,Ragini MMS 2,Movie,TV-MA,TV-14,False
+s2700,The Circle France,TV Show,TV-MA,TV-G,False
+s2943,My Holo Love,TV Show,TV-14,TV-MA,False
+s3200,Space Jungle,TV Show,TV-Y,TV-Y7,False
+s3593,Happy Jail,TV Show,TV-MA,TV-MA,True
+s3394,"ChuChu TV Kids Songs, Learning Videos & Bedtime Stories",TV Show,TV-Y,TV-Y,True
+s3397,ChuChuTV Surprise Eggs Learning Videos (English),Movie,TV-Y,TV-Y,True
+s3540,Loo Loo Kids: Johny & Friends Musical Adventures,TV Show,TV-Y,TV-Y,True
+s3672,Extreme Engagement,TV Show,TV-MA,TV-14,False
+s238,Boomika (Hindi),Movie,TV-14,TV-MA,False
+s258,O Kadhal Kanmani,Movie,TV-14,TV-14,True
+s263,Untold: Deal With the Devil,Movie,TV-MA,TV-14,False
+s458,Lift Like a Girl,Movie,TV-PG,TV-MA,False
+s3845,Bibik-Bibikku,TV Show,TV-PG,TV-MA,False
+s250,The Loud House Movie,Movie,TV-Y7,TV-Y7,True
+s3848,Cinta Si Wedding Planner,TV Show,TV-14,TV-PG,False
+s3854,I Have a Script,TV Show,TV-14,TV-14,True
+s285,The Kissing Booth 3,Movie,TV-14,TV-14,True
+s3954,Kicko & Super Speedo,TV Show,TV-Y7,TV-Y7,True
+s3985,The 10 Sins,TV Show,TV-14,TV-14,True
+s3997,9-Feb,TV Show,TV-14,TV-14,True
+s4013,My Pride,TV Show,TV-14,TV-14,True
+s4056,Larva Island,TV Show,TV-Y7,TV-Y7,True
+s294,Slay,Movie,TV-MA,TV-MA,True
+s299,Quam's Money,Movie,TV-MA,TV-MA,True
+s303,City of God: 10 Years Later,Movie,TV-MA,TV-MA,True
+s306,Tango Feroz,Movie,TV-MA,TV-MA,True
+s4266,Single Ladies Senior,TV Show,TV-MA,TV-14,False
+s307,'76,Movie,TV-PG,TV-MA,False
+s309,American Masters: Inventing David Geffen,Movie,TV-MA,PG-13,False
+s4530,Dancing Queen,TV Show,TV-14,TV-PG,False
+s4628,Battlefish,TV Show,TV-MA,TV-PG,False
+s4641,Super Monsters Monster Party,TV Show,TV-Y,TV-Y,True
+s4893,Pocoyo & Cars,Movie,TV-Y,TV-Y7,False
+s4895,Pocoyo Carnival,Movie,TV-Y,TV-Y7,False
+s4897,Pocoyo Halloween: Spooky Movies,Movie,TV-Y,TV-Y7,False
+s4901,Spiritual House,TV Show,TV-PG,TV-MA,False
+s4909,Goodnight DJ 1,TV Show,TV-14,TV-PG,False
+s5110,Part-Time Idol,TV Show,TV-14,TV-MA,False
+s329,Boyka: Undisputed,Movie,R,R,True
+s334,Ferris Bueller's Day Off,Movie,PG-13,R,False
+s335,Five Feet Apart,Movie,PG-13,PG-13,True
+s341,Inception,Movie,PG-13,PG-13,True
+s5194,The Little Nyonya,TV Show,TV-14,TV-14,True
+s345,My Girl 2,Movie,PG,PG,True
+s349,Poms,Movie,PG-13,R,False
+s351,Space Cowboys,Movie,PG-13,PG-13,True
+s357,The Losers,Movie,PG-13,R,False
+s359,The Net,Movie,PG-13,R,False
+s5357,Love Storm,TV Show,TV-14,TV-PG,False
+s5791,The Best of Rafał Rutkowski Olka Szczęśniak,Movie,TV-MA,TV-MA,True
+s6710,Eurovision Song Contest,TV Show,TV-PG,TV-14,False
+s6507,Club Friday The Series 8,TV Show,TV-MA,TV-14,False
+s6505,Club Friday The Series 6,TV Show,TV-MA,TV-MA,True
+s403,The Last Letter From Your Lover,Movie,TV-MA,PG-13,False
+s415,Chhota Bheem Aur Hanuman,Movie,TV-Y7,TV-Y7,True
+s406,Chhota Bheem - Dinosaur World,Movie,TV-Y,TV-Y7,False
+s438,Cosmic Sin,Movie,R,TV-MA,False
+s6774,Food: Delicious Science,TV Show,TV-PG,TV-PG,True
+s7018,How to Live Mortgage Free with Sarah Beeny,TV Show,TV-MA,TV-PG,False
+s433,Trollhunters: Rise of the Titans,Movie,TV-Y7,PG,False
+s451,The Twilight Saga: New Moon,Movie,PG-13,PG-13,True
+s7439,Melodies of Life - Born This Way,TV Show,TV-14,TV-PG,False
+s470,American Woman,Movie,TV-MA,TV-MA,True
+s7541,My Life My Story,TV Show,TV-14,TV-MA,False
+s474,Born to Play,Movie,TV-MA,TV-MA,True
+s8691,Wake Up,TV Show,TV-14,TV-14,True
+s503,Tango With Me,Movie,TV-14,TV-MA,False
+s504,The Mire,TV Show,TV-MA,TV-MA,True
+s295,Takizawa Kabuki ZERO 2020 The Movie,Movie,TV-PG,TV-14,False
+s319,Shiny_Flakes: The Teenage Drug Lord,Movie,TV-MA,TV-MA,True
+s508,Three Thieves,Movie,TV-14,TV-MA,False
+s529,Rehmataan,Movie,TV-14,TV-14,True
+s552,Haseen Dillruba,Movie,TV-MA,TV-14,False
+s562,Austin Powers in Goldmember,Movie,PG-13,PG-13,True
+s571,Dynasty Warriors,Movie,TV-14,TV-MA,False
+s574,Kung Fu Panda,Movie,PG,PG,True
+s576,Life as We Know It,Movie,PG-13,PG-13,True
+s577,Mary Magdalene,Movie,R,TV-MA,False
+s583,Mother's Day,Movie,PG-13,R,False
+s584,No Strings Attached,Movie,R,PG-13,False
+s587,Pet Sematary 2,Movie,R,R,True
+s761,Fireplace 4K: Crackling Birchwood from Fireplace for Your Home,Movie,TV-G,TV-PG,False
+s595,Star Trek,Movie,PG-13,PG-13,True
+s598,Talladega Nights: The Ballad of Ricky Bobby,Movie,PG-13,PG-13,True
+s614,Voiceless,Movie,TV-MA,TV-MA,True
+s617,Working Title,Movie,R,R,True
+s627,Sophie: A Murder in West Cork,TV Show,TV-MA,TV-MA,True
+s630,A Way Back Home,Movie,TV-14,TV-MA,False
+s644,The Seventh Day,Movie,R,TV-MA,False
+s653,Osuofia in London II,Movie,TV-14,TV-14,True
+s647,The House of Flowers: The Movie,Movie,TV-MA,TV-MA,True
+s646,Murder by the Coast,Movie,TV-14,TV-MA,False
+s671,Mobile Suit Gundam II: Soldiers of Sorrow,Movie,TV-14,TV-14,True
+s688,Jagame Thandhiram,Movie,TV-MA,TV-14,False
+s694,Ali & Ratu Ratu Queens,Movie,TV-14,TV-MA,False
+s706,Biking Borders,Movie,TV-14,TV-MA,False
+s717,FTA,Movie,TV-MA,R,False
+s727,Metallica: Some Kind of Monster,TV Show,TV-MA,TV-14,False
+s736,Sarbath,Movie,TV-PG,TV-14,False
+s737,Skater Girl,Movie,PG,TV-PG,False
+s741,A Haunted House 2,Movie,R,R,True
+s760,Fireplace 4K: Classic Crackling Fireplace from Fireplace for Your Home,Movie,TV-G,TV-PG,False
+s755,A Private War,Movie,R,R,True
+s759,Feel Good,TV Show,TV-MA,TV-MA,True
+s777,American Outlaws,Movie,PG-13,R,False
+s787,Company of Heroes,Movie,R,R,True
+s795,Gold Statue,Movie,TV-14,TV-MA,False
+s797,Hostel: Part III,Movie,R,R,True
+s799,Love Jones,Movie,R,R,True
+s800,Million Dollar Baby,Movie,PG-13,PG-13,True
+s801,Mosquita y Mari,Movie,TV-14,R,False
+s803,Ninja Assassin,Movie,R,R,True
+s805,Population 436,Movie,R,R,True
+s816,The Girl King,Movie,TV-MA,TV-MA,True
+s809,Sniper: Legacy,Movie,R,R,True
+s815,The Four Seasons,Movie,PG,R,False
+s808,Seven Souls in the Skull Castle: Season Moon Kagen,Movie,TV-PG,TV-14,False
+s822,The Wedding Guest,Movie,R,PG-13,False
+s823,The Wind,Movie,R,R,True
+s830,Dog Gone Trouble,Movie,TV-Y7,TV-Y7,True
+s829,Collateral Beauty,Movie,PG-13,R,False
+s846,A Place in the Stars,Movie,TV-14,TV-MA,False
+s847,Home,Movie,PG,PG,True
+s861,Hating Peter Tatchell,Movie,TV-MA,TV-MA,True
+s866,Sabotage,Movie,R,R,True
+s868,The Last Days,Movie,PG-13,R,False
+s872,Sardar Ka Grandson,Movie,TV-14,TV-14,True
+s857,Strain,Movie,TV-MA,TV-MA,True
+s894,Wave of Cinema: Filosofi Kopi,Movie,TV-14,TV-PG,False
+s892,Layer Cake,Movie,R,PG-13,False
+s893,Tottaa Pataaka Item Maal,Movie,TV-MA,TV-14,False
+s900,Illegal Woman,Movie,TV-MA,TV-MA,True
+s905,Sleepless,Movie,R,R,True
+s911,Monster,Movie,TV-MA,R,False
+s901,"Money, Explained",TV Show,TV-14,TV-MA,False
+s933,Green Zone,Movie,R,PG-13,False
+s936,Madagascar 3: Europe's Most Wanted,Movie,PG,PG,True
+s938,Motu Patlu in Dragon's World,Movie,TV-Y7,TV-Y,False
+s960,The Disciple,Movie,TV-MA,TV-14,False
+s971,Battle: Los Angeles,Movie,PG-13,PG-13,True
+s977,Among Family,Movie,TV-14,TV-MA,False
+s981,Dügün Dernek 2: Sünnet,Movie,TV-MA,TV-MA,True
+s983,Hayat Öpücügü,Movie,TV-14,TV-MA,False
+s1001,Wild Dog,Movie,TV-MA,TV-14,False
+s1007,Motu Patlu Dino Invasion,Movie,TV-Y7,TV-Y7,True
+s1008,Motu Patlu in Octupus World,Movie,TV-Y,TV-Y7,False
+s1010,Rudra: Secret of the Black Moon,Movie,TV-Y7,TV-Y7,True
+s1014,Miss Sloane,Movie,R,R,True
+s999,Searching For Sheela,Movie,TV-14,TV-G,False
+s1016,American Me,Movie,R,R,True
+s1019,Jaane Tu... Ya Jaane Na,Movie,TV-14,TV-14,True
+s1022,Peepli Live,Movie,TV-MA,TV-14,False
+s1023,Taare Zameen Par,Movie,PG,TV-14,False
+s1032,Into the Beat,Movie,TV-14,TV-MA,False
+s1035,Synchronic,Movie,R,R,True
+s1043,Garth Brooks: The Road I’m On,TV Show,TV-PG,TV-PG,True
+s1055,Wave of Cinema: One Day We'll Talk About Today,Movie,TV-14,TV-PG,False
+s1070,Uppena,Movie,TV-14,TV-14,True
+s1076,My Love: Six Stories of True Love,TV Show,TV-PG,TV-MA,False
+s1073,Motu Patlu in the City of Gold,Movie,TV-Y7,TV-Y7,True
+s1077,Shiva VS Autobots,Movie,TV-Y7,TV-Y7,True
+s1100,The Fisherman's Diary,Movie,TV-MA,TV-MA,True
+s1105,An American Girl: McKenna Shoots for the Stars,Movie,TV-Y,PG,False
+s1108,God Calling,Movie,TV-MA,TV-MA,True
+s1116,Ferrari Ki Sawaari,Movie,TV-PG,TV-14,False
+s1129,S.W.A.T.: Under Siege,Movie,R,TV-MA,False
+s1132,Seven Souls in the Skull Castle: Season Flower,Movie,TV-14,TV-14,True
+s1137,Tersanjung the Movie,Movie,TV-14,TV-14,True
+s1138,The Knight and the Princess,Movie,TV-PG,TV-MA,False
+s1139,The Pianist,Movie,R,PG-13,False
+s1142,Wazir,Movie,TV-14,TV-14,True
+s1176,Philomena,Movie,PG-13,R,False
+s1185,The Yin Yang Master,Movie,TV-14,TV-MA,False
+s1186,Who's the Boss,Movie,TV-MA,TV-14,False
+s1190,Nate Bargatze: The Greatest Average American,Movie,TV-G,TV-MA,False
+s1191,Skylines,Movie,R,R,True
+s1192,The Fluffy Movie,Movie,PG-13,R,False
+s1193,The Present,Movie,TV-MA,TV-G,False
+s1204,The BFG,Movie,PG,PG,True
+s1205,The Last Blockbuster,Movie,TV-14,TV-MA,False
+s1209,Çarsi Pazar,Movie,TV-MA,TV-MA,True
+s1222,Generasi 90an: Melankolia,Movie,TV-14,TV-MA,False
+s1231,Aelay,Movie,TV-14,TV-14,True
+s1233,Dogwashers,Movie,TV-MA,TV-MA,True
+s1240,Parker,Movie,R,R,True
+s1243,Murder Among the Mormons,TV Show,TV-14,TV-MA,False
+s1244,Black or White,Movie,PG-13,R,False
+s1254,LEGO Marvel Spider-Man: Vexed by Venom,Movie,TV-Y,TV-Y,True
+s1261,Crazy About Her,Movie,TV-MA,TV-MA,True
+s1268,Who Am I,Movie,TV-MA,TV-MA,True
+s1279,Brian Regan: On the Rocks,Movie,TV-G,TV-MA,False
+s1280,Made You Look: A True Story About Fake Art,Movie,TV-14,TV-MA,False
+s1292,Love,Movie,TV-14,TV-14,True
+s1296,Eeb Allay Ooo!,Movie,TV-MA,TV-MA,True
+s1298,No Escape Room,Movie,TV-14,TV-MA,False
+s1310,"My Teacher, My Obsession",Movie,TV-14,TV-14,True
+s1313,Monsoon,Movie,TV-MA,TV-MA,True
+s1309,Booba,TV Show,TV-Y7,TV-Y7,True
+s1343,Space Sweepers,Movie,TV-MA,TV-MA,True
+s1352,"Our Lady of San Juan, Four Centuries of Miracles",Movie,TV-PG,TV-MA,False
+s1358,Rocks,Movie,TV-MA,R,False
+s1360,The Bank Job,Movie,R,PG-13,False
+s1368,Hell Fest,Movie,R,R,True
+s1377,Kilometers and Kilometers,Movie,TV-MA,TV-14,False
+s1388,The Next Three Days,Movie,PG-13,R,False
+s1398,A Monster Calls,Movie,PG-13,PG-13,True
+s1400,Radium Girls,Movie,TV-14,R,False
+s1419,Chris Rock Total Blackout: The Tamborine Extended Cut,Movie,TV-MA,R,False
+s1413,Wish You,Movie,TV-PG,TV-MA,False
+s1423,Apaharan,Movie,TV-14,TV-14,True
+s1425,Charming,Movie,TV-Y7,TV-Y7,True
+s1447,Bad Grandpa .5,Movie,TV-MA,R,False
+s1454,Good Burger,Movie,PG,PG,True
+s1457,Into the Wild,Movie,R,R,True
+s1464,The Cat in the Hat Knows a Lot About That!,TV Show,TV-Y,TV-Y,True
+s1465,The Creative Brain,Movie,TV-14,TV-PG,False
+s1470,What's Eating Gilbert Grape,Movie,PG-13,R,False
+s1471,Alaska Is a Drag,Movie,TV-MA,TV-MA,True
+s1473,Bobby Jasoos,Movie,TV-14,TV-14,True
+s1476,Too Handsome to Handle,Movie,TV-14,TV-14,True
+s1487,Death to 2020,Movie,TV-MA,TV-MA,True
+s1498,"Hello, Love, Goodbye",Movie,TV-14,TV-14,True
+s1511,The Con Is On,Movie,R,R,True
+s1512,Mohamed Hussein,Movie,TV-14,TV-MA,False
+s1521,Paava Kadhaigal,TV Show,TV-MA,TV-MA,True
+s1523,Talentime,Movie,TV-14,TV-14,True
+s1527,Love You to the Stars and Back,Movie,TV-14,TV-14,True
+s1530,Sakaling Maging Tayo,Movie,TV-14,TV-MA,False
+s1557,A Trash Truck Christmas,Movie,TV-Y,TV-Y,True
+s1551,A California Christmas,Movie,PG-13,PG-13,True
+s1558,Canvas,Movie,G,TV-Y,False
+s1564,Funny Boy,Movie,TV-MA,R,False
+s1566,Just The Way You Are,Movie,TV-G,TV-MA,False
+s1567,She's the One,Movie,TV-14,TV-14,True
+s1601,Chico Bon Bon and the Very Berry Holiday,Movie,TV-Y,TV-Y,True
+s1577,Bobbleheads The Movie,Movie,PG,TV-G,False
+s1602,Just Another Christmas,Movie,TV-MA,TV-MA,True
+s1605,Ari Eldjárn: Pardon My Icelandic,Movie,TV-MA,TV-MA,True
+s1610,Angela's Christmas Wish,Movie,TV-Y,TV-Y,True
+s1613,Chef,Movie,R,R,True
+s1614,Effie Gray,Movie,PG-13,R,False
+s1622,Quigley Down Under,Movie,PG-13,R,False
+s1630,U-Turn,Movie,TV-MA,TV-MA,True
+s1636,A Go! Go! Cory Carson Christmas,Movie,TV-Y,TV-Y,True
+s1637,Dance Dreams: Hot Chocolate Nutcracker,Movie,TV-PG,TV-Y7,False
+s1646,Larry the Cable Guy: Remain Seated,Movie,TV-14,TV-MA,False
+s1649,Ghosts of War,Movie,R,R,True
+s1665,Machete Kills,Movie,R,R,True
+s1675,Bodyguard,Movie,TV-14,TV-14,True
+s1678,My Amnesia Girl,Movie,TV-14,TV-G,False
+s1679,Raman Raghav 2.0,Movie,TV-MA,TV-14,False
+s1684,Well Done Abba,Movie,TV-14,TV-14,True
+s1705,The Beginning of Life 2: Outside,Movie,TV-PG,TV-MA,False
+s1707,The Minions of Midas,TV Show,TV-MA,TV-MA,True
+s1711,Fruitvale Station,Movie,R,NR,False
+s1721,What We Wanted,Movie,TV-MA,TV-MA,True
+s1729,The Endless Trench,Movie,TV-MA,TV-MA,True
+s1740,Christmas with a Prince,Movie,TV-PG,TV-G,False
+s1753,Elf Pets: Santa’s Reindeer Rescue,Movie,TV-Y,TV-Y,True
+s1769,The Next Karate Kid,Movie,PG,PG-13,False
+s1772,Afronta! Facing It!,TV Show,TV-PG,TV-MA,False
+s1773,The 12th Man,Movie,TV-MA,TV-MA,True
+s1781,Rogue City,Movie,TV-MA,TV-MA,True
+s1789,Nobody Sleeps in the Woods Tonight,Movie,TV-MA,TV-MA,True
+s1793,Guillermo Vilas: Settling the Score,Movie,TV-14,TV-MA,False
+s1794,Sarah Cooper: Everything's Fine,Movie,TV-MA,TV-MA,True
+s1808,Exes Baggage,Movie,TV-MA,TV-14,False
+s1811,The Hummingbird Project,Movie,R,R,True
+s1817,Tremors: Shrieker Island,Movie,PG-13,R,False
+s1822,Listen,Movie,TV-MA,TV-MA,True
+s1832,Whispers,Movie,TV-14,TV-14,True
+s1854,Rooting for Roona,Movie,TV-PG,TV-G,False
+s1839,In a Valley of Violence,Movie,R,R,True
+s1841,Someone Has to Die,TV Show,TV-MA,TV-MA,True
+s1843,The Trial of the Chicago 7,Movie,R,R,True
+s1846,Batman: The Killing Joke,Movie,R,R,True
+s1850,Kartini: Princess of Java,Movie,TV-PG,TV-14,False
+s1858,The Three Deaths of Marisela Escobedo,Movie,TV-MA,TV-MA,True
+s1859,Fida,Movie,TV-14,TV-14,True
+s1860,Octonauts & the Great Barrier Reef,Movie,TV-Y,TV-Y,True
+s1868,House of the Witch,Movie,TV-MA,TV-MA,True
+s1873,The Forty-Year-Old Version,Movie,R,R,True
+s1884,StarBeam: Halloween Hero,Movie,TV-Y,TV-Y,True
+s1889,Good Game: The Beginning,Movie,TV-14,TV-MA,False
+s1898,Serious Men,Movie,TV-MA,TV-14,False
+s1910,Free State of Jones,Movie,R,R,True
+s1914,I'm Leaving Now,Movie,TV-MA,TV-PG,False
+s1917,Rize,Movie,PG-13,PG-13,True
+s1937,Welcome to Sudden Death,Movie,R,TV-MA,False
+s1938,Amandla! A Revolution in Four Part Harmony,Movie,PG-13,TV-14,False
+s1942,Ishq Vishk,Movie,TV-PG,TV-14,False
+s1951,Time Out,Movie,TV-14,TV-MA,False
+s1954,My Mother's Wound,Movie,TV-MA,TV-MA,True
+s1958,Real Steel,Movie,PG-13,PG-13,True
+s1965,High & Low The Movie,Movie,TV-MA,TV-MA,True
+s1968,High & Low The Red Rain,Movie,TV-MA,TV-MA,True
+s1973,Black,Movie,TV-14,TV-14,True
+s1985,GIMS: On the Record,Movie,TV-MA,TV-MA,True
+s1996,The Devil All The Time,Movie,R,R,True
+s2000,Hope Frozen: A Quest to Live Twice,Movie,TV-PG,TV-MA,False
+s2001,Michael McIntyre: Showman,Movie,TV-MA,TV-MA,True
+s2006,Lara and the Beat,Movie,TV-MA,TV-14,False
+s2021,Dhh,Movie,TV-G,TV-G,True
+s2028,Satria Heroes: Revenge of the Darkness,Movie,TV-G,PG,False
+s2035,So Much Love to Give,Movie,TV-14,TV-MA,False
+s2040,Toll Booth,Movie,TV-MA,TV-MA,True
+s2066,Children of the Sea,Movie,TV-PG,TV-MA,False
+s2088,Santana,Movie,TV-MA,TV-MA,True
+s2089,Unknown Origins,Movie,TV-MA,TV-MA,True
+s2092,The Bridge Curse,Movie,TV-MA,TV-MA,True
+s2093,The Young Messiah,Movie,PG-13,PG-13,True
+s2095,Lingua Franca,Movie,TV-MA,TV-MA,True
+s2116,Drunk Parents,Movie,R,R,True
+s2120,Islands of Faith,Movie,TV-PG,TV-MA,False
+s2130,Fearless,Movie,TV-Y7,PG,False
+s2138,An Easy Girl,Movie,TV-MA,TV-MA,True
+s2167,A Go! Go! Cory Carson Summer Camp,Movie,TV-Y,TV-Y,True
+s2173,Killing Hasselhoff,Movie,R,TV-MA,False
+s2183,Tumi or not Tumi,Movie,TV-MA,TV-MA,True
+s2188,Seriously Single,Movie,TV-MA,TV-MA,True
+s2192,Retablo,Movie,TV-MA,TV-MA,True
+s2197,Redemption,Movie,TV-MA,TV-MA,True
+s2205,Door Ke Darshan,Movie,TV-14,TV-14,True
+s2209,Dragons: Rescue Riders: Secrets of the Songwing,Movie,TV-Y,TV-Y,True
+s2210,Nimbe,Movie,TV-MA,TV-MA,True
+s2253,Your Excellency,Movie,TV-G,TV-MA,False
+s2244,We Are One,Movie,TV-MA,TV-MA,True
+s2252,The Twelve,TV Show,TV-MA,TV-MA,True
+s2261,Dr. Seuss' The Lorax,Movie,PG,PG,True
+s2267,Blood Money,Movie,TV-14,TV-14,True
+s2262,Jim Jefferies: Intolerant,Movie,TV-MA,TV-MA,True
+s2282,Oh My God,Movie,TV-PG,TV-14,False
+s2290,Special 26,Movie,TV-PG,TV-14,False
+s2292,What the Fish,Movie,TV-14,TV-14,True
+s2301,The Perfect Picture: Ten Years Later,Movie,TV-MA,TV-MA,True
+s2305,#AnneFrank - Parallel Stories,Movie,TV-14,TV-MA,False
+s2325,#FriendButMarried 2,Movie,TV-G,TV-14,False
+s2329,Ride Like a Girl,Movie,PG,TV-PG,False
+s2359,Lost Bullet,Movie,TV-MA,TV-MA,True
+s2371,El límite infinito,Movie,TV-PG,TV-G,False
+s2362,The Emigrant,Movie,TV-14,TV-14,True
+s2364,Wasp Network,Movie,TV-MA,TV-MA,True
+s2373,One Take,Movie,TV-G,TV-MA,False
+s2376,The Blazing Sun,Movie,TV-14,TV-14,True
+s2382,Last Flight to Abuja,Movie,TV-14,TV-MA,False
+s2388,4th Republic,Movie,TV-MA,TV-MA,True
+s2399,Okko's Inn,Movie,PG,TV-Y7,False
+s2424,Supernatural,TV Show,TV-14,TV-MA,False
+s2428,Hot Sweet Sour,Movie,TV-14,TV-MA,False
+s2430,Can’t Complain,Movie,TV-MA,TV-14,False
+s2438,My Horrible Grandma,Movie,TV-MA,TV-14,False
+s2439,Sorry To Disturb,Movie,TV-14,TV-14,True
+s2442,What's Up?,Movie,TV-PG,TV-14,False
+s2444,122,Movie,TV-MA,TV-MA,True
+s2452,Mirai,Movie,PG,TV-Y7,False
+s2455,The Disaster Artist,Movie,R,PG-13,False
+s2456,The Stolen,Movie,TV-14,R,False
+s2458,Freej Al Taibeen,Movie,TV-PG,TV-MA,False
+s2459,Kenny Sebastian: The Most Interesting Person in the Room,Movie,TV-MA,TV-MA,True
+s2470,Ne Zha,Movie,TV-14,TV-MA,False
+s2482,#FriendButMarried,Movie,TV-G,TV-14,False
+s2513,Zaki Chan,Movie,TV-PG,TV-14,False
+s2536,Match,Movie,TV-14,TV-MA,False
+s2542,Ali & Alia,Movie,TV-14,TV-MA,False
+s2545,Action Replayy,Movie,TV-PG,PG,False
+s2550,John Henry,Movie,R,R,True
+s2558,Scissor Seven,TV Show,TV-MA,TV-MA,True
+s2563,Arctic Dogs,Movie,PG,TV-Y7,False
+s2565,One Day: Justice Delivered,Movie,TV-14,TV-14,True
+s2583,Madagascar: Escape 2 Africa,Movie,PG,PG,True
+s2593,The Heartbreak Kid,Movie,R,PG-13,False
+s2608,Love Is War,Movie,TV-14,TV-MA,False
+s2611,R.K.Nagar,Movie,TV-14,TV-14,True
+s2594,Thomas & Friends: Marvelous Machinery: A New Arrival,Movie,TV-Y,TV-Y,True
+s2595,Thomas & Friends: Marvelous Machinery: World of Tomorrow,Movie,TV-Y,TV-Y,True
+s2613,Beynelmilel,Movie,TV-MA,TV-14,False
+s2618,İstanbul Kırmızısı,Movie,TV-MA,TV-MA,True
+s2625,5Gang,Movie,TV-14,TV-MA,False
+s2633,No Direction Home: Bob Dylan,Movie,TV-MA,R,False
+s2636,The Dealer,Movie,TV-14,TV-14,True
+s2672,Rising High,Movie,TV-MA,TV-MA,True
+s2703,Tiffany Haddish: She Ready! From the Hood To Hollywood!,Movie,TV-MA,TV-MA,True
+s2713,The Death of Stalin,Movie,R,R,True
+s2722,Duniya,Movie,TV-14,TV-14,True
+s2726,Gumrah,Movie,TV-14,TV-14,True
+s2757,Paharganj,Movie,TV-MA,TV-14,False
+s2767,Maska,Movie,TV-MA,TV-14,False
+s2769,The Decline,Movie,TV-MA,TV-MA,True
+s2781,Curtiz,Movie,TV-MA,TV-MA,True
+s2782,The Occupant,Movie,TV-MA,TV-MA,True
+s2790,El silencio es bienvenido,Movie,TV-14,TV-MA,False
+s2811,Bypass Road,Movie,TV-14,TV-14,True
+s2800,Altered Carbon: Resleeved,Movie,TV-MA,TV-PG,False
+s2806,XV: Beyond the Tryline,Movie,TV-14,TV-PG,False
+s2814,Ken Burns Presents: College Behind Bars: A Film by Lynn Novick and Produced by Sarah Botstein,TV Show,TV-MA,TV-PG,False
+s2833,All About Love,Movie,TV-MA,TV-14,False
+s2840,93 Days,Movie,TV-PG,TV-MA,False
+s2851,The Last Bomb of the Second World War,Movie,TV-14,TV-14,True
+s2853,W.E.,Movie,R,PG-13,False
+s2861,Hugo,Movie,PG,PG,True
+s2862,Ordinary World,Movie,TV-14,TV-MA,False
+s2868,All The Bright Places,Movie,TV-MA,PG-13,False
+s2878,Six Windows in the Desert,TV Show,TV-14,TV-14,True
+s2882,Taxi Driver,Movie,TV-MA,R,False
+s2900,Pretville,Movie,TV-PG,TV-14,False
+s2910,Monster High: Electrified,Movie,TV-Y,TV-Y,True
+s2913,Cuddle Weather,Movie,TV-MA,TV-MA,True
+s2917,Panipat - The Great Betrayal,Movie,TV-14,TV-14,True
+s2926,To All the Boys: P.S. I Still Love You,Movie,TV-14,PG-13,False
+s2956,The Silent War,Movie,TV-MA,TV-MA,True
+s2963,Miraculous: Tales of Ladybug & Cat Noir,TV Show,TV-Y7,TV-Y7,True
+s2971,37 Seconds,Movie,TV-MA,TV-MA,True
+s2997,Alex Fernández: The Best Comedian in the World,Movie,TV-MA,TV-MA,True
+s3004,Fortune Feimster: Sweet & Salty,Movie,TV-MA,TV-MA,True
+s3018,Jezebel,Movie,TV-MA,TV-MA,True
+s3020,NiNoKuni,Movie,TV-14,TV-PG,False
+s3081,Benchwarmers 2: Breaking Balls,Movie,PG-13,R,False
+s3094,The Vendor,Movie,TV-MA,TV-MA,True
+s3095,The App,Movie,TV-MA,TV-MA,True
+s3097,You,TV Show,TV-MA,TV-MA,True
+s3098,Doom: Annihilation,Movie,R,PG-13,False
+s3103,Sweetheart,Movie,PG-13,TV-MA,False
+s3135,Don 2,Movie,TV-14,TV-14,True
+s3146,Rock On!!,Movie,TV-14,TV-14,True
+s3151,6 Underground,Movie,R,R,True
+s3153,My Wife and I,Movie,TV-MA,TV-MA,True
+s3160,Good and Prosperous,Movie,TV-14,TV-MA,False
+s3191,Cut Bank,Movie,R,R,True
+s3206,Guatemala: Heart of the Mayan World,Movie,TV-G,TV-PG,False
+s3210,Crazy people,Movie,TV-MA,TV-MA,True
+s3211,I Lost My Body,Movie,TV-MA,TV-MA,True
+s3235,What the F* Is Going On?,Movie,TV-MA,TV-MA,True
+s3263,The Green Inferno,Movie,R,R,True
+s3273,K-on! the movie,Movie,TV-PG,PG-13,False
+s3286,Fadily Camara : La plus drôle de tes copines,Movie,TV-MA,TV-MA,True
+s3293,To Be of Service,Movie,TV-MA,TV-MA,True
+s3306,Seth Meyers: Lobby Baby,Movie,TV-MA,TV-MA,True
+s3309,Tune in for Love,Movie,TV-MA,TV-MA,True
+s3318,Big Time Movie,Movie,TV-PG,TV-Y7,False
+s3319,Escape from Mr. Lemoncello’s Library,Movie,TV-Y,TV-Y,True
+s3327,A Remarkable Tale,Movie,TV-MA,TV-MA,True
+s3332,Christmas in the Heartland,Movie,TV-PG,R,False
+s3339,Holly Star,Movie,PG,PG,True
+s3349,The Man Without Gravity,Movie,TV-MA,TV-MA,True
+s3350,The Old Thieves: The Legend of Artegios,Movie,TV-MA,TV-MA,True
+s3360,Mehandi Circus,Movie,TV-MA,TV-14,False
+s3363,Arsenio Hall: Smart & Classy,Movie,TV-MA,TV-MA,True
+s3373,Dolemite Is My Name,Movie,R,PG-13,False
+s3380,Rattlesnake,Movie,TV-MA,TV-MA,True
+s3393,10 Days in Sun City,Movie,TV-14,TV-MA,False
+s3419,League of Legends Origins,Movie,TV-MA,TV-MA,True
+s3424,Black Money Love,TV Show,TV-MA,TV-14,False
+s3425,"Martin Matte: La vie, la mort...eh la la..!",Movie,TV-14,TV-MA,False
+s3428,Bygones Be Bygones,Movie,TV-MA,TV-MA,True
+s3433,The Forest of Love,Movie,TV-MA,TV-MA,True
+s3435,The Influence,Movie,TV-MA,TV-MA,True
+s3442,Deon Cole: Cole Hearted,Movie,TV-MA,TV-MA,True
+s3452,Kids on the Block,Movie,TV-PG,PG,False
+s3462,Cheese in the Trap,TV Show,TV-14,TV-14,True
+s3514,Los Tigres del Norte at Folsom Prison,Movie,TV-PG,TV-PG,True
+s3515,Steal a Pencil for Me,Movie,TV-14,PG-13,False
+s3521,Locked on You,Movie,TV-14,TV-MA,False
+s3530,Evelyn,Movie,TV-MA,TV-MA,True
+s3534,Kill Me If You Dare,Movie,TV-14,TV-MA,False
+s3560,Dave Chappelle: Sticks & Stones,Movie,TV-MA,TV-MA,True
+s3566,Mayday Life,Movie,TV-PG,TV-14,False
+s3569,Game Over (Hindi Version),Movie,TV-MA,TV-MA,True
+s3587,The Little Switzerland,Movie,TV-MA,TV-MA,True
+s3572,Hyperdrive,TV Show,TV-PG,TV-PG,True
+s3590,Sacred Games,TV Show,TV-MA,TV-MA,True
+s3595,90 ML,Movie,TV-MA,TV-14,False
+s3629,Léa & I,Movie,TV-MA,TV-MA,True
+s3620,I'm Brent Morin,Movie,TV-MA,TV-MA,True
+s3622,Screwball,Movie,TV-MA,TV-MA,True
+s3638,Boi,Movie,TV-MA,TV-MA,True
+s3647,Demetri Martin: The Overthinker,Movie,TV-MA,TV-MA,True
+s3658,Secret Obsession,Movie,TV-14,R,False
+s3662,Bogda,Movie,TV-PG,TV-14,False
+s3680,Aziz Ansari: RIGHT NOW,Movie,TV-MA,TV-MA,True
+s3698,War Against Women,Movie,TV-MA,TV-PG,False
+s3702,Super Deluxe,Movie,TV-MA,TV-14,False
+s3712,Daniel Sosa: Maleducado,Movie,TV-MA,TV-MA,True
+s3715,Unbroken,Movie,TV-14,TV-14,True
+s3716,Mike Epps: Only One Mike,Movie,TV-MA,TV-MA,True
+s3718,Triple Threat,Movie,R,TV-MA,False
+s3721,EVANGELION: DEATH (TRUE)²,Movie,TV-MA,TV-14,False
+s3730,Rakkhosh,Movie,TV-MA,TV-14,False
+s3731,The Wolf's Call,Movie,TV-14,TV-MA,False
+s3739,Life Overtakes Me,Movie,TV-PG,TV-PG,True
+s3758,The 3rd Eye 2,Movie,TV-MA,TV-MA,True
+s3765,I Am Mother,Movie,TV-PG,TV-MA,False
+s3776,Cosmos Laundromat: First Cycle,Movie,TV-MA,TV-14,False
+s3777,Miranda Sings Live…Your Welcome,Movie,TV-14,TV-MA,False
+s3815,ReMastered: The Lion's Share,Movie,TV-14,TV-MA,False
+s3811,Born in Syria,Movie,TV-14,TV-MA,False
+s3819,Good Sam,Movie,TV-PG,TV-PG,True
+s3821,PATRICK (2019),Movie,TV-PG,PG,False
+s3826,Backdraft 2,Movie,R,R,True
+s3833,Dry Martina,Movie,TV-MA,TV-MA,True
+s3834,Shéhérazade,Movie,TV-MA,TV-MA,True
+s3837,In Family I Trust,Movie,TV-MA,TV-MA,True
+s3866,Jo Pil-ho: The Dawning Rage,Movie,TV-MA,TV-MA,True
+s3875,Sur Sapata,Movie,TV-14,TV-14,True
+s3878,Anthony Jeselnik: Fire in the Maternity Ward,Movie,TV-MA,TV-MA,True
+s3886,Teen Aur Aadha,Movie,TV-MA,TV-14,False
+s3889,Loving is Losing,Movie,TV-MA,TV-MA,True
+s3890,Money Trap,Movie,TV-MA,TV-MA,True
+s3895,A Fortunate Man,Movie,TV-MA,TV-MA,True
+s3922,Who Would You Take to a Deserted Island?,Movie,TV-MA,TV-MA,True
+s3931,The Silence,Movie,PG-13,R,False
+s3928,New Girl,TV Show,TV-14,TV-14,True
+s3948,Ricardo Quevedo: Los amargados somos más,Movie,TV-MA,TV-MA,True
+s3949,Suzzanna: Buried Alive,Movie,TV-MA,TV-MA,True
+s3951,Ek Ladki Ko Dekha Toh Aisa Laga,Movie,TV-14,TV-14,True
+s3958,The Trap,Movie,TV-MA,R,False
+s3967,The Highwaymen,Movie,R,R,True
+s3979,Oversize Cops,Movie,TV-MA,TV-MA,True
+s4001,5 Flights Up,Movie,PG-13,R,False
+s4003,Bombairiya,Movie,TV-MA,TV-MA,True
+s4004,Burn Out,Movie,TV-MA,TV-MA,True
+s4009,Jeff Dunham: Controlled Chaos,Movie,TV-MA,R,False
+s4010,Jeff Dunham: Minding the Monsters,Movie,TV-MA,TV-MA,True
+s4019,Barcelona: A Love Untold,Movie,TV-14,TV-14,True
+s4022,Seven Sundays,Movie,TV-MA,TV-14,False
+s4034,Juanita,Movie,TV-MA,TV-MA,True
+s4035,Lady J,Movie,TV-MA,TV-MA,True
+s4051,Weapon of Choice,Movie,TV-MA,TV-MA,True
+s4062,Sarvam Thaala Mayam (Tamil Version),Movie,TV-14,TV-14,True
+s4061,Radio Rebel,Movie,TV-G,PG,False
+s4066,The Spiderwick Chronicles,Movie,PG,PG,True
+s4079,The Mistress,Movie,TV-MA,TV-14,False
+s4092,The Drug King,Movie,TV-MA,TV-MA,True
+s4101,Buddies,Movie,TV-MA,R,False
+s4102,Candyflip,Movie,TV-MA,TV-14,False
+s4111,The Breaker Upperers,Movie,TV-MA,TV-MA,True
+s4129,"Ray Romano: Right Here, Around the Corner",Movie,TV-MA,TV-MA,True
+s4137,Dear Ex,Movie,TV-MA,TV-MA,True
+s4140,LEGO Marvel Super Heroes: Black Panther,Movie,TV-Y7,TV-Y,False
+s4159,Nathicharami,Movie,TV-MA,TV-14,False
+s4161,Surga Yang Tak Dirindukan,Movie,TV-14,TV-PG,False
+s4193,Revenger,Movie,TV-MA,TV-MA,True
+s4194,Sebastian Maniscalco: Stay Hungry,Movie,TV-MA,TV-MA,True
+s4195,The Doll,Movie,TV-MA,TV-MA,True
+s4214,El Potro: Unstoppable,Movie,TV-MA,TV-14,False
+s4209,GODZILLA The Planet Eater,Movie,TV-PG,TV-14,False
+s4210,Next Enti?,Movie,TV-14,TV-14,True
+s4224,Pokémon the Movie: I Choose You!,Movie,TV-Y7,TV-Y7,True
+s4238,Sam Kinison: Breaking the Rules,Movie,TV-MA,TV-MA,True
+s4245,Tim Allen: Men Are Pigs,Movie,TV-MA,TV-MA,True
+s4249,Todd Glass: Stand-Up Special,Movie,TV-MA,TV-MA,True
+s4250,Tom Papa Live in New York City,Movie,TV-14,TV-MA,False
+s4253,A Twelve Year Night,Movie,TV-MA,TV-MA,True
+s4269,Bird Box,Movie,R,PG-13,False
+s4286,Lilli,Movie,TV-MA,TV-14,False
+s4290,Dragons: Dawn of the Dragon Racers,Movie,TV-PG,TV-Y7,False
+s4295,The Theory of Everything,Movie,PG-13,PG-13,True
+s4302,Once in a Lifetime Sessions with Snow Patrol,Movie,TV-MA,TV-MA,True
+s4320,Mowgli: Legend of the Jungle,Movie,PG-13,PG,False
+s4339,Don't Go Breaking My Heart 2,Movie,TV-14,TV-14,True
+s4343,Line Walker,Movie,TV-MA,TV-MA,True
+s4344,Look for a Star,Movie,TV-14,TV-14,True
+s4352,A Christmas Prince: The Royal Wedding,Movie,TV-PG,TV-PG,True
+s4355,El club de los insomnes,Movie,TV-MA,TV-MA,True
+s4358,Manto,Movie,TV-MA,TV-14,False
+s4365,My Little Pony Friendship Is Magic: Best Gift Ever,Movie,TV-Y,TV-Y,True
+s4370,The Christmas Chronicles,Movie,TV-PG,PG,False
+s4371,The Tribe,Movie,TV-MA,TV-MA,True
+s4399,Loudon Wainwright III: Surviving Twin,Movie,TV-14,R,False
+s4419,The Other Side of the Wind,Movie,R,R,True
+s4420,They’ll Love Me When I’m Dead,Movie,TV-MA,TV-14,False
+s4422,Aamir,Movie,TV-14,TV-14,True
+s4423,ABCD 2,Movie,TV-14,TV-14,True
+s4444,Husbands in Goa,Movie,TV-14,TV-14,True
+s4449,Katti Batti,Movie,TV-14,TV-14,True
+s4453,Mundeyan Ton Bachke Rahin,Movie,TV-14,TV-14,True
+s4459,Settai,Movie,TV-14,TV-14,True
+s4468,Gun City,Movie,TV-MA,TV-MA,True
+s4481,Ronnie Coleman: The King,Movie,TV-MA,TV-MA,True
+s4485,Scorpion King 5: Book of Souls,Movie,PG-13,PG-13,True
+s4493,Gnome Alone,Movie,PG,PG,True
+s4516,Kuntilanak,Movie,TV-14,TV-MA,False
+s4517,ReMastered: Who Shot the Sheriff,Movie,TV-14,TV-PG,False
+s4523,22-Jul,Movie,R,R,True
+s4549,Monty Python: The Meaning of Live,Movie,TV-MA,TV-PG,False
+s4557,25 Kille,Movie,TV-14,TV-14,True
+s4566,Ek Main Aur Ekk Tu,Movie,TV-14,TV-14,True
+s4568,Haani,Movie,TV-14,TV-14,True
+s4571,Hot Date,TV Show,TV-MA,TV-MA,True
+s4577,Khido Khundi,Movie,TV-14,TV-14,True
+s4580,Kismat Konnection,Movie,TV-14,TV-14,True
+s4581,Kurbaan,Movie,TV-14,TV-14,True
+s4595,Naughty Jatts,Movie,TV-PG,TV-14,False
+s4597,Peace Haven,Movie,TV-14,TV-MA,False
+s4598,Phantom,Movie,TV-14,TV-14,True
+s4599,Pizza,Movie,TV-14,TV-14,True
+s4601,Race,Movie,TV-14,TV-14,True
+s4602,Race 2,Movie,TV-14,TV-14,True
+s4608,Theeya Velai Seyyanum Kumaru,Movie,TV-PG,TV-14,False
+s4614,We Are Family,Movie,TV-14,TV-14,True
+s4616,Zindagi Kitni Haseen Hay,Movie,TV-14,TV-14,True
+s4621,Lessons from a School Shooting: Notes from Dunblane,Movie,TV-14,TV-PG,False
+s4627,In Darkness,Movie,TV-MA,TV-MA,True
+s4631,Quincy,Movie,TV-MA,TV-MA,True
+s4660,The Most Assassinated Woman in the World,Movie,TV-MA,TV-MA,True
+s4665,Age of Rebellion,TV Show,TV-MA,TV-MA,True
+s4666,Carbon,Movie,TV-MA,TV-MA,True
+s4667,Garbage,Movie,TV-MA,TV-14,False
+s4685,Bert Kreischer: Secret Time,Movie,TV-MA,TV-MA,True
+s4680,Naam Shabana,Movie,TV-14,TV-14,True
+s4699,To All the Boys I’ve Loved Before,Movie,TV-14,TV-14,True
+s4707,The Package,Movie,TV-MA,R,False
+s4709,Perdida,Movie,TV-MA,TV-MA,True
+s4715,Brij Mohan Amar Rahe,Movie,TV-MA,TV-14,False
+s4721,Chillar Party,Movie,TV-PG,PG,False
+s4722,Fashion,Movie,TV-MA,TV-14,False
+s4727,Highway,Movie,TV-14,TV-14,True
+s4729,Joker,Movie,TV-PG,TV-14,False
+s4730,Main aurr Mrs. Khanna,Movie,TV-14,TV-14,True
+s4734,Rowdy Rathore,Movie,TV-14,TV-14,True
+s4737,Thank You,Movie,TV-14,TV-14,True
+s4761,Duck Duck Goose,Movie,PG,PG,True
+s4766,Nothing to Lose,Movie,PG,TV-MA,False
+s4776,Romina,Movie,TV-MA,TV-MA,True
+s4788,Joan Rivers: Don't Start with Me,Movie,TV-MA,TV-MA,True
+s4790,King of Peking,Movie,TV-14,TV-MA,False
+s4791,Anthony Kaun Hai?,Movie,TV-14,TV-14,True
+s4792,Bo Burnham: what.,Movie,TV-MA,TV-MA,True
+s4794,Deewana Main Deewana,Movie,TV-14,TV-14,True
+s4795,Duck Butter,Movie,TV-MA,R,False
+s4801,Tum Milo Toh Sahi,Movie,TV-14,TV-14,True
+s4804,Bill Burr: You People Are All the Same,Movie,TV-MA,TV-MA,True
+s4818,"To Each, Her Own",Movie,TV-MA,TV-MA,True
+s4827,Maktub,Movie,TV-MA,TV-MA,True
+s4829,Set It Up,Movie,TV-MA,PG-13,False
+s4819,Life Sentence,TV Show,TV-14,TV-MA,False
+s4837,The Staircase,TV Show,TV-MA,TV-MA,True
+s4876,Anon,Movie,TV-MA,R,False
+s4878,End Game,Movie,TV-PG,TV-PG,True
+s4883,Thi Mai,Movie,TV-MA,TV-MA,True
+s4894,Pocoyo & The Space Circus,Movie,TV-Y,TV-Y7,False
+s4902,The Clapper,Movie,R,R,True
+s4912,The Rachel Divide,Movie,TV-MA,TV-MA,True
+s4913,The Week Of,Movie,TV-14,PG-13,False
+s4918,Fishtronaut: The Movie,Movie,TV-Y,TV-G,False
+s4920,Kevin James: Never Don't Give Up,Movie,TV-PG,TV-MA,False
+s4924,All The Reasons To Forget,Movie,TV-MA,TV-MA,True
+s4944,Day of the Dead: Bloodline,Movie,R,R,True
+s4946,Ittefaq,Movie,TV-MA,TV-14,False
+s4960,First Match,Movie,TV-MA,R,False
+s4972,Layla M.,Movie,TV-MA,TV-MA,True
+s4975,Roxanne Roxanne,Movie,TV-MA,R,False
+s4978,Benji,Movie,TV-PG,TV-G,False
+s4983,In This Corner of the World,Movie,PG-13,TV-PG,False
+s4984,Jag älskar dig: En skilsmässokomedi,Movie,TV-MA,TV-MA,True
+s4988,Steel Rain,Movie,TV-MA,TV-MA,True
+s4994,The Outsider,Movie,TV-MA,R,False
+s4999,Gad Elmaleh: American Dream,Movie,TV-14,TV-MA,False
+s5003,Natalia Valdebenito: El especial,Movie,TV-MA,TV-MA,True
+s5010,Judwaa 2,Movie,TV-14,TV-14,True
+s5023,반드시 잡는다,Movie,TV-MA,TV-MA,True
+s5026,Veronica,Movie,TV-MA,TV-MA,True
+s5029,Mute,Movie,TV-MA,PG-13,False
+s5035,Agustín Aristarán: Soy Rada,Movie,TV-MA,TV-MA,True
+s5040,Chris Rock: Tamborine,Movie,TV-MA,TV-MA,True
+s5044,The Trader (Sovdagari),Movie,TV-PG,TV-G,False
+s5046,Fred Armisen: Standup For Drummers,Movie,TV-PG,TV-MA,False
+s5048,The Cloverfield Paradox,Movie,PG-13,PG-13,True
+s5050,Kavin Jay: Everybody Calm Down!,Movie,TV-MA,TV-MA,True
+s5055,Under Arrest,TV Show,TV-MA,TV-MA,True
+s5057,Jerry Seinfeld: I'm Telling You for the Last Time,Movie,TV-14,TV-MA,False
+s5067,Ricardo Quevedo: Hay gente así,Movie,TV-MA,TV-MA,True
+s5072,Harith Iskander: I Told You So,Movie,TV-14,TV-MA,False
+s5075,Bad Day for the Cut,Movie,TV-MA,TV-MA,True
+s5081,Pyar Ke Do Pal,Movie,TV-14,TV-14,True
+s5082,Rip Tide,Movie,TV-PG,TV-Y,False
+s5084,Milada,Movie,TV-14,TV-MA,False
+s5095,Eve's Apple,Movie,TV-MA,TV-MA,True
+s5103,Goon: Last of the Enforcers,Movie,R,TV-MA,False
+s5107,Bibi & Tina: Tohuwabohu Total,Movie,TV-14,PG,False
+s5122,Christmas Inheritance,Movie,TV-G,TV-MA,False
+s5130,El Camino Christmas,Movie,TV-MA,R,False
+s5134,Trolls Holiday Special,Movie,TV-Y7,TV-Y,False
+s5135,Craig Ferguson: Tickle Fight,Movie,TV-MA,TV-MA,True
+s5145,Oggy and the Cockroaches,TV Show,TV-Y7,TV-Y7,True
+s5159,Barbra: The Music ... The Mem'ries ... The Magic!,Movie,TV-14,R,False
+s5161,Beat Bugs: All Together Now,Movie,TV-Y,TV-Y,True
+s5168,Mudbound,Movie,R,R,True
+s5175,Glitter Force Doki Doki,TV Show,TV-Y7,TV-Y7,True
+s5198,The B-Side: Elsa Dorfman's Portrait Photography,Movie,R,NR,False
+s5208,1922,Movie,TV-MA,R,False
+s5219,Belief: The Possession of Janet Moses,Movie,TV-MA,NR,False
+s5224,Clair Obscur,Movie,TV-MA,TV-MA,True
+s5230,Bomb Scared,Movie,TV-MA,TV-MA,True
+s5262,Def Comedy Jam 25,Movie,TV-MA,TV-MA,True
+s5272,Strong Island,Movie,TV-MA,TV-MA,True
+s5295,Brother's Shadow,Movie,TV-MA,R,False
+s5316,Ryan Hamilton: Happy Face,Movie,TV-14,TV-MA,False
+s5327,Colin Quinn: Unconstitutional,Movie,TV-MA,TV-MA,True
+s5329,The Outcasts,Movie,TV-14,R,False
+s5330,Chocolate City: Vegas Strip,Movie,TV-MA,R,False
+s5347,The Invisible Guardian,Movie,TV-MA,TV-MA,True
+s5369,The Incredible Jessica James,Movie,TV-MA,TV-MA,True
+s5371,I Called Him Morgan,Movie,TV-14,TV-MA,False
+s5373,Ari Shaffir: Double Negative,TV Show,TV-MA,TV-MA,True
+s5375,Amar,Movie,TV-MA,TV-MA,True
+s5377,Chasing Coral,Movie,TV-PG,TV-MA,False
+s5382,Degrassi: Next Class,TV Show,TV-14,TV-MA,False
+s5388,10 jours en or,Movie,TV-14,TV-14,True
+s5392,Amrapali,Movie,TV-PG,TV-14,False
+s5409,Yaar Gaddar,Movie,TV-14,TV-14,True
+s5412,Zipi & Zape y la Isla del Capitan,Movie,TV-PG,PG,False
+s5428,What the Health,Movie,TV-PG,TV-PG,True
+s5430,Kanavu Variyam,Movie,TV-PG,TV-14,False
+s5442,The Wishing Tree,Movie,TV-14,PG,False
+s5443,Headshot,Movie,TV-MA,TV-MA,True
+s5450,Catfight,Movie,TV-MA,R,False
+s5451,How to Stage a Coup,Movie,TV-14,TV-PG,False
+s5457,Michael Lost and Found,Movie,TV-PG,TV-PG,True
+s5463,Qila,Movie,TV-14,TV-14,True
+s5464,Smoke & Mirrors,Movie,TV-14,TV-MA,False
+s5476,Hasan Minhaj: Homecoming King,Movie,TV-MA,TV-MA,True
+s5482,Chamatkar,Movie,TV-14,TV-14,True
+s5484,Lovesong,Movie,TV-MA,NR,False
+s5490,Get Me Roger Stone,Movie,TV-MA,TV-14,False
+s5491,Mindhorn,Movie,TV-MA,TV-MA,True
+s5492,Sahara,Movie,TV-Y7,PG,False
+s5494,Handsome: A Netflix Mystery Movie,Movie,TV-MA,TV-MA,True
+s5499,A Yellow Bird,Movie,TV-MA,TV-MA,True
+s5502,He Even Has Your Eyes,Movie,TV-MA,TV-MA,True
+s5522,Hot Girls Wanted: Turned On,TV Show,TV-MA,TV-PG,False
+s5523,Sand Castle,Movie,TV-MA,R,False
+s5527,Bibi & Tina,Movie,TV-PG,PG,False
+s5531,The Wedding Party,Movie,TV-14,TV-MA,False
+s5533,Our Lovers,Movie,TV-MA,TV-MA,True
+s5535,Macho,Movie,TV-MA,TV-MA,True
+s5536,Kevin Hart: What Now?,Movie,R,R,True
+s5537,Frat Star,Movie,TV-MA,TV-MA,True
+s5544,Couples Counseling,Movie,TV-MA,TV-MA,True
+s5545,Deuces,Movie,TV-MA,R,False
+s5550,Salaakhen,Movie,TV-14,TV-14,True
+s5551,Skins,Movie,TV-MA,TV-MA,True
+s5569,Pandora,Movie,TV-MA,TV-MA,True
+s5571,Howards End,Movie,PG,R,False
+s5573,"Bon Cop, Bad Cop",Movie,TV-MA,TV-14,False
+s5580,Burning Sands,Movie,TV-MA,R,False
+s5588,Force 2,Movie,TV-14,TV-14,True
+s5600,Rocky Handsome,Movie,TV-MA,TV-14,False
+s5622,Zapped,Movie,TV-Y,PG,False
+s5631,Take the 10,Movie,TV-MA,TV-MA,True
+s5632,Neal Brennan: 3 Mics,Movie,TV-MA,TV-MA,True
+s5634,Sarajevo,Movie,TV-PG,TV-MA,False
+s5639,Very Big Shot,Movie,TV-MA,TV-MA,True
+s5645,Rampage: President Down,Movie,TV-MA,TV-MA,True
+s5650,Headwinds,Movie,TV-MA,TV-MA,True
+s5657,7:19,Movie,TV-MA,TV-MA,True
+s5682,Mariah Carey's Merriest Christmas,Movie,TV-G,TV-Y7,False
+s5686,Other People,Movie,TV-MA,R,False
+s5689,One in a Billion,Movie,TV-14,TV-PG,False
+s5702,Interrogation,Movie,TV-MA,TV-14,False
+s5706,The Violin Player,Movie,TV-14,TV-PG,False
+s5713,Donald Glover: Weirdo,Movie,TV-MA,TV-MA,True
+s5720,True Memoirs of an International Assassin,Movie,TV-14,R,False
+s5722,Kathleen Madigan: Bothering Jesus,Movie,TV-MA,TV-MA,True
+s5734,Norman Lear: Just Another Version of You,Movie,TV-MA,NR,False
+s5736,Spanish Affair 2,Movie,TV-MA,TV-MA,True
+s5743,West Coast,Movie,TV-MA,TV-MA,True
+s5746,Joe Rogan: Triggered,Movie,TV-MA,TV-MA,True
+s5750,Bleach the Movie: Hell Verse,Movie,TV-14,PG-13,False
+s5766,Chatô: The King of Brazil,Movie,TV-MA,TV-MA,True
+s5774,My Little Pony Equestria Girls: Legend of Everfree,Movie,TV-Y7,TV-Y,False
+s5784,Audrie & Daisy,Movie,TV-MA,TV-MA,True
+s5797,Sample This,Movie,TV-14,TV-MA,False
+s5818,Jim Gaffigan: Mr. Universe,Movie,TV-14,TV-MA,False
+s5819,Jim Gaffigan: Obsessed,Movie,TV-14,TV-MA,False
+s5820,David Cross: Making America Great Again!,Movie,TV-MA,TV-MA,True
+s5825,Interview with a Serial Killer,Movie,TV-MA,TV-PG,False
+s5835,Kuromukuro,TV Show,TV-14,TV-14,True
+s5973,#cats_the_mewvie,Movie,TV-14,TV-MA,False
+s5847,The Do-Over,Movie,TV-MA,R,False
+s5853,Hush,Movie,R,R,True
+s5855,Frank and Cindy,Movie,TV-MA,TV-14,False
+s5861,My Beautiful Broken Brain,Movie,TV-14,TV-MA,False
+s5887,Manson Family Vacation,Movie,TV-MA,NR,False
+s5889,Hemlock Grove,TV Show,TV-MA,TV-MA,True
+s5892,Beasts of No Nation,Movie,TV-MA,R,False
+s5897,Keith Richards: Under the Influence,Movie,TV-14,TV-MA,False
+s5898,Cowspiracy: The Sustainability Secret,Movie,TV-PG,NR,False
+s5902,Tig,Movie,TV-14,NR,False
+s5905,Chris Tucker Live,Movie,TV-MA,R,False
+s5911,Hot Girls Wanted,Movie,TV-MA,NR,False
+s5913,The Other One: The Long Strange Trip of Bob Weir,Movie,TV-14,NR,False
+s5914,Chris D'Elia: Incorrigible,Movie,TV-MA,TV-MA,True
+s5930,Print the Legend,Movie,TV-14,TV-MA,False
+s5935,Mitt,Movie,TV-PG,NR,False
+s5936,The Square,Movie,TV-MA,TV-MA,True
+s5945,Hard Lessons,Movie,TV-14,R,False
+s5947,Quiet Victory: The Charlie Wedemeyer Story,Movie,TV-PG,PG,False
+s5954,Joseph: King of Dreams,Movie,TV-PG,G,False
+s5956,Splatter,Movie,TV-MA,TV-PG,False
+s5958,To and From New York,Movie,TV-MA,R,False
+s5960,21,Movie,PG-13,PG-13,True
+s5963,1920,Movie,TV-MA,TV-14,False
+s5980,1 Chance 2 Dance,Movie,TV-PG,R,False
+s6004,24 Hours to Live,Movie,R,R,True
+s6011,3 Seconds Divorce,Movie,TV-PG,TV-PG,True
+s6023,6-5=2,Movie,TV-MA,TV-14,False
+s6026,7 Din Mohabbat In,Movie,TV-PG,TV-14,False
+s6048,A Murder in the Park,Movie,PG-13,NR,False
+s6056,A Scandall,Movie,TV-MA,TV-14,False
+s6059,A Sort of Homecoming,Movie,TV-PG,R,False
+s6063,A Walk to Remember,Movie,PG,PG-13,False
+s6064,A Wednesday,Movie,TV-MA,TV-14,False
+s6085,Across The Line,Movie,TV-MA,R,False
+s6108,Aitraaz,Movie,TV-14,TV-14,True
+s6115,Alive and Kicking,Movie,TV-14,NR,False
+s6117,All Dogs Go to Heaven,Movie,G,PG,False
+s6122,All the Devil's Men,Movie,R,R,True
+s6125,Alpha and Omega 2: A Howl-iday Adventure,Movie,TV-G,TV-Y7,False
+s6128,AlphaGo,Movie,TV-G,TV-MA,False
+s6131,Amar Akbar Anthony,Movie,TV-14,TV-14,True
+s6135,American Assassin,Movie,R,R,True
+s6136,American Beauty,Movie,R,R,True
+s6140,American Experience: The Circus,TV Show,TV-PG,TV-PG,True
+s6143,American Heist,Movie,R,R,True
+s6149,American Warfighter,Movie,TV-MA,R,False
+s6158,An Interview with God,Movie,TV-PG,TV-PG,True
+s6166,Angry Indian Goddesses,Movie,TV-MA,TV-MA,True
+s6177,Anwar,Movie,TV-14,TV-14,True
+s6190,Assimilate,Movie,TV-MA,R,False
+s6191,Asura: The City of Madness,Movie,NR,TV-MA,False
+s6197,Attitude Test,Movie,TV-14,TV-MA,False
+s6198,Auschwitz: Blueprints of Genocide,Movie,TV-PG,TV-14,False
+s6206,Babel,Movie,R,R,True
+s6215,Bad Match,Movie,TV-MA,TV-MA,True
+s6223,Balto 3: Wings of Change,Movie,G,G,True
+s6234,Barbecue,Movie,TV-MA,TV-MA,True
+s6241,Barbie: Princess Charm School,Movie,TV-Y,TV-Y,True
+s6245,Barely Lethal,Movie,PG-13,R,False
+s6246,Barrio Universitario,Movie,TV-14,TV-14,True
+s6247,Barsaat,Movie,TV-PG,TV-14,False
+s6255,Bawarchi,Movie,TV-PG,TV-PG,True
+s6291,Bewildered Bolbol,Movie,TV-14,TV-14,True
+s6293,Beyond All Boundaries,Movie,TV-14,TV-MA,False
+s6297,Bhagam Bhag,Movie,TV-14,TV-14,True
+s6300,Bhoot,Movie,TV-MA,TV-14,False
+s6304,Big Daddy,Movie,PG-13,PG-13,True
+s6311,Bill Burr: Let It Go,Movie,NR,TV-MA,False
+s6315,Bioscope,Movie,TV-14,TV-14,True
+s6331,Blackway,Movie,PG-13,R,False
+s6333,Bleed for This,Movie,R,R,True
+s6335,Blockbuster,Movie,TV-MA,TV-MA,True
+s6347,Bob Lazar: Area 51 & Flying Saucers,Movie,TV-MA,TV-MA,True
+s6360,Boom,Movie,TV-MA,TV-14,False
+s6367,Boy and the World,Movie,PG,PG,True
+s6372,Brave Miss World,TV Show,TV-14,TV-PG,False
+s6373,Brave New Jersey,Movie,TV-MA,R,False
+s6377,Brick,Movie,R,R,True
+s6404,Calendar Girls,Movie,TV-14,TV-14,True
+s6415,Can't Hardly Wait,Movie,PG-13,PG-13,True
+s6419,Cappuccino,Movie,TV-PG,TV-14,False
+s6424,Carrie,Movie,R,PG,False
+s6425,Carriers,Movie,PG-13,PG-13,True
+s6433,Catching the Sun,Movie,TV-14,TV-PG,False
+s6437,Celluloid Man,Movie,TV-PG,TV-14,False
+s6440,Chal Dhar Pakad,Movie,TV-14,TV-14,True
+s6442,Chalay Thay Saath,Movie,TV-14,TV-MA,False
+s6463,Chhota Bheem Ka Romani Adventure,Movie,TV-Y7,TV-Y,False
+s6468,Chief Daddy,Movie,TV-MA,TV-MA,True
+s6471,China Salesman,Movie,TV-MA,TV-MA,True
+s6511,Coach Carter,Movie,PG-13,PG-13,True
+s6516,Colkatay Columbus,Movie,TV-14,TV-14,True
+s6537,Coraline,Movie,PG,PG,True
+s6552,Daddy Issues,Movie,TV-MA,TV-MA,True
+s6648,Dream Big: Engineering Our World,Movie,TV-G,TV-PG,False
+s6568,Darna Mana Hai,Movie,TV-MA,TV-14,False
+s6575,De Film van Dylan Haegens,Movie,TV-PG,TV-MA,False
+s6576,De Palma,Movie,R,TV-MA,False
+s6581,Dear Dad,Movie,TV-14,TV-MA,False
+s6582,Dear Dracula,Movie,TV-Y7-FV,TV-Y7,False
+s6583,Dear Santa,Movie,TV-PG,PG-13,False
+s6584,Death at a Funeral,Movie,R,PG-13,False
+s6590,Defying the Nazis: The Sharps' War,Movie,TV-14,NR,False
+s6592,Democrats,Movie,NR,TV-MA,False
+s6594,Denis Leary: No Cure For Cancer,Movie,R,TV-MA,False
+s6605,Dhamaal,Movie,TV-14,TV-14,True
+s6617,Dismissed,Movie,TV-14,TV-14,True
+s6620,Doctor Zhivago,Movie,PG-13,R,False
+s6630,Don't Crack Under Pressure III,Movie,TV-14,TV-MA,False
+s6634,Donnie Brasco,Movie,R,R,True
+s6635,Doom,Movie,R,PG-13,False
+s6637,Doubles Cause Troubles,Movie,TV-14,TV-14,True
+s6649,Dream Boat,Movie,TV-MA,TV-MA,True
+s6654,Dukhtar,Movie,TV-14,TV-MA,False
+s6656,Dumb and Dumberer: When Harry Met Lloyd,Movie,PG-13,PG-13,True
+s6662,East Side Sushi,Movie,PG,R,False
+s6667,Eeda,Movie,TV-14,TV-14,True
+s6683,Elizabeth Harvest,Movie,R,PG-13,False
+s6686,Elles ont toutes une histoire,Movie,TV-PG,TV-MA,False
+s6702,Enter the Dragon,Movie,R,R,True
+s6703,Equals,Movie,PG-13,PG-13,True
+s6705,Escape from the Liberty Cinema,Movie,TV-MA,R,False
+s6709,Euphoria,Movie,R,TV-MA,False
+s6712,Event Horizon,Movie,R,PG-13,False
+s6721,Exit Afghanistan,Movie,TV-MA,TV-PG,False
+s6723,Exit Wounds,Movie,R,R,True
+s6730,F the Prom,Movie,TV-MA,R,False
+s6735,Fall Girls,Movie,TV-14,TV-MA,False
+s6739,Fanatic,Movie,TV-14,R,False
+s6741,Farce,Movie,TV-MA,TV-14,False
+s6746,Feel Rich,Movie,TV-MA,TV-PG,False
+s6747,Fiddler on the Roof,Movie,G,R,False
+s6757,Fire at Sea,Movie,TV-14,TV-MA,False
+s6772,Flying Guillotine 2,Movie,TV-MA,TV-14,False
+s6773,Follow Me,Movie,TV-MA,TV-MA,True
+s6779,For Greater Glory,Movie,R,TV-14,False
+s6782,For the Love of Benji,Movie,G,G,True
+s6790,Forks Over Knives,Movie,PG,PG-13,False
+s6791,Four Christmases,Movie,PG-13,PG-13,True
+s6793,Four Weddings and a Funeral,Movie,R,PG-13,False
+s6794,Fracture,Movie,R,R,True
+s6801,Freezer's Campaign,Movie,TV-MA,TV-14,False
+s6809,From Paris with Love,Movie,R,PG-13,False
+s6814,Frozen River,Movie,R,R,True
+s6839,Geronimo Stilton,TV Show,TV-Y,TV-PG,False
+s6845,Ghayal,Movie,TV-14,TV-14,True
+s6848,Ghost Rider,Movie,PG-13,PG-13,True
+s6860,God Knows Where I Am,Movie,TV-PG,TV-MA,False
+s6862,God's Not Dead,Movie,PG,PG-13,False
+s6863,God's Not Dead: A Light in Darkness,Movie,PG,PG-13,False
+s6864,God's Own Country,Movie,TV-MA,TV-MA,True
+s6865,Gol Maal,Movie,TV-PG,TV-PG,True
+s6866,Golden Time,Movie,TV-Y,TV-14,False
+s6884,Goosebumps 2: Haunted Halloween,Movie,PG,PG,True
+s6888,Gour Hari Dastaan: The Freedom File,Movie,TV-14,TV-MA,False
+s6903,Guy Martin: Last Flight of the Vulcan Bomber,Movie,TV-G,TV-PG,False
+s6910,Hairspray,Movie,PG,PG,True
+s6922,Happy Times,Movie,NR,TV-MA,False
+s6928,Harold & Kumar Escape from Guantanamo Bay,Movie,R,R,True
+s6937,Haseena Maan Jaayegi,Movie,TV-PG,TV-14,False
+s6940,Haunting on Fraternity Row,Movie,TV-MA,R,False
+s6950,Heartbreakers,Movie,PG-13,PG-13,True
+s6953,Hedgehogs,Movie,PG,PG,True
+s6955,Hell and Back,Movie,R,R,True
+s6961,Hera Pheri,Movie,TV-14,TV-14,True
+s6962,Here Alone,Movie,TV-MA,R,False
+s6963,Hero,Movie,TV-MA,TV-14,False
+s6969,Highly Strung,Movie,TV-14,TV-MA,False
+s6973,Hiroshima: The Real History,Movie,TV-PG,TV-PG,True
+s6980,Hitler's Steel Beast,Movie,TV-14,TV-PG,False
+s6984,Holding the Man,Movie,TV-MA,TV-14,False
+s6988,Holy Man 3,Movie,TV-MA,TV-14,False
+s7618,NOVA: The Impossible Flight,Movie,TV-PG,TV-14,False
+s7001,Hostage to the Devil,Movie,TV-14,TV-MA,False
+s7006,Hot Rod,Movie,PG-13,PG-13,True
+s7011,House of Z,Movie,TV-14,NR,False
+s7015,How to Be a Latin Lover,Movie,PG-13,R,False
+s7017,How to Change the World,Movie,NR,TV-MA,False
+s7019,How to Make an American Quilt,Movie,PG-13,PG-13,True
+s7020,How to Win the US Presidency,Movie,TV-PG,TV-PG,True
+s7027,Hunt to Kill,Movie,R,R,True
+s7033,Hustle & Flow,Movie,R,R,True
+s7046,I Dream Of Dance,Movie,TV-14,PG,False
+s7047,I Fine... Thank You... Love You,Movie,TV-14,TV-14,True
+s7050,I'm in Love with a Church Girl,Movie,PG,PG-13,False
+s7053,Iceman,Movie,R,TV-14,False
+s7054,Ideachi Kalpana,Movie,TV-14,TV-14,True
+s7068,Incredibles 2 (Spanish Version),Movie,PG,PG,True
+s7069,INDIA,Movie,NR,TV-MA,False
+s7072,Indiana Jones and the Last Crusade,Movie,PG-13,PG,False
+s7092,Invictus,Movie,PG-13,PG-13,True
+s7095,Iqbal,Movie,TV-Y7,TV-14,False
+s7103,Issaq,Movie,TV-MA,TV-14,False
+s7108,Iverson,Movie,NR,NR,True
+s7116,Jail,Movie,TV-14,TV-14,True
+s7118,Jal,Movie,TV-14,TV-14,True
+s7120,Janaan,Movie,TV-14,TV-14,True
+s7125,Jeremy Scott: The People's Designer,Movie,PG-13,TV-MA,False
+s7136,John & Jane,Movie,TV-14,TV-14,True
+s7134,Jis Desh Men Ganga Behti Hai,Movie,TV-14,TV-14,True
+s7147,Jugaad,Movie,TV-14,TV-PG,False
+s7148,Julie & Julia,Movie,PG-13,PG-13,True
+s7160,Kaakan,Movie,TV-PG,TV-14,False
+s7164,Kacche Dhaagey,Movie,TV-14,TV-14,True
+s7173,Katt Williams: Live,Movie,NR,R,False
+s7182,Kevyn Aucoin: Beauty & the Beast in Me,Movie,TV-MA,TV-MA,True
+s7191,Kia and Cosmos,Movie,TV-14,TV-14,True
+s7192,Kickboxer: Retaliation,Movie,R,R,True
+s7193,Kickboxer: Vengeance,Movie,TV-MA,R,False
+s7194,Kicking and Screaming,Movie,R,R,True
+s7196,Kidnapping Mr. Heineken,Movie,R,TV-MA,False
+s7210,Kingdoms of the Sky,TV Show,TV-PG,TV-14,False
+s7200,Kill Command,Movie,TV-MA,R,False
+s7204,Killer Klowns from Outer Space,Movie,PG-13,R,False
+s7206,Kills on Wheels,Movie,TV-MA,TV-MA,True
+s7209,King's Ransom,Movie,PG-13,PG-13,True
+s7222,Koko: The Gorilla Who Talks,Movie,TV-G,TV-PG,False
+s7228,Krish Trish and Baltiboy: Battle of Wits,Movie,TV-Y7,TV-Y7,True
+s7230,Krish Trish and Baltiboy: Comics of India,Movie,TV-Y7,TV-Y7,True
+s7241,Kung Fu Magoo,Movie,TV-Y7,TV-PG,False
+s7243,Kung Fu Yoga,Movie,TV-PG,TV-MA,False
+s7247,Kurtulus Son Durak,Movie,TV-MA,TV-14,False
+s7249,Kygo: Live at the Hollywood Bowl,Movie,TV-MA,TV-MA,True
+s7253,La Bamba,Movie,PG-13,R,False
+s7259,La Viuda Negra,TV Show,TV-14,TV-MA,False
+s7263,Lady in the Water,Movie,PG-13,PG-13,True
+s7266,Lalbaug Parel: Zali Mumbai Sonyachi,Movie,TV-MA,TV-14,False
+s7271,Last Knights,Movie,R,R,True
+s7278,LeapFrog: Phonics Farm,Movie,TV-Y,TV-Y,True
+s7283,Legend of the Guardians: The Owls of Ga'Hoole,Movie,PG,PG,True
+s7284,Legend of the Naga Pearls,Movie,TV-MA,TV-MA,True
+s7285,Legendary Weapons of China,Movie,TV-14,R,False
+s7299,Life After Beth,Movie,R,R,True
+s7298,License to Drill: Louisiana,TV Show,TV-PG,TV-PG,True
+s7328,Locke,Movie,R,NR,False
+s7335,Long Time Running,Movie,TV-14,TV-MA,False
+s7341,Los tiempos de Pablo Escobar,TV Show,TV-14,TV-MA,False
+s7359,Lucha: Playing the Impossible,Movie,TV-PG,TV-MA,False
+s7362,Lupt,Movie,TV-14,TV-14,True
+s7367,Macchli Jal Ki Rani Hai,Movie,TV-MA,TV-14,False
+s7379,Magnetic,Movie,TV-14,TV-MA,False
+s7381,Mahabharat,Movie,TV-14,TV-14,True
+s7389,Mala Kahich Problem Nahi,Movie,TV-PG,TV-14,False
+s7391,Man of Tai Chi,Movie,R,R,True
+s7392,Man Up,Movie,R,TV-MA,False
+s7398,Manhattan Romance,Movie,TV-14,R,False
+s7400,Mansfield Park,Movie,PG-13,R,False
+s7401,Mantostaan,Movie,TV-MA,TV-PG,False
+s7403,Mara,Movie,TV-MA,R,False
+s7410,Mars,TV Show,TV-PG,TV-MA,False
+s7417,Mary and the Witch's Flower,Movie,PG,TV-Y7,False
+s7421,Master,Movie,NR,TV-MA,False
+s7422,Mater,Movie,TV-MA,TV-MA,True
+s7424,Max Rose,Movie,TV-14,NR,False
+s7430,Me and the Alien,Movie,TV-MA,TV-MA,True
+s7438,Melle,Movie,TV-PG,TV-14,False
+s7440,Melvin Goes to Dinner,Movie,R,R,True
+s7446,Merantau,Movie,R,TV-14,False
+s7453,Middle School: The Worst Years of My Life,Movie,PG,PG,True
+s7457,Milk,Movie,R,R,True
+s7459,Minnaminugu the FireFly,Movie,TV-14,TV-14,True
+s7473,Mission of Honor,Movie,TV-MA,R,False
+s7477,Mohawk,Movie,TV-MA,R,False
+s7478,Mojave,Movie,R,R,True
+s7490,Monster High 13 Wishes,Movie,TV-Y7,TV-Y,False
+s7496,"Monster High: Frights, Camera, Action!",Movie,TV-Y7,TV-Y7,True
+s7500,Monster High: New Ghoul at School,Movie,TV-Y7,TV-Y7,True
+s7501,"Monster High: Scaris, City of Frights",Movie,TV-G,TV-Y7,False
+s7504,Monster-in-Law,Movie,PG-13,PG-13,True
+s7507,Moon,Movie,R,R,True
+s7518,Mr. Deeds,Movie,PG-13,PG-13,True
+s7534,My Daddy is in Heaven,Movie,TV-14,TV-PG,False
+s7530,Mutant Busters,TV Show,TV-PG,TV-Y7,False
+s7551,My Wife and My Wifey,Movie,TV-14,TV-14,True
+s7553,Mythily Veendum Varunnu,Movie,TV-PG,TV-14,False
+s7555,Naga The Eternal Yogi,Movie,TV-PG,TV-PG,True
+s7564,National Parks Adventure,Movie,TV-G,TV-PG,False
+s7578,Neruda,Movie,R,TV-MA,False
+s7599,Not Alone,Movie,TV-14,TV-PG,False
+s7604,NOVA: Day the Dinosaurs Died,Movie,TV-PG,TV-PG,True
+s7612,NOVA: Killer Hurricanes,Movie,TV-PG,TV-PG,True
+s7620,November Criminals,Movie,PG-13,TV-MA,False
+s7626,Numbered,Movie,TV-PG,TV-PG,True
+s7627,Numero Zero. The Roots of Italian Rap,Movie,TV-MA,TV-MA,True
+s7631,Nymphomaniac: Volume 1,Movie,NR,TV-MA,False
+s7634,Oasis: Supersonic,Movie,R,TV-MA,False
+s7637,Occupation,Movie,R,PG-13,False
+s7648,Oklahoma City,Movie,TV-14,TV-MA,False
+s7651,Omar and Salma 3,Movie,TV-MA,TV-14,False
+s7659,Once Upon a Time in London,Movie,TV-MA,TV-MA,True
+s7664,One Last Thing,Movie,TV-MA,R,False
+s7666,One Night Stand,Movie,TV-MA,TV-14,False
+s7670,Open Season,Movie,PG,PG,True
+s7689,P Se PM Tak,Movie,TV-14,TV-14,True
+s7698,Painted Faces,Movie,TV-PG,TV-14,False
+s7704,Paper Year,Movie,TV-MA,TV-MA,True
+s7707,Pardes,Movie,TV-14,TV-14,True
+s7715,Patriot Games,Movie,R,R,True
+s7716,Patron Mutlu Son Istiyor,Movie,TV-MA,TV-MA,True
+s7717,Paul Blart: Mall Cop,Movie,PG,PG-13,False
+s7720,Paying Guests,Movie,TV-14,TV-14,True
+s7729,Perfect Stranger,Movie,R,PG-13,False
+s7735,Phantom Boy,Movie,PG,TV-MA,False
+s7744,Pioneers of African-American Cinema,TV Show,TV-14,TV-MA,False
+s7750,Planet Hulk,Movie,TV-14,PG-13,False
+s7753,Playing for Time,Movie,TV-14,R,False
+s7755,Pope Francis: A Man of His Word,Movie,PG,TV-MA,False
+s7756,Popeye,Movie,PG,PG,True
+s7759,Postcards from London,Movie,TV-MA,R,False
+s7796,Prince Jai Aur Dumdaar Viru,TV Show,TV-Y,TV-Y7,False
+s7792,Premachi Goshta,Movie,TV-14,TV-14,True
+s7797,Princess Cyd,Movie,TV-MA,R,False
+s7802,Pukar,Movie,TV-14,TV-14,True
+s7810,Quantum of Solace,Movie,PG-13,PG-13,True
+s7812,Queen of the Desert,Movie,PG-13,R,False
+s7822,Rahasya,Movie,TV-14,TV-14,True
+s7827,Ralph Breaks the Internet: Wreck-It Ralph 2,Movie,PG,PG,True
+s7838,Ready,Movie,TV-PG,TV-PG,True
+s7849,Refugee,Movie,TV-PG,TV-PG,True
+s7844,Red Christmas,Movie,TV-MA,TV-MA,True
+s7850,Regatta,Movie,TV-MA,TV-14,False
+s7852,Reincarnated,Movie,R,PG-13,False
+s7853,Rembat,Movie,TV-PG,TV-MA,False
+s7976,Secrets of Scotland Yard,Movie,TV-14,TV-PG,False
+s7859,Residente,Movie,TV-MA,TV-MA,True
+s7861,Return To The 36th Chamber,Movie,R,TV-14,False
+s7872,Rise of the Zombie,Movie,TV-MA,TV-14,False
+s7881,Rocky II,Movie,PG,PG,True
+s7892,Room on the Broom,Movie,TV-Y7,TV-Y7,True
+s7905,Running for Grace,Movie,TV-14,PG-13,False
+s7908,Russell Madness,Movie,PG,PG,True
+s7910,Russell Peters: Notorious,Movie,NR,TV-MA,False
+s7912,S Is for Stanley,Movie,TV-MA,TV-MA,True
+s7913,S.W.A.T.,Movie,PG-13,PG-13,True
+s7920,Saeed Mirza: The Leftist Sufi,Movie,TV-MA,TV-PG,False
+s7921,Safety Not Guaranteed,Movie,R,R,True
+s7923,Sairat,Movie,TV-14,TV-14,True
+s7933,Sangam,Movie,TV-14,TV-14,True
+s7934,Santa Claws,Movie,TV-PG,PG,False
+s7935,Santa's Apprentice,Movie,TV-G,TV-Y7,False
+s7941,Sat Sri Akal,Movie,TV-14,TV-14,True
+s7944,Satrangi Re,Movie,TV-14,TV-14,True
+s7956,Scary Movie,Movie,R,PG-13,False
+s7963,Scream 3,Movie,R,PG-13,False
+s7964,Seal Team Six: The Raid on Osama Bin Laden,Movie,TV-MA,R,False
+s7965,Searching for Bobby Fischer,Movie,PG,PG,True
+s7982,Senna,Movie,PG-13,PG-13,True
+s7987,Sex and the City 2,Movie,R,PG-13,False
+s7989,Sex Doll,Movie,UR,TV-MA,False
+s7996,Shanghai,Movie,TV-14,TV-MA,False
+s8017,Siddhant,Movie,TV-G,TV-MA,False
+s8018,Silencer,Movie,TV-MA,TV-MA,True
+s8020,Silicon Cowboys,Movie,TV-PG,NR,False
+s8024,Singh Saab the Great,Movie,TV-14,TV-14,True
+s8027,Sinister Circle,Movie,TV-MA,TV-MA,True
+s8033,Skiptrace,Movie,PG-13,R,False
+s8046,SMOSH: The Movie,Movie,PG-13,NR,False
+s8051,Solo Con Tu Pareja,Movie,NR,R,False
+s8056,Something's Gotta Give,Movie,PG-13,PG-13,True
+s8057,Son of a Gun,Movie,R,R,True
+s8072,Spotlight,Movie,R,R,True
+s8073,Spring Breakers,Movie,R,R,True
+s8087,Stealing History,Movie,TV-PG,TV-PG,True
+s8090,Stephanie,Movie,R,TV-MA,False
+s8092,Still,Movie,TV-MA,TV-MA,True
+s8111,Stuart Little 2,Movie,PG,G,False
+s8113,Suburra,Movie,NR,TV-14,False
+s8120,Summer of '92,Movie,TV-MA,TV-MA,True
+s8135,Susanne Bartsch: On Top,Movie,TV-MA,TV-MA,True
+s8140,Sweet Virginia,Movie,R,R,True
+s8141,Swiss Army Man,Movie,R,R,True
+s8142,Sword Master,Movie,TV-MA,TV-MA,True
+s8152,Tarzan,Movie,G,PG,False
+s8157,Teen Patti,Movie,TV-PG,TV-14,False
+s8159,Teenage Mutant Ninja Turtles,Movie,PG,PG,True
+s8162,Tees Maar Khan,Movie,TV-PG,TV-14,False
+s8163,Tellur Aliens,Movie,TV-Y7,TV-Y7,True
+s8167,Terminator 3: Rise of the Machines,Movie,R,PG-13,False
+s8177,The 24 Hour War,Movie,TV-MA,TV-MA,True
+s8184,The Adventures of Sharkboy and Lavagirl,Movie,PG,PG,True
+s8188,The American President,Movie,PG-13,PG-13,True
+s8193,The Ant's Scream,Movie,TV-14,TV-14,True
+s8196,The Art of the Steal,Movie,R,R,True
+s8204,The Bare-Footed Kid,Movie,TV-14,TV-14,True
+s8205,The Basement,Movie,TV-MA,R,False
+s8208,The Beginning of Life: The Series,TV Show,TV-PG,TV-PG,True
+s8220,The Bounty Hunter,Movie,PG-13,PG-13,True
+s8221,The Box,Movie,PG-13,PG-13,True
+s8225,The Brawler,Movie,TV-MA,R,False
+s8229,The Brothers Grimm,Movie,PG-13,PG-13,True
+s8230,The Bucket List,Movie,PG-13,PG-13,True
+s8233,The Bye Bye Man,Movie,PG-13,R,False
+s8234,The Bygone,Movie,TV-MA,R,False
+s8236,The Calling,TV Show,TV-MA,TV-MA,True
+s8238,The Car,Movie,PG,PG,True
+s8242,The CEO,Movie,TV-14,TV-MA,False
+s8247,The Chosen Ones,Movie,TV-MA,TV-MA,True
+s8249,The Christmas Project,Movie,TV-PG,PG,False
+s8259,The Croods,Movie,PG,PG,True
+s8261,The Cruise,Movie,TV-PG,TV-14,False
+s8262,The Crying Game,Movie,R,R,True
+s8274,The Desert Bride,Movie,TV-14,TV-MA,False
+s8275,The Detained,Movie,TV-14,TV-MA,False
+s8280,The Diabolical,Movie,TV-MA,R,False
+s8284,The Duel,Movie,R,R,True
+s8287,The Eichmann Show,Movie,TV-MA,R,False
+s8289,The End of the Tour,Movie,R,R,True
+s8301,The First Temptation of Christ,Movie,TV-MA,TV-MA,True
+s8302,The First Wives Club,Movie,PG,PG-13,False
+s8308,The Forbidden Kingdom,Movie,PG-13,PG-13,True
+s8310,The Foreigner,Movie,R,TV-MA,False
+s8311,The Forgotten,Movie,TV-MA,R,False
+s8320,The Ghost Who Walks,Movie,TV-MA,R,False
+s8325,The Good Neighbor,Movie,TV-MA,R,False
+s8336,The Green Hornet,Movie,PG-13,PG-13,True
+s8341,The Heat: A Kitchen (R)evolution,Movie,TV-MA,TV-PG,False
+s8349,The House on Coco Road,Movie,TV-14,NR,False
+s8356,The Hurt Business,Movie,PG-13,TV-MA,False
+s8364,The Intent,Movie,TV-MA,TV-MA,True
+s8371,The Jack King Affair,Movie,TV-14,TV-PG,False
+s8373,The Jane Austen Book Club,Movie,PG-13,PG-13,True
+s8386,The Last Face,Movie,R,R,True
+s8394,The Little Hours,Movie,R,TV-MA,False
+s8397,The Lives of Others,Movie,R,TV-14,False
+s8399,The Lobster,Movie,R,TV-14,False
+s8402,The Longest Yard,Movie,R,PG,False
+s8424,The Minimighty Kids,TV Show,TV-G,TV-Y,False
+s8435,The Naked Gun: From the Files of Police Squad!,Movie,PG-13,PG-13,True
+s8437,The Negro Soldier,Movie,TV-14,TV-PG,False
+s8439,The New Romantic,Movie,TV-MA,TV-MA,True
+s8446,The Other Guys,Movie,PG-13,PG-13,True
+s8447,The Parole Officer,Movie,R,PG-13,False
+s7084,Inst@famous,TV Show,TV-MA,TV-PG,False
+s8464,The President's Barber,Movie,TV-MA,TV-14,False
+s8465,The Prince,Movie,R,R,True
+s8467,The Princess and the Frog,Movie,G,PG,False
+s8482,The Republic of Imbaba,Movie,TV-14,TV-14,True
+s8501,The Search for Life in Space,Movie,TV-G,TV-PG,False
+s8506,The Show,Movie,TV-MA,R,False
+s8513,The Space Between Us,Movie,PG-13,PG-13,True
+s8517,The Spy Who Fell to Earth,Movie,TV-MA,TV-MA,True
+s8529,The Thief and the Imbecile,Movie,TV-14,TV-14,True
+s8541,The Tuxedo,Movie,PG-13,PG-13,True
+s8550,The Vietnam War: A Film by Ken Burns and Lynn Novick,TV Show,TV-MA,TV-PG,False
+s8553,The Water Diviner,Movie,R,R,True
+s8564,The Workshop,Movie,TV-MA,TV-MA,True
+s8577,This Is Not What I Expected,Movie,TV-PG,TV-MA,False
+s8578,This Was Tomorrow,Movie,NR,TV-MA,False
+s8580,Thong Dee Fun Khao,Movie,TV-MA,TV-MA,True
+s8590,Tik Tok,Movie,TV-14,TV-MA,False
+s8592,Time Please,Movie,TV-14,TV-14,True
+s8596,Tinker',Movie,TV-14,TV-MA,False
+s8604,Tomorrow Never Dies,Movie,PG-13,PG-13,True
+s8620,Treasures from the Wreck of the Unbelievable,Movie,TV-G,TV-14,False
+s8626,Tremors 5:  Bloodline,Movie,PG-13,PG-13,True
+s8631,Trip to Bhangarh: Asia's Most Haunted Place,Movie,TV-MA,TV-14,False
+s8632,Trixie Mattel: Moving Parts,Movie,TV-MA,TV-MA,True
+s8636,True Grit,Movie,G,R,False
+s8638,Trumbo,Movie,R,R,True
+s8639,Tucker and Dale vs. Evil,Movie,R,R,True
+s8642,Turbo,Movie,PG,PG,True
+s8643,Tusk,Movie,R,R,True
+s8649,Two Graves,Movie,TV-MA,TV-MA,True
+s8652,Tyson,Movie,R,PG-13,False
+s8657,Unacknowledged,Movie,TV-MA,TV-MA,True
+s8661,Undercover: How to Operate Behind Enemy Lines,Movie,TV-PG,TV-14,False
+s8663,Union Leader,Movie,TV-14,TV-MA,False
+s8667,Used Goods,Movie,TV-14,TV-MA,False
+s8672,Veerappan,Movie,TV-14,TV-14,True
+s8682,Vitti Dandu,Movie,TV-14,TV-14,True
+s8692,Wakefield,Movie,R,R,True
+s8697,War Horse,Movie,PG-13,PG-13,True
+s8710,Weather forecast,Movie,TV-MA,TV-14,False
+s8745,Williams,Movie,TV-MA,TV-14,False
+s8749,Winter of Our Dreams,Movie,NR,R,False
+s8751,Winter's Bone,Movie,R,R,True
+s8762,Wrong No.,Movie,TV-14,TV-PG,False
+s8765,Wyatt Earp,Movie,PG-13,R,False
+s8766,XX,Movie,R,TV-MA,False
+s8771,Yaadein,Movie,TV-14,TV-14,True
+s8774,Yanda Kartavya Aahe,Movie,TV-PG,TV-14,False
+s8780,Yes or No 2.5,Movie,TV-PG,TV-14,False
+s8789,You Carry Me,Movie,TV-MA,TV-14,False
+s8800,Zenda,Movie,TV-14,TV-14,True
+s6095,Africa,TV Show,TV-PG,TV-PG,True
+s6812,Frozen Planet: On Thin Ice,Movie,TV-PG,TV-PG,True
+s7572,Nature's Great Events (2009),TV Show,TV-PG,TV-G,False
+s7573,Nature's Great Events: Diaries,TV Show,TV-PG,TV-G,False
+s8354,The Hunt,TV Show,TV-PG,TV-G,False
+s68,Saved by the Bell,TV Show,TV-PG,TV-G,False
+s70,Stories by Rabindranath Tagore,TV Show,TV-PG,TV-14,False
+s155,Kuroko's Basketball,TV Show,TV-MA,TV-14,False
+s185,Sparking Joy,TV Show,TV-PG,TV-PG,True
+s194,D.P.,TV Show,TV-MA,TV-14,False
+s220,EDENS ZERO,TV Show,TV-14,TV-MA,False
+s242,Manifest,TV Show,TV-14,TV-14,True
+s255,Go! Go! Cory Carson,TV Show,TV-Y,TV-Y,True
+s275,Grace and Frankie,TV Show,TV-MA,TV-MA,True
+s292,SHAMAN KING,TV Show,TV-14,TV-MA,False
+s297,Hit & Run,TV Show,TV-MA,TV-MA,True
+s435,Okupas,TV Show,TV-MA,TV-MA,True
+s454,BEASTARS,TV Show,TV-MA,TV-14,False
+s457,Her Private Life,TV Show,TV-14,TV-14,True
+s478,Atypical,TV Show,TV-14,TV-14,True
+s500,Dogs,TV Show,TV-PG,TV-MA,False
+s511,Between,TV Show,TV-14,TV-MA,False
+s523,Larva,TV Show,TV-Y7,TV-Y7,True
+s536,Some Assembly Required,TV Show,TV-Y,TV-Y7,False
+s618,Young Royals,TV Show,TV-MA,TV-14,False
+s643,The Naked Director,TV Show,TV-MA,TV-MA,True
+s641,Jiva!,TV Show,TV-MA,TV-MA,True
+s679,The Assassination of Gianni Versace,TV Show,TV-MA,TV-MA,True
+s680,The Judgement,TV Show,TV-MA,TV-MA,True
+s685,Elite,TV Show,TV-MA,TV-MA,True
+s732,Love (ft. Marriage and Divorce),TV Show,TV-14,TV-14,True
+s734,LEGO Friends: The Power of Friendship,TV Show,TV-Y7,TV-Y,False
+s779,Attack on Titan,TV Show,TV-MA,TV-14,False
+s877,Alma Matters,TV Show,TV-MA,TV-MA,True
+s826,Dirty John,TV Show,TV-MA,TV-MA,True
+s836,Eden,TV Show,TV-PG,TV-MA,False
+s863,Special,TV Show,TV-MA,TV-MA,True
+s870,Who Killed Sara?,TV Show,TV-MA,TV-MA,True
+s924,Trash Truck,TV Show,TV-Y,TV-Y,True
+s969,Sexify,TV Show,TV-MA,TV-MA,True
+s1044,Gilmore Girls,TV Show,TV-14,TV-14,True
+s1045,High-Rise Invasion,TV Show,TV-MA,TV-14,False
+s1046,Next in Fashion,TV Show,TV-14,TV-PG,False
+s1048,Peasants Rebellion,TV Show,TV-14,TV-MA,False
+s1050,Ricky Zoom,TV Show,TV-Y,TV-Y,True
+s1061,Indian Matchmaking,TV Show,TV-14,TV-14,True
+s1092,The Way of the Househusband,TV Show,TV-MA,TV-MA,True
+s1126,Murder Maps,TV Show,TV-MA,TV-MA,True
+s1169,DOTA: Dragon's Blood,TV Show,TV-MA,TV-Y7,False
+s1170,Pui Pui Molcar,TV Show,TV-Y7,TV-Y,False
+s1180,Mighty Morphin Power Rangers,TV Show,TV-Y7,TV-G,False
+s1201,Waffles + Mochi,TV Show,TV-Y,TV-Y,True
+s1214,Paradise PD,TV Show,TV-MA,TV-MA,True
+s1227,The Houseboat,TV Show,TV-14,TV-PG,False
+s1230,My Way,TV Show,TV-14,TV-14,True
+s1232,City of Ghosts,TV Show,TV-Y7,TV-Y,False
+s1239,Pacific Rim: The Black,TV Show,TV-14,TV-Y7,False
+s1307,Good Girls,TV Show,TV-MA,TV-MA,True
+s1276,Ginny & Georgia,TV Show,TV-14,TV-MA,False
+s1278,Two Sentence Horror Stories,TV Show,TV-14,TV-MA,False
+s1286,Vincenzo,TV Show,TV-14,TV-14,True
+s1288,Fate: The Winx Saga - The Afterparty,Movie,TV-14,TV-MA,False
+s1297,"Hello, Me!",TV Show,TV-14,TV-14,True
+s1301,Amend: The Fight for America,TV Show,TV-MA,TV-MA,True
+s1340,Invisible City,TV Show,TV-MA,TV-MA,True
+s1349,Firefly Lane,TV Show,TV-MA,TV-MA,True
+s1372,We Are: The Brooklyn Saints,TV Show,TV-14,TV-MA,False
+s1619,Octonauts,TV Show,TV-Y,TV-Y,True
+s1393,Daughter From Another Mother,TV Show,TV-MA,TV-MA,True
+s1396,Hello Ninja,TV Show,TV-Y,TV-Y,True
+s1402,Carmen Sandiego,TV Show,TV-Y7,TV-Y,False
+s1431,Pretend It’s a City,TV Show,TV-14,TV-MA,False
+s1444,QB1: Beyond the Lights,TV Show,TV-14,TV-PG,False
+s1620,Oddbods,TV Show,TV-Y,TV-Y7,False
+s1466,The Haunted Hathaways,TV Show,TV-G,TV-Y7,False
+s1478,Dare Me,TV Show,TV-MA,TV-MA,True
+s1504,Lovestruck in the City,TV Show,TV-14,TV-14,True
+s1517,Home for Christmas,TV Show,TV-MA,TV-MA,True
+s1528,Morphle,TV Show,TV-Y,TV-Y,True
+s1536,How To Ruin Christmas,TV Show,TV-MA,TV-MA,True
+s1539,Marvel Anime: Wolverine,TV Show,TV-14,TV-14,True
+s1553,Tiny Pretty Things,TV Show,TV-MA,TV-MA,True
+s1556,Grizzy et les Lemmings,TV Show,TV-Y,TV-Y7,False
+s1571,Once Upon a Time,TV Show,TV-14,TV-14,True
+s1574,The Expanding Universe of Ashley Garcia,TV Show,TV-PG,TV-Y7,False
+s1590,Bhaag Beanie Bhaag,TV Show,TV-MA,TV-MA,True
+s1594,Kings of Jo'Burg,TV Show,TV-MA,TV-MA,True
+s1595,Leyla Everlasting,Movie,TV-MA,TV-MA,True
+s1612,Are You The One,TV Show,TV-14,TV-PG,False
+s1624,The Bachelorette,TV Show,TV-14,TV-14,True
+s1628,The Holiday Movies That Made Us,TV Show,TV-PG,TV-PG,True
+s1629,The Repair Shop,TV Show,TV-PG,TV-PG,True
+s1685,Holiday Home Makeover with Mr. Christmas,TV Show,TV-G,TV-PG,False
+s1712,Graceful Friends,TV Show,TV-MA,TV-14,False
+s1717,Aunty Donna's Big Ol' House of Fun,TV Show,TV-MA,TV-MA,True
+s1719,Trial 4,TV Show,TV-MA,TV-MA,True
+s2945,Who Killed Malcolm X?,TV Show,TV-MA,TV-MA,True
+s1766,The Garfield Show,TV Show,TV-Y,TV-Y7,False
+s1767,The Good Detective,TV Show,TV-MA,TV-14,False
+s1842,The Last Kids on Earth,TV Show,TV-Y7,TV-Y7,True
+s1886,Bad Boy Billionaires: India,TV Show,TV-14,TV-PG,False
+s1952,A Perfect Crime,TV Show,TV-14,TV-MA,False
+s1959,The Chef Show,TV Show,TV-MA,TV-MA,True
+s2098,Rising Phoenix,Movie,PG-13,TV-MA,False
+s2010,Girlfriends,TV Show,TV-14,TV-14,True
+s2693,LA Originals,Movie,TV-MA,TV-MA,True
+s2074,"Sister, Sister",TV Show,TV-PG,TV-PG,True
+s2086,I AM A KILLER: RELEASED,TV Show,TV-MA,TV-MA,True
+s2090,Aggretsuko,TV Show,TV-14,TV-MA,False
+s2100,Trinkets,TV Show,TV-MA,TV-MA,True
+s2103,Ojos in d' House,TV Show,TV-G,TV-14,False
+s2126,Takki,TV Show,TV-14,TV-14,True
+s2134,Teenage Bounty Hunters,TV Show,TV-MA,TV-MA,True
+s2158,Wizards: Tales of Arcadia,TV Show,TV-Y7,TV-Y7,True
+s2176,Nagi-Asu: A Lull in the Sea,TV Show,TV-14,TV-PG,False
+s2153,Selling Sunset,TV Show,TV-MA,TV-PG,False
+s2319,Trotro,TV Show,TV-Y,TV-Y7,False
+s2213,Sing On! Spain,TV Show,TV-G,TV-MA,False
+s2218,Fear City: New York vs The Mafia,TV Show,TV-MA,TV-MA,True
+s2219,Norsemen,TV Show,TV-MA,TV-MA,True
+s2227,Single Wives,TV Show,TV-MA,TV-MA,True
+s2247,Down to Earth with Zac Efron,TV Show,TV-PG,TV-MA,False
+s2255,The Protector,TV Show,TV-MA,TV-MA,True
+s2293,Little Singham,TV Show,TV-Y7,TV-Y,False
+s2294,Cable Girls,TV Show,TV-MA,TV-MA,True
+s2298,JU-ON: Origins,TV Show,TV-MA,TV-MA,True
+s2323,Homemade,TV Show,TV-MA,TV-MA,True
+s2332,Home Game,TV Show,TV-MA,TV-PG,False
+s2347,"Roswell, New Mexico",TV Show,TV-14,TV-MA,False
+s2356,Disclosure,Movie,TV-MA,TV-MA,True
+s2363,The Politician,TV Show,TV-MA,TV-MA,True
+s2384,The Chase,TV Show,TV-PG,TV-PG,True
+s2401,The Search,TV Show,TV-MA,TV-MA,True
+s2450,Megalobox,TV Show,TV-MA,TV-14,False
+s2451,Midnight Diner,TV Show,TV-MA,TV-MA,True
+s2500,The Queen and the Conqueror,TV Show,TV-14,TV-MA,False
+s2509,Sweet Magnolias,TV Show,TV-14,TV-MA,False
+s2524,Madam Secretary,TV Show,TV-PG,TV-14,False
+s2529,Strangers from Hell,TV Show,TV-MA,TV-14,False
+s2599,DRIFTING DRAGONS,TV Show,TV-14,TV-MA,False
+s2601,Good Witch,TV Show,TV-PG,TV-MA,False
+s2610,Nadiya’s Time to Eat,TV Show,TV-G,TV-PG,False
+s2632,My Secret Romance,TV Show,TV-14,TV-14,True
+s2641,After Life,TV Show,TV-MA,TV-MA,True
+s2658,Win the Wilderness,TV Show,TV-14,TV-PG,False
+s2659,Bleach,TV Show,TV-14,TV-14,True
+s2685,The Innocence Files,TV Show,TV-MA,TV-MA,True
+s2711,Legacies,TV Show,TV-14,TV-MA,False
+s2719,Community,TV Show,TV-14,TV-14,True
+s2780,Crip Camp: A Disability Revolution,Movie,R,TV-MA,False
+s2791,Greenhouse Academy,TV Show,TV-PG,TV-G,False
+s2805,Women Of The Night,TV Show,TV-MA,TV-MA,True
+s2808,Shaun the Sheep: Adventures from Mossy Bottom,TV Show,TV-Y7,TV-Y,False
+s2819,Bloodride,TV Show,TV-MA,TV-MA,True
+s2870,Amit Tandon: Family Tandoncies,Movie,TV-14,TV-MA,False
+s2881,I Am Not Okay With This,TV Show,TV-MA,TV-MA,True
+s2884,The Trials of Gabriel Fernandez,TV Show,TV-MA,TV-MA,True
+s2889,"Hi Bye, Mama!",TV Show,TV-14,TV-14,True
+s2895,Puerta 7,TV Show,TV-MA,TV-MA,True
+s2903,DreamWorks Shrek's Swamp Stories,TV Show,TV-PG,TV-PG,True
+s2921,Love Is Blind,TV Show,TV-MA,TV-14,False
+s2939,Fifty: The Series,TV Show,TV-14,TV-14,True
+s2972,Diablero,TV Show,TV-MA,TV-MA,True
+s2977,Unauthorized Living,TV Show,TV-MA,TV-MA,True
+s3006,DreamWorks How to Train Your Dragon Legends,TV Show,TV-PG,TV-Y7,False
+s3025,Killer Inside: The Mind of Aaron Hernandez,TV Show,TV-MA,TV-MA,True
+s3035,Giri / Haji,TV Show,TV-MA,TV-MA,True
+s3041,Until Dawn,TV Show,TV-MA,TV-MA,True
+s3050,"Sex, Explained",TV Show,TV-MA,TV-14,False
+s3075,Save Me,TV Show,TV-MA,TV-MA,True
+s3083,Occupied,TV Show,TV-MA,TV-MA,True
+s3085,Rainbow Ruby,TV Show,TV-Y,TV-Y,True
+s3093,Kevin Hart: Don’t F**k This Up,TV Show,TV-MA,TV-PG,False
+s3096,The Bonfire of Destiny,TV Show,TV-MA,TV-MA,True
+s3107,Lost in Space,TV Show,TV-PG,TV-MA,False
+s3118,The Witcher,TV Show,TV-MA,TV-MA,True
+s3120,Twice Upon A Time,TV Show,TV-MA,TV-14,False
+s3147,Scooby-Doo!: Mystery Incorporated,TV Show,TV-Y7,TV-PG,False
+s3183,V Wars,TV Show,TV-MA,TV-MA,True
+s3197,Lakeeran,Movie,TV-PG,TV-14,False
+s3239,Dolly Parton's Heartstrings,TV Show,TV-14,TV-MA,False
+s3243,Narcoworld: Dope Stories,TV Show,TV-MA,TV-MA,True
+s3277,My MVP Valentine,TV Show,TV-PG,TV-14,False
+s3280,The Club,TV Show,TV-MA,TV-MA,True
+s3284,The Yard,TV Show,TV-MA,TV-MA,True
+s3292,Put Your Head on My Shoulder,TV Show,TV-14,TV-G,False
+s3299,Wild District,TV Show,TV-MA,TV-MA,True
+s3317,Bella and the Bulldogs,TV Show,TV-G,TV-Y7,False
+s3326,Victorious,TV Show,TV-G,TV-G,True
+s3328,A Year In Space,TV Show,TV-PG,TV-PG,True
+s3343,Queer Eye: We're in Japan!,TV Show,TV-14,TV-MA,False
+s3346,The Deep,TV Show,TV-Y7,TV-Y,False
+s3356,KENGAN ASHURA,TV Show,TV-MA,TV-14,False
+s3378,Nailed It! France,TV Show,TV-14,TV-MA,False
+s3379,Nailed It! Spain,TV Show,TV-PG,TV-MA,False
+s3382,The Untamed,TV Show,TV-14,TV-14,True
+s3386,"Breakfast, Lunch & Dinner",TV Show,TV-MA,TV-PG,False
+s3415,Chosen,TV Show,TV-14,TV-MA,False
+s3434,The Hook Up Plan,TV Show,TV-MA,TV-MA,True
+s3443,The Spooky Tale of Captain Underpants Hack-a-ween,Movie,TV-Y7,TV-Y7,True
+s3446,My Country: The New Age,TV Show,TV-14,TV-MA,False
+s3464,College Romance,TV Show,TV-MA,TV-MA,True
+s3474,The K2,TV Show,TV-14,TV-PG,False
+s3492,Glitch,TV Show,TV-MA,TV-MA,True
+s3506,Inside Bill's Brain: Decoding Bill Gates,TV Show,TV-14,TV-14,True
+s3516,Surviving R. Kelly,TV Show,TV-MA,TV-MA,True
+s3520,Kabaneri of the Iron Fortress: The Battle of Unato,TV Show,TV-MA,TV-14,False
+s3526,Unbelievable,TV Show,TV-MA,TV-MA,True
+s3535,The Spy,TV Show,TV-MA,TV-MA,True
+s3536,American Factory: A Conversation with the Obamas,Movie,TV-G,TV-PG,False
+s3502,Criminal: France,TV Show,TV-MA,TV-MA,True
+s3553,The Good Bandit,TV Show,TV-MA,TV-MA,True
+s3576,45 rpm,TV Show,TV-MA,TV-MA,True
+s3581,Invader Zim: Enter the Florpus,Movie,TV-Y7,TV-Y7,True
+s3582,MINDHUNTER,TV Show,TV-MA,TV-MA,True
+s3585,Super Monsters Back to School,Movie,TV-Y,TV-Y,True
+s3586,The King's Avatar,TV Show,TV-MA,TV-14,False
+s3605,Sintonia,TV Show,TV-MA,TV-MA,True
+s3609,Jane The Virgin,TV Show,TV-14,TV-14,True
+s3611,Let’s Eat,TV Show,TV-PG,TV-14,False
+s3625,No Good Nick,TV Show,TV-PG,TV-G,False
+s3643,Another Life,TV Show,TV-MA,TV-MA,True
+s3661,Unrequited Love,TV Show,TV-14,TV-14,True
+s3683,The Legend of White Snake,TV Show,TV-14,TV-14,True
+s3688,Yummy Mummies,TV Show,TV-MA,TV-MA,True
+s3701,Scare Tactics,TV Show,TV-MA,TV-14,False
+s3723,Go! Live Your Way,TV Show,TV-PG,TV-Y,False
+s3726,Shooter,TV Show,TV-14,TV-MA,False
+s3727,The Casketeers,TV Show,TV-14,TV-MA,False
+s3728,The Confession Tapes,TV Show,TV-MA,TV-MA,True
+s3770,Super Monsters Monster Pets,TV Show,TV-Y,TV-Y,True
+s3775,Black Mirror,TV Show,TV-MA,TV-MA,True
+s3785,March Comes in Like a Lion,TV Show,TV-14,TV-MA,False
+s3839,The Mechanism,TV Show,TV-MA,TV-MA,True
+s3793,When They See Us,TV Show,TV-MA,TV-MA,True
+s3795,Historical Roasts,TV Show,TV-MA,TV-MA,True
+s3841,The Society,TV Show,TV-MA,TV-MA,True
+s3862,Cupcake & Dino - General Services,TV Show,TV-Y7,TV-Y7,True
+s3877,Angel 'N' Devil,TV Show,TV-14,TV-14,True
+s3938,Imposters,TV Show,TV-MA,TV-MA,True
+s3945,Tijuana,TV Show,TV-MA,TV-MA,True
+s3971,Versailles,TV Show,TV-MA,TV-MA,True
+s3990,Stay Tuned!,TV Show,TV-14,TV-MA,False
+s4023,More to Say,TV Show,TV-14,TV-MA,False
+s4044,Secret City,TV Show,TV-MA,TV-MA,True
+s4055,Cricket Fever: Mumbai Indians,TV Show,TV-MA,TV-MA,True
+s4080,Unsolved,TV Show,TV-MA,TV-MA,True
+s4133,Romance is a bonus book,TV Show,TV-14,TV-14,True
+s4143,Russian Doll,TV Show,TV-MA,TV-MA,True
+s4171,Polar,Movie,TV-MA,TV-MA,True
+s4173,Conversations with a Killer: The Ted Bundy Tapes,TV Show,TV-MA,TV-MA,True
+s4179,Marvel's The Punisher,TV Show,TV-MA,TV-MA,True
+s4221,COMEDIANS of the world,TV Show,TV-MA,TV-MA,True
+s4242,Secrets in the Hot Spring,Movie,TV-14,TV-MA,False
+s4270,Jojo's World,TV Show,TV-14,TV-MA,False
+s4274,Perfume,TV Show,TV-MA,TV-MA,True
+s4275,Sirius the Jaeger,TV Show,TV-MA,TV-14,False
+s4264,Demon's Path,TV Show,TV-14,TV-MA,False
+s4305,Hymn of Death,TV Show,TV-14,TV-14,True
+s4310,Tidelands,TV Show,TV-MA,TV-MA,True
+s4311,Travelers,TV Show,TV-MA,TV-MA,True
+s4313,Back Street Girls -GOKUDOLS-,TV Show,TV-MA,TV-14,False
+s4381,La Doña,TV Show,TV-14,TV-14,True
+s4382,Silvana Sin Lana,TV Show,TV-14,TV-14,True
+s4404,Medal of Honor,TV Show,TV-MA,TV-MA,True
+s4407,The Queen of Flow,TV Show,TV-MA,TV-MA,True
+s4490,Best.Worst.Weekend.Ever.,TV Show,TV-PG,TV-PG,True
+s4499,Project S The Series,TV Show,TV-MA,TV-14,False
+s4504,My Babysitter's a Vampire,TV Show,TV-PG,TV-Y7,False
+s4518,The Curious Creations of Christine McConnell,TV Show,TV-PG,TV-MA,False
+s4528,Sofia the First,TV Show,TV-Y,TV-Y,True
+s4536,YG Future Strategy Office,TV Show,TV-MA,TV-14,False
+s4624,Skylanders Academy,TV Show,TV-Y7,TV-Y7,True
+s4632,Rafinha Bastos: Ultimatum,Movie,TV-MA,TV-MA,True
+s4644,The Rise of Phoenixes,TV Show,TV-14,TV-14,True
+s4652,Transformers Prime,TV Show,TV-Y7,TV-Y,False
+s4653,Transformers: Robots in Disguise,TV Show,TV-Y7,TV-Y,False
+s4638,Boca Juniors Confidential,TV Show,TV-PG,TV-MA,False
+s4677,Ultimate Beastmaster,TV Show,TV-PG,TV-MA,False
+s4704,Afflicted,TV Show,TV-MA,TV-MA,True
+s4744,A Very Secret Service,TV Show,TV-MA,TV-MA,True
+s4759,Amazing Interiors,TV Show,TV-PG,TV-PG,True
+s4760,Dark Tourist,TV Show,TV-MA,TV-PG,False
+s4762,Father of the Year,Movie,TV-MA,R,False
+s4767,El club de los buenos infieles,Movie,TV-MA,TV-MA,True
+s4773,Meteor Garden,TV Show,TV-14,TV-14,True
+s4779,Drug Lords,TV Show,TV-MA,TV-MA,True
+s4799,NCIS,TV Show,TV-14,TV-14,True
+s4805,Somewhere Between,TV Show,TV-14,TV-MA,False
+s4810,Kiss Me First,TV Show,TV-MA,TV-MA,True
+s4814,Hotel Transylvania,TV Show,TV-Y7,TV-Y7,True
+s4845,Unbreakable Kimmy Schmidt,TV Show,TV-14,TV-MA,False
+s4846,Arrested Development,TV Show,TV-MA,TV-MA,True
+s4863,Saint Seiya: The Lost Canvas,TV Show,TV-MA,TV-14,False
+s4875,A Little Help with Carol Burnett,TV Show,TV-G,TV-MA,False
+s4925,Charité,TV Show,TV-MA,TV-MA,True
+s4927,The Honeymoon Stand Up Special,TV Show,TV-MA,TV-MA,True
+s4942,Troy,TV Show,TV-MA,TV-MA,True
+s4952,Loaded,TV Show,TV-MA,TV-MA,True
+s4977,The Standups,TV Show,TV-MA,TV-MA,True
+s4995,Bad Guys: Vile City,TV Show,TV-MA,TV-MA,True
+s5062,Mau Nieto: Viviendo sobrio… desde el bar,Movie,TV-MA,TV-MA,True
+s5066,Prison Playbook,TV Show,TV-MA,TV-14,False
+s5088,Alejandro Riaño: Especial de stand up,Movie,TV-MA,TV-MA,True
+s5096,Fullmetal Alchemist,TV Show,TV-14,TV-14,True
+s5100,The Frozen Dead,TV Show,TV-MA,TV-MA,True
+s5126,Wormwood,TV Show,TV-14,TV-MA,False
+s5139,All Hail King Julien,TV Show,TV-Y7,TV-Y7,True
+s5140,Dhia Sofea,TV Show,TV-14,TV-14,True
+s5151,Broadchurch,TV Show,TV-MA,TV-MA,True
+s5155,The Many Faces of Ito,TV Show,TV-14,TV-PG,False
+s5169,Shot in the Dark,TV Show,TV-MA,TV-PG,False
+s5207,W1A,TV Show,TV-MA,TV-MA,True
+s5209,Haters Back Off,TV Show,TV-PG,TV-MA,False
+s5222,West Coast Customs,TV Show,TV-G,TV-PG,False
+s5247,Sudden,TV Show,TV-14,TV-14,True
+s5281,Fire Chasers,TV Show,TV-MA,TV-PG,False
+s5286,Reign,TV Show,TV-14,TV-14,True
+s5321,Dinotrux,TV Show,TV-Y7,TV-Y7,True
+s5350,Entangled,TV Show,TV-14,TV-14,True
+s5366,Vexed,TV Show,TV-MA,NR,False
+s5384,King’s War,TV Show,TV-14,TV-14,True
+s5393,Barbie Life in the Dreamhouse,TV Show,TV-Y,TV-PG,False
+s5353,"Have You Ever Fallen in Love, Miss Jiang?",TV Show,TV-14,TV-MA,False
+s5410,Yes We Can!,TV Show,TV-14,TV-14,True
+s5414,Gypsy,TV Show,TV-MA,TV-MA,True
+s5426,Aquarius,TV Show,TV-MA,TV-MA,True
+s5458,Mind Game,TV Show,TV-14,TV-14,True
+s5465,The Day Will Come,TV Show,TV-14,TV-14,True
+s5521,Girlboss,TV Show,TV-MA,TV-MA,True
+s5459,Miniforce,TV Show,TV-Y7,TV-Y7,True
+s5489,All Hail King Julien: Exiled,TV Show,TV-Y7,TV-Y7,True
+s5539,The Get Down,TV Show,TV-MA,TV-MA,True
+s5570,Samurai Gourmet,TV Show,TV-PG,TV-PG,True
+s5584,Love Is in the Air,TV Show,TV-14,TV-MA,False
+s5586,Tong: Memories,TV Show,TV-MA,TV-14,False
+s5599,Love for Ten: Generation of Youth,TV Show,TV-14,TV-14,True
+s5671,Ice Fantasy,TV Show,TV-14,TV-14,True
+s5681,Captive,TV Show,TV-MA,TV-14,False
+s5687,The Cuba Libre Story,TV Show,TV-14,TV-PG,False
+s5867,Cooked,TV Show,TV-14,TV-PG,False
+s5731,Love Family,TV Show,TV-MA,TV-14,False
+s5733,Love Now,TV Show,TV-14,TV-14,True
+s5742,Trailer Park Boys: Out of the Park: Europe,TV Show,TV-MA,TV-MA,True
+s5753,Spotless,TV Show,TV-MA,TV-MA,True
+s5767,Fall in Love with Me,TV Show,TV-14,TV-14,True
+s5770,Masha's Spooky Stories,TV Show,TV-Y,TV-Y,True
+s5807,Witches: A Century of Murder,TV Show,TV-14,TV-MA,False
+s5826,La Esclava Blanca,TV Show,TV-MA,TV-14,False
+s5828,LEGO Bionicle: The Journey to One,TV Show,TV-Y7,TV-Y,False
+s5837,Marco Polo,TV Show,TV-MA,TV-MA,True
+s5868,Care Bears & Cousins,TV Show,TV-Y,TV-Y,True
+s5883,Atelier,TV Show,TV-PG,TV-14,False
+s5903,H2O: Mermaid Adventures,TV Show,TV-Y7,TV-Y,False
+s5909,Danger Mouse: Classic Collection,TV Show,TV-Y,TV-PG,False
+s6038,A Good Wife,TV Show,TV-14,TV-14,True
+s6049,A new Capitalism,Movie,TV-14,TV-PG,False
+s6068,A.D. Kingdom and Empire,TV Show,TV-14,TV-14,True
+s6168,Anjaan: Special Crimes Unit,TV Show,TV-14,TV-MA,False
+s6178,忍者ハットリくん,TV Show,TV-Y7,TV-Y7,True
+s6292,Beyblade: Metal Fusion,TV Show,TV-Y7,TV-Y7,True
+s6394,Burnistoun,TV Show,TV-MA,TV-MA,True
+s6458,Chef & My Fridge,TV Show,TV-PG,TV-14,False
+s6478,Christiane Amanpour: Sex & Love Around the World,TV Show,TV-MA,TV-PG,False
+s6543,Crime Time,TV Show,TV-MA,TV-MA,True
+s6569,Darr Sabko Lagta Hai,TV Show,TV-MA,TV-MA,True
+s6572,Day and Night,TV Show,TV-MA,TV-14,False
+s6588,Deep Water,TV Show,TV-MA,TV-MA,True
+s6612,Dinner for Five,TV Show,TV-MA,TV-14,False
+s6614,Dino Hunt,TV Show,TV-G,TV-PG,False
+s6675,El Chavo,TV Show,TV-PG,TV-Y7,False
+s6708,Ethirmarai,Movie,TV-14,TV-14,True
+s6725,Extras,TV Show,TV-MA,TV-MA,True
+s6732,Fairy Tail,TV Show,TV-MA,TV-14,False
+s6733,Fake or Fortune?,TV Show,TV-G,TV-MA,False
+s6775,Footprints in the Sand,TV Show,TV-14,TV-14,True
+s6783,For the Win,TV Show,TV-14,TV-PG,False
+s6896,Great Yellowstone Thaw,TV Show,TV-PG,TV-PG,True
+s6918,Hannibal,TV Show,TV-MA,TV-MA,True
+s6923,Happy Valley,TV Show,TV-MA,TV-MA,True
+s6924,Happyish,TV Show,TV-MA,TV-14,False
+s6942,Haven,TV Show,TV-14,TV-MA,False
+s7007,Hotel Beau Séjour,TV Show,TV-14,TV-MA,False
+s7060,In Between,TV Show,TV-14,TV-14,True
+s7081,Inside The Freemasons,TV Show,TV-MA,TV-14,False
+s7082,Inside the Mind of a Serial Killer,TV Show,TV-14,TV-MA,False
+s7086,Intelligence,TV Show,TV-MA,TV-14,False
+s7099,Iron Man: Armored Adventures,TV Show,TV-Y7,TV-Y,False
+s7102,마녀사냥,TV Show,TV-MA,TV-14,False
+s7117,Jake's Buccaneer Blast,Movie,TV-Y,TV-Y7,False
+s7139,John Mellencamp: Plain Spoken,Movie,TV-MA,TV-MA,True
+s7216,Kitten Rescuers,TV Show,TV-14,TV-PG,False
+s7257,La Piloto,TV Show,TV-MA,TV-MA,True
+s7264,Lady-Like,Movie,NC-17,TV-MA,False
+s7265,"Lady, la vendedora de rosas",TV Show,TV-14,TV-14,True
+s7236,Krishna Balram,TV Show,TV-Y7,TV-Y,False
+s7326,Lo que la vida me robó,TV Show,TV-14,TV-14,True
+s7332,LoliRock,TV Show,TV-Y,TV-Y,True
+s7343,Lost Girl,TV Show,TV-14,TV-MA,False
+s7360,Lucky Days,TV Show,TV-PG,TV-14,False
+s7369,Mad Men,TV Show,TV-14,TV-14,True
+s7384,Mahi Way,TV Show,TV-14,TV-14,True
+s7570,NATURE: Natural Born Hustlers,TV Show,TV-G,TV-PG,False
+s7448,Merlí,TV Show,TV-MA,TV-14,False
+s7522,Mr. Young,TV Show,TV-G,TV-Y7,False
+s7594,Nobel,TV Show,R,TV-14,False
+s7598,North & South,TV Show,NR,TV-14,False
+s7624,NSU German History X,TV Show,TV-MA,TV-MA,True
+s7630,Nurses Who Kill,TV Show,TV-14,TV-14,True
+s7686,Our Shining Days,Movie,TV-PG,TV-MA,False
+s7690,P. King Duckling,TV Show,TV-Y,TV-Y7,False
+s7719,Pawn Stars,TV Show,TV-14,TV-14,True
+s7726,Penny Dreadful,TV Show,TV-MA,TV-MA,True
+s7730,Person of Interest,TV Show,TV-14,TV-MA,False
+s7769,Power Rangers Mystic Force,TV Show,TV-Y7,TV-Y7,True
+s7773,Power Rangers S.P.D.,TV Show,TV-Y7,TV-Y7,True
+s7784,Power Rangers Turbo,TV Show,TV-Y7,TV-Y7,True
+s7809,Qué pena tu serie,TV Show,TV-MA,TV-14,False
+s7841,Rebelde,TV Show,TV-14,TV-PG,False
+s7949,Save Our Shelter,TV Show,TV-G,TV-PG,False
+s7985,Servant of the People,TV Show,TV-14,TV-MA,False
+s7992,Shadow of Truth,TV Show,TV-MA,TV-MA,True
+s8003,Sherlock,TV Show,TV-14,TV-MA,False
+s8022,Sin senos no hay paraíso,TV Show,TV-14,TV-14,True
+s8031,Skin Wars,TV Show,TV-14,TV-G,False
+s8045,Smash: Motorized Mayhem,Movie,TV-MA,TV-PG,False
+s8059,Sotus The Series,TV Show,TV-MA,TV-14,False
+s8071,Splash and Bubbles,TV Show,TV-Y,TV-Y,True
+s8108,Strong Girl Bong-soon,TV Show,TV-14,TV-MA,False
+s8118,Suits,TV Show,TV-MA,TV-14,False
+s8174,Thackeray,TV Show,TV-MA,TV-14,False
+s8175,That '70s Show,TV Show,TV-14,TV-14,True
+s8110,Strongland,TV Show,TV-PG,TV-PG,True
+s8251,The Code,TV Show,TV-PG,TV-G,False
+s8269,The Darkest Dawn,Movie,TV-MA,TV-MA,True
+s8331,The Great Battle,Movie,TV-MA,TV-MA,True
+s8337,The Guild,TV Show,TV-MA,TV-14,False
+s8379,The L Word,TV Show,TV-MA,TV-14,False
+s8380,The Lady in Dignity,TV Show,TV-MA,TV-MA,True
+s8398,The Lizzie Borden Chronicles,TV Show,TV-14,TV-14,True
+s8422,The Messengers,TV Show,TV-14,TV-14,True
+s8423,The Mind of a Chef,TV Show,TV-PG,TV-PG,True
+s8425,The Ministry of Time,TV Show,TV-MA,TV-MA,True
+s8534,The Traffickers,TV Show,TV-MA,TV-MA,True
+s8545,The Underwear,TV Show,TV-MA,TV-14,False
+s8601,Tobot,TV Show,TV-Y7,TV-Y7,True
+s8645,Twin Peaks,TV Show,TV-14,TV-14,True
+s8701,Wartime Portraits,TV Show,TV-MA,TV-PG,False
+s8721,What Happens to My Family,TV Show,TV-14,TV-MA,False
+s8727,When Calls the Heart,TV Show,TV-PG,TV-14,False
+s8801,Zindagi Gulzar Hai,TV Show,TV-PG,TV-14,False
+s8784,Yoko,TV Show,TV-Y,TV-Y,True

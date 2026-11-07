@@ -1,0 +1,24 @@
+{
+  "run_id": "20261106T111736917654Z",
+  "passed": true,
+  "recorded_at": "2026-11-06T11:41:26.910921+00:00",
+  "checks": {
+    "python_tests": "5 passed; one upstream TestClient deprecation warning",
+    "frontend_tests": "4 passed",
+    "python_lint": "Ruff check passed",
+    "web_build": "TypeScript and Vite production build passed",
+    "api_types": "FastAPI OpenAPI exported; TypeScript generated successfully",
+    "eda": "6 training-only code cells executed with outputs",
+    "browser": "34 assertions passed; no runtime exceptions",
+    "development_launcher": "pnpm dev starts API and Vite; proxy returns matching ready run; direct route returns 200; Ctrl+C closes both ports"
+  },
+  "limits": {
+    "docker_image": "Not built: local Docker Engine is not running",
+    "public_deployment": "Not performed; outside first release",
+    "portal_submission": "Not performed; destination not supplied"
+  },
+  "notes": [
+    "Two controlled HTTP 503 responses were intentionally injected during UI error-state QA.",
+    "Historical CLI console entries predate the corrected duration-reset implementation; the final run uses string form state and passed."
+  ]
+}

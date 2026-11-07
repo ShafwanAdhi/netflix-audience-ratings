@@ -1,0 +1,254 @@
+{
+  "task_id": 3,
+  "title": "Audience Rating Classification",
+  "run_id": "20261106T111736917654Z",
+  "source_file": "User-supplied Dataset.csv (10 source variables)",
+  "source_sha256": "90b02beeb554921f81d3b9a774d0f7766f6a65240162565f6b4082165dc2a1d3",
+  "snapshot_date": "2021-09-25",
+  "raw_rows": 8790,
+  "variables": [
+    {
+      "name": "type",
+      "role": "Feature",
+      "reason": "Movie and TV metadata have different advisory patterns, genres and duration units.",
+      "treatment": "Encode Movie/TV Show; retain separate duration units."
+    },
+    {
+      "name": "country",
+      "role": "Feature",
+      "reason": "Production origin describes catalog context, with missing origin made explicit.",
+      "treatment": "Tokenize multiple countries; fit vocabulary on the fitting data only."
+    },
+    {
+      "name": "listed_in",
+      "role": "Feature",
+      "reason": "Genres summarize content similarities and advisory context.",
+      "treatment": "Tokenize multiple genres; unknown categories do not extend the fitted vocabulary."
+    },
+    {
+      "name": "duration",
+      "role": "Feature",
+      "reason": "Film length and number of TV seasons describe different content formats.",
+      "treatment": "Parse positive minutes for Movies and integer seasons for TV Shows; never treat them as interchangeable."
+    },
+    {
+      "name": "release_year",
+      "role": "Feature",
+      "reason": "Measures original release cohort; it is distinct from date added.",
+      "treatment": "Numeric year; transformation fits within the relevant fitting data."
+    },
+    {
+      "name": "date_added",
+      "role": "Excluded",
+      "reason": "Catalog-entry timing is outside the intended metadata similarity/advisory task.",
+      "treatment": "Retain for audit only."
+    },
+    {
+      "name": "rating",
+      "role": "Target",
+      "reason": "The assignment predicts the original 14 advisory classes.",
+      "treatment": "Keep all 14 labels, including NR/UR/TV-Y7-FV; never use as an input."
+    },
+    {
+      "name": "director",
+      "role": "Feature (training-only ablation selected)",
+      "reason": "Test incremental metadata value without consulting the holdout.",
+      "treatment": "Active model uses director: True."
+    },
+    {
+      "name": "show_id / title",
+      "role": "Identity / display only",
+      "reason": "Trace records and remove repeated entities; unique identifiers do not describe generalizable content.",
+      "treatment": "Exclude from features; title/type/year supports entity review."
+    }
+  ],
+  "decisions": [
+    {
+      "action": "Keep the original labels",
+      "reason": "The assignment predicts advisory categories; collapsing rare classes changes that task.",
+      "evidence": "Fourteen classes remain in the split manifests and per-class report.",
+      "limitation": "A class with one held-out example cannot support a reliable generalization claim."
+    },
+    {
+      "action": "Fit preprocessing inside training folds",
+      "reason": "Validation data must not influence vocabularies, scaling or model selection.",
+      "evidence": "Pipelines share fixed grouped folds; mean CV macro-F1 selects the model before final test evaluation.",
+      "limitation": "The holdout represents this snapshot, not future releases."
+    }
+  ],
+  "stages": [
+    {
+      "name": "Source validation",
+      "input_rows": 8790,
+      "output_rows": 8790,
+      "reason": "Verify the supplied SHA-256, schema, types and duration units."
+    },
+    {
+      "name": "Exact-content deduplication",
+      "input_rows": 8790,
+      "output_rows": 8787,
+      "reason": "Remove 3 identical content records. Reviewed residual entity variants remain training-only and are grouped within CV."
+    }
+  ],
+  "partitions": [
+    {
+      "name": "Training",
+      "rows": 7029,
+      "purpose": "Seed-42 per-class allocation; grouped CV runs only inside training.",
+      "segments": [
+        {
+          "name": "G",
+          "rows": 33
+        },
+        {
+          "name": "NC-17",
+          "rows": 2
+        },
+        {
+          "name": "NR",
+          "rows": 63
+        },
+        {
+          "name": "PG",
+          "rows": 230
+        },
+        {
+          "name": "PG-13",
+          "rows": 392
+        },
+        {
+          "name": "R",
+          "rows": 638
+        },
+        {
+          "name": "TV-14",
+          "rows": 1724
+        },
+        {
+          "name": "TV-G",
+          "rows": 176
+        },
+        {
+          "name": "TV-MA",
+          "rows": 2564
+        },
+        {
+          "name": "TV-PG",
+          "rows": 689
+        },
+        {
+          "name": "TV-Y",
+          "rows": 245
+        },
+        {
+          "name": "TV-Y7",
+          "rows": 266
+        },
+        {
+          "name": "TV-Y7-FV",
+          "rows": 5
+        },
+        {
+          "name": "UR",
+          "rows": 2
+        }
+      ],
+      "metrics": {}
+    },
+    {
+      "name": "Held-out test",
+      "rows": 1758,
+      "purpose": "Used once after selection; no preprocessing or tuning is fitted here.",
+      "segments": [
+        {
+          "name": "G",
+          "rows": 8
+        },
+        {
+          "name": "NC-17",
+          "rows": 1
+        },
+        {
+          "name": "NR",
+          "rows": 16
+        },
+        {
+          "name": "PG",
+          "rows": 57
+        },
+        {
+          "name": "PG-13",
+          "rows": 98
+        },
+        {
+          "name": "R",
+          "rows": 160
+        },
+        {
+          "name": "TV-14",
+          "rows": 431
+        },
+        {
+          "name": "TV-G",
+          "rows": 44
+        },
+        {
+          "name": "TV-MA",
+          "rows": 641
+        },
+        {
+          "name": "TV-PG",
+          "rows": 172
+        },
+        {
+          "name": "TV-Y",
+          "rows": 61
+        },
+        {
+          "name": "TV-Y7",
+          "rows": 67
+        },
+        {
+          "name": "TV-Y7-FV",
+          "rows": 1
+        },
+        {
+          "name": "UR",
+          "rows": 1
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.5341296928327645,
+        "macro_f1": 0.33416806634568147,
+        "weighted_f1": 0.5285518056345626
+      }
+    },
+    {
+      "name": "Test segment: Movie",
+      "rows": 1231,
+      "purpose": "All 14 labels, including absent labels as zero F1",
+      "segments": [],
+      "metrics": {
+        "accuracy": 0.5247766043866775,
+        "macro_f1": 0.33305549797642914,
+        "weighted_f1": 0.5165989329528314
+      }
+    },
+    {
+      "name": "Test segment: TV Show",
+      "rows": 527,
+      "purpose": "All 14 labels, including absent labels as zero F1",
+      "segments": [],
+      "metrics": {
+        "accuracy": 0.5559772296015181,
+        "macro_f1": 0.19457281848586197,
+        "weighted_f1": 0.5544073944370951
+      }
+    }
+  ],
+  "split_strategy": "Supervised classification: 7,029 training / 1,758 test rows. Every original label remains present; repeated entities never cross fitting/validation boundaries.",
+  "limitations": [
+    "This is the supplied historical catalog snapshot, not a current Netflix data feed.",
+    "Decisions are concise, evidence-backed summaries; model outputs do not establish causation."
+  ]
+}

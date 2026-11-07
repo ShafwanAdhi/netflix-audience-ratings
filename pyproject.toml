@@ -1,0 +1,25 @@
+[project]
+name = "netflix-ml-lab"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = ["netflix-api", "netflix-ml"]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["apps/api", "packages/ml"]
+
+[tool.uv.sources]
+netflix-api = { workspace = true }
+netflix-ml = { workspace = true }
+
+[dependency-groups]
+dev = ["pytest>=9,<10", "httpx>=0.28,<1", "ruff>=0.14,<1", "nbformat>=5,<6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"

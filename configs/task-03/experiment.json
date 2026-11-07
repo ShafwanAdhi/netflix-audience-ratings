@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "source_sha256": "90b02beeb554921f81d3b9a774d0f7766f6a65240162565f6b4082165dc2a1d3",
+  "test_fraction": 0.2,
+  "cv_splits": 2,
+  "cv_repeats": 3,
+  "search_iterations": {"logistic_regression": 8, "decision_tree": 12, "random_forest": 12},
+  "workers": 2,
+  "selection_metric": "macro_f1",
+  "tie_break": ["accuracy", "logistic_regression", "decision_tree", "random_forest", "dummy"],
+  "director_ablation": true
+}
