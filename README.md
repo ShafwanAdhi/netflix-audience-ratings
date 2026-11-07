@@ -6,8 +6,10 @@ Standalone Task 3 internship application. This repository contains only this tas
 
 - Implemented: task workspace, About Dataset, audited variable rationale, actual preparation/split/segment outcomes, model evaluation and interactive results.
 - Interface: responsive RawBlock layout with self-hosted fonts and monochrome charts; see [verification and screenshots](docs/VERIFICATION.md).
-- GitHub status: local Git repository initialized on `main`; no remote, commit or upload is created automatically.
+- Repository: independent application, model artifacts and verification workflow.
 - Active model run: `20261106T111736917654Z`. See `artifacts/task-03/active.json` for the current run.
+
+- Motion: staged page/scroll reveals, chart and result transitions, hover/press feedback, and live reduced-motion support.
 
 ## Quickstart
 

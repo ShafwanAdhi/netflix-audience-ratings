@@ -153,7 +153,7 @@ export function EvaluationPage() {
           role="region"
           aria-label="Scrollable results table"
         >
-          <table className="matrix">
+          <table className="matrix" data-motion-revision={String(normalized)}>
             <caption className="sr-only">
               Actual by predicted rating confusion matrix
             </caption>

@@ -252,7 +252,12 @@ export function PredictPage() {
           {mutation.error ? (
             <State error={mutation.error} />
           ) : mutation.data ? (
-            <div className="prediction-result">
+            <div
+              className="prediction-result"
+              data-motion-revision={
+                mutation.isSuccess ? mutation.submittedAt : undefined
+              }
+            >
               <p className="eyebrow">PREDICTED AUDIENCE RATING</p>
               <div className="rating-label">{mutation.data.label}</div>
               <h3>{mutation.data.meaning}</h3>

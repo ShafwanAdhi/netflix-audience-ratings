@@ -1,0 +1,184 @@
+/* Motion has three jobs: orient, reveal evidence, acknowledge an action. */
+:root {
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-fast: 180ms;
+  --motion-medium: 360ms;
+}
+.page-enter {
+  animation: none;
+}
+.section-nav a {
+  position: relative;
+}
+.section-nav a::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  inset: auto 16px 7px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--motion-medium) var(--motion-ease);
+  pointer-events: none;
+}
+.section-nav a.active::after {
+  display: block;
+  transform: scaleX(1);
+}
+.section-nav a small,
+.brand-mark {
+  transition: transform var(--motion-medium) var(--motion-ease);
+}
+button,
+a.button,
+.section-nav a,
+.type-picker label {
+  transition:
+    background-color var(--motion-fast),
+    color var(--motion-fast),
+    border-color var(--motion-fast),
+    transform var(--motion-medium) var(--motion-ease);
+  -webkit-tap-highlight-color: transparent;
+}
+button:active:not(:disabled),
+a.button:active,
+.type-picker label:active {
+  transform: translateY(2px);
+}
+input,
+select,
+textarea {
+  transition:
+    background-color var(--motion-fast),
+    border-color var(--motion-fast);
+}
+.probability-track i {
+  transform-origin: left;
+  transition: width 480ms var(--motion-ease);
+}
+.variable-row,
+.dataset-partition,
+.workflow li,
+.analytics-protocol li,
+.profile-frequency,
+.cluster-directory > *,
+tbody tr {
+  transition:
+    background-color var(--motion-fast),
+    color var(--motion-fast),
+    border-color var(--motion-fast);
+}
+.variable-row h3,
+.workflow li > span,
+.pipeline-strip > * {
+  transition: transform var(--motion-medium) var(--motion-ease);
+}
+.tooltip[data-state="delayed-open"],
+.tooltip[data-state="instant-open"] {
+  animation: tooltip-enter 180ms var(--motion-ease) both;
+}
+.tooltip[data-state="closed"] {
+  animation: tooltip-exit 100ms ease-in both;
+}
+.state[role="status"]::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 5px;
+  background: currentColor;
+  transform-origin: left;
+  animation: loading-rule 1100ms ease-in-out infinite alternate;
+}
+.field-error,
+[role="alert"],
+.example-note {
+  animation: feedback-enter 240ms var(--motion-ease) both;
+}
+[aria-busy="true"] {
+  cursor: progress;
+}
+button:disabled {
+  transform: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  button:hover:not(:disabled):not(.help):not(.inline-button),
+  a.button:hover {
+    transform: translateY(-2px);
+  }
+  .section-nav a:hover small {
+    transform: translateX(3px);
+  }
+  .section-nav a:hover::after {
+    transform: scaleX(1);
+  }
+  .brand:hover .brand-mark {
+    transform: translateY(-3px);
+  }
+  .variable-row:hover,
+  .dataset-partition:hover {
+    background: #f4f4f4;
+  }
+  .variable-row:hover h3 {
+    transform: translateX(4px);
+  }
+  .workflow li:hover > span {
+    transform: translateY(-3px);
+  }
+  .cluster-directory > a:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+@keyframes tooltip-enter {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes tooltip-exit {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes feedback-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes loading-rule {
+  from {
+    transform: scaleX(0.2);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  button:active:not(:disabled),
+  a.button:active,
+  .type-picker label:active,
+  button:hover:not(:disabled):not(.help):not(.inline-button),
+  a.button:hover,
+  .section-nav a:hover small,
+  .brand:hover .brand-mark,
+  .variable-row:hover h3,
+  .workflow li:hover > span {
+    transform: none;
+  }
+}
