@@ -26,7 +26,7 @@ npx --yes --package @playwright/cli playwright-cli run-code --filename=scripts/b
 
 Earlier standalone backend verification recorded 7 Python model/API/integrity tests passing with private source data. Those tests were not rerun for this visual change. Separate frozen dependency environments and model run identities remain unchanged. On clones without private data, explicitly source-dependent tests skip.
 
-CI is configured but has not run on GitHub. Docker configuration is supplied but was not built in this session. The baseline verification did not include remote publication, hosting or portal submission.
+At the time of the initial UI verification, GitHub CI and Docker builds had not yet run. The subsequent successful Linux application and container checks are recorded in the deployment section below. The baseline verification did not include remote publication, hosting or portal submission.
 
 ## Motion enhancement — 2026-11-07
 
