@@ -8,7 +8,7 @@ One multi-stage image builds React and installs the frozen Python workspace. Fas
 
 The inspected VPS already has Docker Compose and host Nginx. Keep that Nginx as the only public ingress. This app binds **127.0.0.1:8303**, forwarded to container port 8000. Do not expose port 8303 publicly. Tasks 3–6 use ports 8303–8306 and unique Compose project/image names. No shared container network or application database is needed.
 
-The host has approximately 4 GiB RAM and existing workloads. Start with the supplied 512 MiB container memory limit and one CPU; inspect actual memory under load and adjust `.env.production` if required. Build/deploy one project at a time. Builds also need memory and are not constrained by the runtime limit. If host builds cannot fit, use an external builder/registry instead of increasing concurrent builds.
+The host has approximately 4 GiB RAM and existing workloads. Start with the supplied 768 MiB container memory limit and one CPU; inspect actual memory under load and adjust `.env.production` if required. Build/deploy one project at a time. Builds also need memory and are not constrained by the runtime limit. If host builds cannot fit, use an external builder/registry instead of increasing concurrent builds.
 
 ## 1. Connect from PowerShell
 
