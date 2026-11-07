@@ -62,3 +62,5 @@ Training creates a new immutable run; regenerate the dataset profile whenever ac
 Independent educational project; not affiliated with Netflix. This is a historical 2021 catalog snapshot, not a current data service. Models describe metadata associations, not causation. Raw-data redistribution rights are not assumed.
 
 Data visualization: [semantic colors and accessibility](docs/architecture/data-visualization.md).
+
+Mobile layout: [responsive behavior and test replay](docs/architecture/mobile.md).

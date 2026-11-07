@@ -70,3 +70,7 @@ Production verification exposed a missing Overview audit in the image. The image
 ## Semantic data visualization audit - 2026-11-08
 
 The neutral RawBlock frame now permits semantic data colors. Every task page was reviewed; legends, values and point/line styles complement color. See the [color contract](architecture/data-visualization.md) and [current local evidence](../submissions/data-visualization/README.md). This task passed its build, 2 frontend tests, 51 full UI regression checks and 22 visualization checks. Saved model/checksum identities are unchanged. Earlier sections above describe historical releases.
+
+## Mobile usability audit - 2026-11-08
+
+This release adds touch-target, form-text, active-tab and dense-chart improvements. Build and frontend tests pass; 167 dedicated mobile checks passed across six viewport sizes with real API interactions. See [mobile behavior](architecture/mobile.md) and [recorded evidence](../submissions/mobile/README.md). Prior source hashes and screenshots describe historical snapshots. No model artifacts were changed.

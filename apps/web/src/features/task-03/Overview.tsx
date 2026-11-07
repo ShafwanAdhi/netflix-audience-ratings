@@ -77,44 +77,51 @@ export function OverviewPage() {
           </div>
           <div
             className="distribution-chart"
-            role="img"
+            role="region"
+            tabIndex={0}
             aria-label="Raw rating distribution; TV-MA is the largest class with 3,205 titles"
           >
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart
-                data={ratings}
-                margin={{ top: 10, right: 8, left: -18, bottom: 32 }}
-              >
-                <CartesianGrid vertical={false} stroke="#d0d0d0" />
-                <XAxis
-                  dataKey="label"
-                  tickLine={false}
-                  axisLine={false}
-                  tick={{ fontSize: 12, fill: "#000000" }}
-                  angle={-45}
-                  textAnchor="end"
-                  interval={0}
-                />
-                <YAxis
-                  tickLine={false}
-                  axisLine={false}
-                  tick={{ fontSize: 12 }}
-                />
-                <Tooltip
-                  cursor={{ fill: "#f0f0f0" }}
-                  contentStyle={{
-                    border: "1px solid #000000",
-                    borderRadius: 4,
-                  }}
-                />
-                <Bar dataKey="count" name="Titles" isAnimationActive={false}>
-                  {ratings.map(({ label }) => (
-                    <Cell key={label} fill={ratingFamily(label).color} />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
+            <div className="chart-canvas">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={ratings}
+                  margin={{ top: 10, right: 8, left: -18, bottom: 32 }}
+                >
+                  <CartesianGrid vertical={false} stroke="#d0d0d0" />
+                  <XAxis
+                    dataKey="label"
+                    tickLine={false}
+                    axisLine={false}
+                    tick={{ fontSize: 12, fill: "#000000" }}
+                    angle={-45}
+                    textAnchor="end"
+                    interval={0}
+                  />
+                  <YAxis
+                    tickLine={false}
+                    axisLine={false}
+                    tick={{ fontSize: 12 }}
+                  />
+                  <Tooltip
+                    cursor={{ fill: "#f0f0f0" }}
+                    contentStyle={{
+                      border: "1px solid #000000",
+                      borderRadius: 4,
+                    }}
+                  />
+                  <Bar dataKey="count" name="Titles" isAnimationActive={false}>
+                    {ratings.map(({ label }) => (
+                      <Cell key={label} fill={ratingFamily(label).color} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
+          <p className="chart-scroll-hint">
+            Swipe the chart or focus it and use arrow keys to see all 14
+            ratings.
+          </p>
           <DataLegend
             items={RATING_FAMILIES}
             label="Audience rating color families"

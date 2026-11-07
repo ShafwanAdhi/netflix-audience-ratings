@@ -157,7 +157,7 @@ export function PredictPage() {
             </div>
             <label htmlFor="countries">
               Countries{" "}
-              <Help text="Select multiple countries with Ctrl or Command. Leave unselected to use the unknown-country indicator." />
+              <Help text="Choose one or more countries. On desktop, use Ctrl or Command for multiple selections. Leave unselected to use the unknown-country indicator." />
               <select
                 id="countries"
                 multiple

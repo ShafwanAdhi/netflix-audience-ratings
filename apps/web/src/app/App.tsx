@@ -1,3 +1,4 @@
+import { useSectionNavigation } from "./useSectionNavigation";
 import { useWorkspaceMotion } from "./useWorkspaceMotion";
 import {
   NavLink,
@@ -15,6 +16,7 @@ import { MethodologyPage } from "../features/task-03/Methodology";
 
 export function App() {
   const location = useLocation();
+  const sectionNavRef = useSectionNavigation(location.pathname);
   const mainRef = useWorkspaceMotion(location.pathname);
   return (
     <>
@@ -40,7 +42,11 @@ export function App() {
         </div>
       </header>
       <div className="workspace">
-        <nav className="section-nav" aria-label="Project sections">
+        <nav
+          ref={sectionNavRef}
+          className="section-nav"
+          aria-label="Project sections"
+        >
           {[
             ["overview", "Overview"],
             ["dataset", "About Dataset"],
