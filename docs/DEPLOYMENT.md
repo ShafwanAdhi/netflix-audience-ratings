@@ -89,7 +89,7 @@ Live configuration and image history remain in `.env.production` and `.deploy-st
 ## Verification before public release
 
 - Build the image and wait for a healthy container; ensure `/api/v1/health` reports artifact readiness and the expected model run.
-- Verify `/api/v1/dataset`, all five direct section URLs, fonts, and a real task interaction through HTTPS.
+- Verify `/api/v1/dataset`, all five direct section URLs, fonts, and a real project interaction through HTTPS.
 - Confirm localhost binding with `docker compose ps` and DNS/HTTPS for the chosen subdomain.
 - The **Container verification** GitHub Actions workflow runs on relevant pushes to `main`, pull requests and manual dispatch. It builds and smoke-tests the image; it does not deploy or publish images.
 
