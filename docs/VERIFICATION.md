@@ -74,3 +74,7 @@ The neutral RawBlock frame now permits semantic data colors. Every task page was
 ## Mobile usability audit - 2026-11-08
 
 This release adds touch-target, form-text, active-tab and dense-chart improvements. Build and frontend tests pass; 167 dedicated mobile checks passed across six viewport sizes with real API interactions. See [mobile behavior](architecture/mobile.md) and [recorded evidence](../submissions/mobile/README.md). Prior source hashes and screenshots describe historical snapshots. No model artifacts were changed.
+
+## Portfolio identity — 2026-11-08
+
+Public interface rebranded as Netflix Audience Ratings. 133 identity checks and 167 mobile checks passed. [Current screenshots and evidence](../submissions/portfolio/README.md). Historical assignment reports retain their provenance.

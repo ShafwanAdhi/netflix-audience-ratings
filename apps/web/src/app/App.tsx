@@ -27,17 +27,17 @@ export function App() {
         <Link
           className="brand"
           to="/overview"
-          aria-label="Netflix ML Lab, Task 3: Audience Rating Classification"
+          aria-label="Netflix Audience Ratings home"
         >
           <span className="brand-mark" aria-hidden="true">
-            03
+            <img src="/logo.svg?v=2" width="64" height="64" alt="" />
           </span>
           <span>
-            NETFLIX / ML LAB<small>Audience Rating Classification</small>
+            AUDIENCE RATINGS<small>NETFLIX / METADATA CLASSIFICATION</small>
           </span>
         </Link>
         <div className="masthead-meta">
-          <strong>TASK 03 / INDEPENDENT PROJECT</strong>
+          <strong>INDEPENDENT ML PROJECT</strong>
           <span>CATALOG SNAPSHOT / 25 SEP 2021</span>
         </div>
       </header>
@@ -87,9 +87,9 @@ export function App() {
           </Routes>
         </main>
         <footer>
-          <span>TASK 03 / Audience Rating Classification</span>
+          <span>Netflix / Audience Ratings</span>
           <span>
-            Independent internship project. Not affiliated with Netflix.
+            Independent portfolio project. Not affiliated with Netflix.
           </span>
           <Link className="footer-index" to="/dataset">
             Dataset &amp; decisions

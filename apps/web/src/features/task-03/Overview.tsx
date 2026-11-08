@@ -23,7 +23,7 @@ export function OverviewPage() {
   return (
     <>
       <PageHeading
-        eyebrow="TASK 03 / SUPERVISED LEARNING"
+        eyebrow="SUPERVISED LEARNING"
         title="Audience rating classification"
         action={
           <Link className="button" to="/predict">

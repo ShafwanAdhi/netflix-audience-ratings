@@ -81,7 +81,7 @@ export function PredictPage() {
   return (
     <>
       <PageHeading
-        eyebrow="TASK 03 / INFERENCE"
+        eyebrow="INFERENCE"
         title="Read the metadata. Predict the rating."
       >
         Explore how content attributes influence a classifier’s estimate. Every

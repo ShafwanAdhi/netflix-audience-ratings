@@ -25,7 +25,7 @@ export function MethodologyPage() {
   return (
     <>
       <PageHeading
-        eyebrow="TASK 03 / EXPERIMENT DESIGN"
+        eyebrow="EXPERIMENT DESIGN"
         title="A traceable path from data to decision."
       >
         A reproducible metadata experiment with explicit boundaries between

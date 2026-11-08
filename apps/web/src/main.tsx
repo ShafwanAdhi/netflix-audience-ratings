@@ -8,6 +8,7 @@ import "./styles.css";
 import "./motion.css";
 import "./data-visualization.css";
 import "./mobile.css";
+import "./brand.css";
 const client = new QueryClient({
   defaultOptions: { queries: { retry: 1, staleTime: 300_000 } },
 });

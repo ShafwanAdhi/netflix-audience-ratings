@@ -22,14 +22,14 @@ export function EvaluationPage() {
     );
     const link = document.createElement("a");
     link.href = url;
-    link.download = `task-03-${data.run_id}-evaluation.json`;
+    link.download = `audience-ratings-${data.run_id}-evaluation.json`;
     link.click();
     URL.revokeObjectURL(url);
   };
   return (
     <>
       <PageHeading
-        eyebrow="TASK 03 / HELD-OUT EVALUATION"
+        eyebrow="HELD-OUT EVALUATION"
         title="Performance, with the context intact."
         action={
           <button className="button secondary" onClick={download}>
