@@ -1,4 +1,4 @@
-# Task 3 — Detailed results
+# Detailed results
 
 Run `20261106T111736917654Z`. Primary model: **random_forest**.
 

@@ -1,29 +1,27 @@
-# Architecture and operation
+# Application architecture
 
 ```mermaid
 flowchart LR
-    UI[React single-task workspace] --> API[FastAPI]
+    UI[React workspace] --> API[FastAPI]
     API --> D[Run-bound dataset profile]
-    API --> B[Validated Task 3 bundle]
-    CLI[Offline training CLI] --> B
+    API --> B[Validated model bundle]
+    CLI[Offline experiment CLI] --> B
 ```
 
-The API imports only Task 3. `/api/v1/tasks` contains one entry; other task APIs return 404. Browser links are real URLs without task switching. API versioned task paths remain stable for compatibility; generated TypeScript schemas come from this repository's OpenAPI document.
+`apps/web` owns navigation, forms and charts. `apps/api` validates HTTP requests and serves the built frontend and saved results under one origin. `packages/ml` owns preparation, offline experiments and inference. The API and command-line tools import the same implementation.
 
-The ML package retains task-specific module paths required by joblib. Shared source validation is independent of other tasks. Fitting never runs in an HTTP request. Only trusted local bundles are loaded; no upload endpoint is provided. Checksums validate each immutable run and the dataset profile must match the active run ID.
+## HTTP contract
 
-## Deployment preparation
+Health is exposed at `/api/v1/health`; dataset documentation is served at `/api/v1/dataset`. The established model endpoint prefix is `/api/v1/tasks/3`. The registry `/api/v1/tasks` contains the current project. These are literal API paths; generated TypeScript types come from [OpenAPI](architecture/openapi.json).
 
-See [Docker / VPS deployment](DEPLOYMENT.md) for the production image, isolated Compose service, localhost port 8303, existing host Nginx, subdomain/HTTPS setup, updates and rollback. No raw data or training is required to serve the included validated bundle. The API serves the built SPA and `/api` under one origin; unknown API paths remain 404. Container build/runtime verification is recorded separately from configuration preparation.
+The frontend routes are `/overview`, `/dataset`, `/predict`, `/evaluation` and `/methodology`. Unknown pages show a not-found view; unknown API paths return HTTP 404. Invalid model inputs return HTTP 422; unavailable artifacts return HTTP 503.
 
-## Troubleshooting
+## Artifact lifecycle
 
-- Artifact unavailable: inspect active pointer, bundle checksums and startup logs; do not retrain through the API.
-- Dataset unavailable after training: run `uv run python scripts/refresh_dataset.py` and restart the API.
-- Port occupied: stop the other task's development server before `pnpm dev`.
-- Raw data missing: put the original supplied CSV at `data/raw/Dataset.csv`; verify the source hash in About Dataset.
-- No `pnpm` command: use `corepack pnpm` or install the pinned pnpm version with npm.
+Offline commands create a new immutable run under `artifacts/task-03/`. An active pointer selects a checksummed bundle. Startup validates identity, dependencies and integrity before loading trusted joblib files. The dataset profile must match the active model run. HTTP requests never train models or modify reports.
 
-## Evidence provenance
+Serialized Python module paths and storage keys remain stable so existing saved models can be loaded. Figures, notebooks and reports record the run used for their results; changing documentation does not create a new experiment.
 
-Copied task reports/notebooks preserve the original experiments and run identities. Historical references to the former combined application describe that original delivery, not new screenshots. New browser evidence belongs in `output/playwright` and must be identified as the standalone baseline or subsequent redesign. No old screenshot is relabeled as new evidence.
+## Operation
+
+See [development](DEVELOPMENT.md) for setup and troubleshooting, [deployment](DEPLOYMENT.md) for Docker/HTTPS and rollback, and [verification](VERIFICATION.md) for recorded checks. No database, authentication service, public upload or runtime training service is required.

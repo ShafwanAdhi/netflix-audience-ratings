@@ -1,6 +1,6 @@
 # Netflix Audience Ratings
 
-Independent machine learning portfolio project for metadata classification. Includes a React frontend, FastAPI backend, ML package and selected immutable artifact bundle.
+Machine learning application for metadata classification. Includes a React frontend, FastAPI backend, ML package and selected immutable artifact bundle.
 
 ## Status
 
@@ -13,7 +13,7 @@ Independent machine learning portfolio project for metadata classification. Incl
 
 ## Live application
 
-[Open application](https://netflix-audience-ratings.shafwan.digital) - deployed with Docker, Nginx and HTTPS. [Production verification](submissions/deployment/production/verification.json).
+[Open application](https://netflix-audience-ratings.shafwan.digital) - deployed with Docker, Nginx and HTTPS. [Production verification](verification/release.json).
 
 ## Quickstart
 
@@ -54,15 +54,18 @@ Training creates a new immutable run; regenerate the dataset profile whenever ac
 - `packages/ml`: shared utilities and project ML implementation; serialized class paths retained for artifact compatibility.
 - `artifacts/task-03`: one selected run, checksums and active pointer.
 - `reports/dataset-profile.json`: run-bound source, variables, decisions and intermediate outcomes.
-- [Standalone verification](docs/VERIFICATION.md)
+- [Project verification](docs/VERIFICATION.md)
 - [Docker / VPS deployment](docs/DEPLOYMENT.md)
 - [Architecture and deployment](docs/ARCHITECTURE.md)
-- [Experiment evidence and provenance](docs/tasks/task-03/)
+- [Experiment evidence and provenance](docs/project/)
 
-Independent educational project; not affiliated with Netflix. This is a historical 2021 catalog snapshot, not a current data service. Models describe metadata associations, not causation. Raw-data redistribution rights are not assumed.
+Independent project; not affiliated with Netflix. This is a historical 2021 catalog snapshot, not a current data service. Models describe metadata associations, not causation. Raw-data redistribution rights are not assumed.
 
 Data visualization: [semantic colors and accessibility](docs/architecture/data-visualization.md).
 
 Mobile layout: [responsive behavior and test replay](docs/architecture/mobile.md).
 
 - [Project identity and logo assets](docs/architecture/branding.md)
+
+- [Documentation index](docs/README.md)
+- [Local development](docs/DEVELOPMENT.md)

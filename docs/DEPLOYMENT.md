@@ -1,12 +1,12 @@
-# Docker deployment — Task 3
+# Docker deployment: Netflix Audience Ratings
 
-Status: **deployed on 2026-11-07 (Asia/Jakarta)** at [https://netflix-audience-ratings.shafwan.digital](https://netflix-audience-ratings.shafwan.digital). Docker container healthy, HTTPS active and public browser checks passed. See [production evidence](../submissions/deployment/production/verification.json).
+Status: **deployed on 2026-11-07 (Asia/Jakarta)** at [https://netflix-audience-ratings.shafwan.digital](https://netflix-audience-ratings.shafwan.digital). Docker container healthy, HTTPS active and public browser checks passed. See [production evidence](../verification/release.json).
 
 One multi-stage image builds React and installs the frozen Python workspace. FastAPI serves the SPA and API under one origin. The runtime is non-root, read-only, and contains the selected model bundle and dataset profile; source CSV, development dependencies and private environment files are excluded. Image construction validates artifact readiness and run identity. One Uvicorn worker limits duplicate model memory. Native math threads are limited to one.
 
 ## VPS layout
 
-The inspected VPS already has Docker Compose and host Nginx. Keep that Nginx as the only public ingress. This app binds **127.0.0.1:8303**, forwarded to container port 8000. Do not expose port 8303 publicly. Tasks 3–6 use ports 8303–8306 and unique Compose project/image names. No shared container network or application database is needed.
+The inspected VPS already has Docker Compose and host Nginx. Keep that Nginx as the only public ingress. This app binds **127.0.0.1:8303**, forwarded to container port 8000. Do not expose port 8303 publicly. Use the repository's unique Compose project and image names. No shared container network or application database is needed.
 
 The host has approximately 4 GiB RAM and existing workloads. Start with the supplied 768 MiB container memory limit and one CPU; inspect actual memory under load and adjust `.env.production` if required. Build/deploy one project at a time. Builds also need memory and are not constrained by the runtime limit. If host builds cannot fit, use an external builder/registry instead of increasing concurrent builds.
 
@@ -32,7 +32,7 @@ curl --fail http://127.0.0.1:8303/api/v1/dataset
 curl --fail http://127.0.0.1:8303/dataset
 ```
 
-The source repository must contain these deployment files before cloning/pulling. A private repository requires your own GitHub authentication; do not copy the VPS SSH key to GitHub or put tokens in clone URLs. No raw dataset or training step is required. Health checks validate task, model readiness and matching dataset/model run IDs.
+The source repository must contain these deployment files before cloning/pulling. A private repository requires your own GitHub authentication; do not copy the VPS SSH key to GitHub or put tokens in clone URLs. No raw dataset or training step is required. Health checks validate project identity, model readiness and matching dataset/model run IDs.
 
 ## 3. Subdomain and HTTPS
 
@@ -88,7 +88,7 @@ Live configuration and image history remain in `.env.production` and `.deploy-st
 
 ## Verification before public release
 
-- Build the image and wait for a healthy container; ensure `/api/v1/health` shows Task 3 and the expected run.
+- Build the image and wait for a healthy container; ensure `/api/v1/health` reports artifact readiness and the expected model run.
 - Verify `/api/v1/dataset`, all five direct section URLs, fonts, and a real task interaction through HTTPS.
 - Confirm localhost binding with `docker compose ps` and DNS/HTTPS for the chosen subdomain.
 - The **Container verification** GitHub Actions workflow runs on relevant pushes to `main`, pull requests and manual dispatch. It builds and smoke-tests the image; it does not deploy or publish images.

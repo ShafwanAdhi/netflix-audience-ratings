@@ -1,4 +1,4 @@
-name: Verify standalone task
+name: Verify project
 on: [push, pull_request]
 jobs:
   verify:

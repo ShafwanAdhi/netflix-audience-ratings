@@ -6,8 +6,8 @@ The neutral RawBlock frame and semantic chart colors are preserved. Mobile rules
 - Text fields and selects use at least 16px text to avoid the common iPhone focus-zoom trigger. Radio and checkbox sizing follows their enclosing labelled targets.
 - The active section is revealed horizontally on direct URLs, history navigation and resize; the hook does not scroll the page vertically.
 - Workflow steps wrap on tablet/landscape and stack on narrow phones.
-- The 14-rating distribution and long-label insight charts retain a readable internal canvas with local scrolling, focusable regions and visible swipe/keyboard guidance. Tables also scroll inside their own regions. No page-wide overflow hiding is used as a layout fix.
-- Existing model values, semantic colors, reduced-motion behavior and task boundaries remain intact.
+- The rating distribution uses a readable internal canvas with local scrolling, a focusable region and visible swipe/keyboard guidance. Tables scroll locally.
+- Existing model values, semantic colors, reduced-motion behavior and application boundaries remain intact.
 
 ## Replay
 
@@ -21,4 +21,4 @@ npx --yes --package @playwright/cli playwright-cli close
 
 The script uses real touch taps for navigation and actions, actual API calls and mobile form validation. It checks all five routes at 320x740, 360x800, 390x844, 430x932, 844x390 and 768x1024, plus wide-table access. This is Chromium device emulation, not a claim of physical-device or WebKit testing.
 
-[Recorded local evidence](../../submissions/mobile/README.md). Source hashes refer to the recorded local files. Production replay is recorded separately by the deployment session.
+[Recorded local evidence](../../verification/README.md). Source hashes refer to the recorded local files. Production replay is recorded separately by the deployment session.

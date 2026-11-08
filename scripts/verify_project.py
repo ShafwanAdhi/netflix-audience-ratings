@@ -16,4 +16,4 @@ with TestClient(create_app()) as client:
     assert len(client.get("/api/v1/tasks").json()) == 1
 assert (base / "apps/web/dist/index.html").is_file(), "Build the frontend first"
 subprocess.run(["git", "rev-parse", "--show-toplevel"], cwd=base, check=True)
-print(f"Task {project['task_id']} standalone verified; active run {health['run_id']}")
+print(f"{project['title']} verified; active run {health['run_id']}")

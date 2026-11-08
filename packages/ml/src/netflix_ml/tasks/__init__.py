@@ -1,1 +1,1 @@
-"""Independent internship tasks."""
+"""Modeling and inference modules."""

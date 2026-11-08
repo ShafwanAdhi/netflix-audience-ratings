@@ -1,0 +1,18 @@
+{
+  "repository": "netflix-audience-ratings",
+  "commit": "8a82247744dcb824829dc39c663db6ba8964d543",
+  "runs": [
+    {
+      "name": "Container verification",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42465026538"
+    },
+    {
+      "name": "Verify standalone task",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/ShafwanAdhi/netflix-audience-ratings/actions/runs/42465026669"
+    }
+  ]
+}

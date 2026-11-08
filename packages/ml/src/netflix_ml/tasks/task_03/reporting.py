@@ -7,7 +7,7 @@ def render_report(run_id: str) -> None:
     bundle = root() / "artifacts/task-03" / run_id
     result = read_json(bundle / "evaluation.json")
     selection = read_json(bundle / "selection.json")
-    text = f"# Task 3 — Detailed results\n\nRun `{run_id}`. Primary model: **{result['model_id']}**.\n\n"
+    text = f"# Detailed results\n\nRun `{run_id}`. Primary model: **{result['model_id']}**.\n\n"
     text += "## Frozen candidate comparison\n\n| Model | CV macro-F1 | Test accuracy | Test macro-F1 | Test weighted-F1 |\n| --- | ---: | ---: | ---: | ---: |\n"
     for row in result["comparison"]:
         text += f"| {row['model']} | {row['cv_macro_f1']:.4f} | {row['accuracy']:.4f} | {row['macro_f1']:.4f} | {row['weighted_f1']:.4f} |\n"

@@ -15,7 +15,7 @@ base = root()
 folder = base / "reports/task-03/eda"
 folder.mkdir(parents=True, exist_ok=True)
 cells = [
-    nbformat.v4.new_markdown_cell("""# Task 3 — Training-only exploratory analysis
+    nbformat.v4.new_markdown_cell("""# Training-only exploratory analysis
 
 This executed notebook describes the frozen training partition. The held-out set is not used for feature discovery. Source quality is documented by the unchanged original audit and cleaning log. Core feature choices and the bounded experiment protocol were specified before the final evaluation; this notebook adds descriptive evidence, not post-test model revisions.
 

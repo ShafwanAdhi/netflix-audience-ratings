@@ -1,4 +1,4 @@
-# Task 3 — Verified results
+# Verified results
 
 Run: `20261106T111736917654Z`. Selected model: **random_forest**. Selected using training-only repeated 2-fold CV, three repetitions. Selection was frozen before test evaluation. This model remains trained on the training partition only.
 

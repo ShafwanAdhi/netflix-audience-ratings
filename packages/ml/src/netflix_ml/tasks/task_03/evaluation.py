@@ -152,7 +152,7 @@ def evaluate(run_id: str):
         {"run_id": run_id, "checksums_sha256": digest(bundle / "checksums.json")},
     )
     headline = output["metrics"]
-    text = f"""# Task 3 — Verified results
+    text = f"""# Verified results
 
 Run: `{run_id}`. Selected model: **{selection["selected"]}**. Selected using training-only repeated 2-fold CV, three repetitions. Selection was frozen before test evaluation. This model remains trained on the training partition only.
 

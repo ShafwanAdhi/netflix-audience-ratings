@@ -31,3 +31,7 @@ submissions/**/*.zip
 .env.production
 .env.production.*
 .deploy-state/
+
+# Local historical material
+/submissions/
+/docs/tasks/
