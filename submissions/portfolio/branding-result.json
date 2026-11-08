@@ -136,8 +136,10 @@
     "apple-touch-icon.png: nonempty asset",
     "Favicon links refresh cached version",
     "Project-specific search description",
+    "Cold direct URL reveals selected tab after delayed fonts load",
+    "Selected tab remains visible after phone rotation from tablet",
     "No uncaught browser errors"
   ],
   "errors": [],
-  "captured_at": "2026-11-08T15:45:44+07:00"
+  "captured_at": "2026-11-08T15:53:14+07:00"
 }

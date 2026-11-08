@@ -19,7 +19,17 @@ export function useSectionNavigation(pathname: string) {
     revealActive();
     const observer = new ResizeObserver(revealActive);
     observer.observe(nav);
-    return () => observer.disconnect();
+    // Late-loading fonts can resize links without changing the nav container.
+    // Observe the links as well so a direct URL stays visible on cold loads.
+    nav.querySelectorAll("a").forEach((link) => observer.observe(link));
+    let disposed = false;
+    void document.fonts.ready.then(() => {
+      if (!disposed) revealActive();
+    });
+    return () => {
+      disposed = true;
+      observer.disconnect();
+    };
   }, [pathname]);
   return ref;
 }

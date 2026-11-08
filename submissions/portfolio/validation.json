@@ -1,7 +1,7 @@
 {
   "run_id": "20261106T111736917654Z",
   "project": "Audience Ratings",
-  "branding_checks_passed": 133,
+  "branding_checks_passed": 135,
   "mobile_checks_passed": 167,
   "production_build": "passed",
   "frontend_unit_tests_passed": 2,
@@ -16,7 +16,7 @@
     "apps/web/src/styles.css": "a4fb5971b3294e36a14471b46b2b82f96e16f9b32173067a7d5939f0b1b08f46",
     "apps/web/src/test-setup.ts": "475c7500129ce15530c7b8070b2838a840f96ac75ce83a0a413ef66ae24b5d64",
     "apps/web/src/app/App.tsx": "ce7478a090428952868e7c19ca62c37985ef1969195e54287aa3e46fd3fd8fa4",
-    "apps/web/src/app/useSectionNavigation.ts": "8a9803afcd3044ae7876163565f588b0370e3c252c35b4cff7e587d5f2cdc279",
+    "apps/web/src/app/useSectionNavigation.ts": "46e6e3cbdaf0a358cf6223ae96bb6d7a9e2d093d91d8a5a7600d886228bb9c56",
     "apps/web/src/app/useWorkspaceMotion.ts": "2a28816f00037836bf874728c4be20e21cea1db9685d05c952b1e51661d3e383",
     "apps/web/src/components/DataLegend.tsx": "ec229137f7a6c898063ed78629031061b02c9d54244bf77d07744acea26c36d7",
     "apps/web/src/components/Dataset.tsx": "c90ab728c1920a8f229023be2d2f044d14297c4a1fa33dff1ef8f0e93919e41b",

@@ -37,6 +37,30 @@ async page => {
   }
   check(await page.locator('link[rel="icon"]').evaluateAll(es=>es.every(e=>e.href.includes("v=2"))),"Favicon links refresh cached version");
   check((await page.locator('meta[name="description"]').getAttribute("content")).length>40,"Project-specific search description");
+  const cold = await page.context().browser().newContext({viewport:{width:768,height:1024},isMobile:true,hasTouch:true,reducedMotion:"reduce"});
+  let release;
+  const fonts = new Promise(resolve => {release=resolve;});
+  await cold.route("**/*.woff2", async route => { await fonts; await route.continue(); });
+  const delayed = await cold.newPage();
+  try {
+    await delayed.goto(`${base}/methodology`, {waitUntil:"domcontentloaded"});
+    await delayed.locator("main h1").waitFor();
+    release();
+    await delayed.evaluate(()=>document.fonts.ready);
+    const selectedVisible=()=>{
+      const item=document.querySelector('.section-nav a[aria-current="page"]');
+      const a=item.getBoundingClientRect(), n=item.parentElement.getBoundingClientRect();
+      return a.left>=n.left-1 && a.right<=n.right+1;
+    };
+    await delayed.waitForFunction(selectedVisible, null, {timeout:5000});
+    check(true,"Cold direct URL reveals selected tab after delayed fonts load");
+    await delayed.setViewportSize({width:390,height:844});
+    await delayed.waitForFunction(selectedVisible, null, {timeout:5000});
+    check(true,"Selected tab remains visible after phone rotation from tablet");
+  } finally {
+    release();
+    await cold.close();
+  }
   check(errors.length===0,"No uncaught browser errors");
   return {passed:true,task_id:task,project:name,run_id:health.run_id,checks,errors};
 }
