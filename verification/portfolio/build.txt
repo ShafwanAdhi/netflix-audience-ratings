@@ -1,0 +1,33 @@
+
+> netflix-audience-ratings@ build D:\auspify-intern\standalone\netflix-audience-ratings
+> pnpm --filter @lab/web build
+
+
+> @lab/web@0.1.0 build D:\auspify-intern\standalone\netflix-audience-ratings\apps\web
+> tsc -b && vite build && node scripts/build-metadata.mjs
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 652 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   2.47 kB │ gzip:   0.77 kB
+dist/assets/index-B20rL5wx.css   59.21 kB │ gzip:  12.41 kB
+dist/assets/react-CmxWiOsR.js    46.54 kB │ gzip:  16.73 kB
+dist/assets/forms-uNhOpudp.js   121.36 kB │ gzip:  37.34 kB
+dist/assets/index-Dx80gw8U.js   369.67 kB │ gzip: 117.55 kB
+dist/assets/charts-Eofsy_Ba.js  381.70 kB │ gzip: 111.15 kB
+✓ built in 4.75s
+Built initial HTML metadata for 5 routes.
+../../node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "../../node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+../../node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "../../node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.

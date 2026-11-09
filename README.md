@@ -1,19 +1,44 @@
 # Netflix Audience Ratings
 
-Machine learning application for metadata classification. Includes a React frontend, FastAPI backend, ML package and selected immutable artifact bundle.
+How much do catalog attributes reveal about content advisory labels? This project compares imbalanced multiclass pipelines and exposes the frozen classifier through an interactive metadata form. Intended for model exploration, not official content review.
 
-## Status
+[Open live application](https://netflix-audience-ratings.shafwan.digital)
 
-- Implemented: project workspace, About Dataset, audited variable rationale, actual preparation/split/segment outcomes, model evaluation and interactive results.
-- Interface: responsive RawBlock layout with self-hosted fonts and semantic chart colors and labelled legends; see [verification and screenshots](docs/VERIFICATION.md).
-- Repository: independent application, model artifacts and verification workflow.
-- Active model run: `20261106T111736917654Z`. See `artifacts/task-03/active.json` for the current run.
+![Netflix Audience Ratings overview showing the project question, frozen result and interpretation limits](verification/portfolio/overview-desktop.png)
 
-- Motion: staged page/scroll reveals, chart and result transitions, hover/press feedback, and live reduced-motion support.
+## Measured results
 
-## Live application
+<!-- RESULTS:START -->
+Evidence run: `20261106T111736917654Z`. Generated from the active artifact; not a business-impact claim.
 
-[Open application](https://netflix-audience-ratings.shafwan.digital) - deployed with Docker, Nginx and HTTPS. [Production verification](verification/release.json).
+Selected by training-only CV macro-F1: **random_forest** (CV 0.346).
+
+| Frozen test evidence | Selected model | Dummy baseline |
+| --- | ---: | ---: |
+| Macro-F1 | 0.334 | 0.038 |
+| Accuracy | 53.4% | 36.5% |
+
+Training: 7,029; test: 1,758; labels: 14. Metadata does not establish official suitability. Rare classes have very limited support; the test does not reselect the winner.
+<!-- RESULTS:END -->
+
+## Decisions and implementation
+
+Select with macro-F1 on training-only CV, retain all 14 labels and inspect rare-class failures. A higher test accuracy for another candidate does not change the declared selection.
+
+The implementation covers data audit and preparation, model comparison, saved evaluation artifacts, a FastAPI service, a React workspace, validation and Docker packaging. This describes repository capabilities; no business adoption or measured commercial impact is claimed.
+
+```mermaid
+flowchart LR
+    A[Supplied CSV and provenance] --> B[Preparation and validation]
+    B --> C[Training and model selection]
+    C --> D[Frozen artifact and evaluation]
+    D --> E[FastAPI]
+    E --> F[React website]
+```
+
+## Reproduction boundary
+
+**Artifact inference:** the included validated bundle supports the website without the raw CSV. **Training reproduction:** requires the original supplied CSV matching [the provenance record](data/provenance.json). The exact upstream source and redistribution permission remain unverified; no public substitute is asserted to reproduce this training input. The observed maximum date added is not a known acquisition date.
 
 ## Quickstart
 
@@ -39,13 +64,13 @@ uv run python scripts/evaluate.py
 uv run python scripts/refresh_dataset.py
 corepack pnpm types
 uv run ruff check .
-uv run pytest
 corepack pnpm test
 corepack pnpm build
+uv run pytest
 corepack pnpm verify
 ```
 
-Training creates a new immutable run; regenerate the dataset profile whenever activating another run. The API refuses a stale profile. No performance values are invented by the frontend.
+Training creates a new immutable run; regenerate the dataset profile whenever activating another run. The API refuses a stale profile. No performance values are invented by the frontend. Run `uv run python scripts/refresh_readme.py` to update only the marked results above, or append `--check` to verify them. Source/provenance and run mismatches fail the command.
 
 ## Structure and documentation
 

@@ -94,3 +94,9 @@ Live configuration and image history remain in `.env.production` and `.deploy-st
 - The **Container verification** GitHub Actions workflow runs on relevant pushes to `main`, pull requests and manual dispatch. It builds and smoke-tests the image; it does not deploy or publish images.
 
 Local Docker Desktop must have its Linux engine running to build/test on Windows. `docker compose --env-file deploy/production.env.example config --quiet` validates configuration without a daemon.
+
+## Portfolio revision release checks
+
+The image includes the built route HTML and social preview. Before a release, build the frontend, run Python/frontend tests and `corepack pnpm readme:check`, then build and smoke-test the Docker image. Without JavaScript, request each of the five public routes and confirm its title, canonical and Open Graph URL use the correct production domain. Confirm `/social-preview.png` is an image response and `/api/v1/health` reports the intended artifact run.
+
+The portfolio presentation revision does not require retraining or a new model run. Its local verification is separate from older production evidence. Publishing repository changes and updating the VPS are separate release actions.

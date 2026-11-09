@@ -41,6 +41,80 @@ export function DatasetPage() {
           </div>
         </dl>
         <p className="section-description">{data.split_strategy}</p>
+        <div className="provenance-record">
+          <h3>{data.provenance.verification_status}</h3>
+          <p>{data.provenance.redistribution_status}</p>
+          <dl className="dataset-facts">
+            <div>
+              <dt>Source dimensions</dt>
+              <dd>
+                {data.provenance.raw_rows.toLocaleString()} rows /{" "}
+                {data.provenance.raw_columns} columns
+              </dd>
+            </div>
+            <div>
+              <dt>Release years</dt>
+              <dd>
+                {data.provenance.release_year_min}–
+                {data.provenance.release_year_max}
+              </dd>
+            </div>
+            <div>
+              <dt>Observed date-added range</dt>
+              <dd>
+                {data.provenance.date_added_min} to{" "}
+                {data.provenance.date_added_max}
+              </dd>
+            </div>
+            <div>
+              <dt>Acquisition date</dt>
+              <dd>
+                {data.provenance.acquired_at ??
+                  "Unknown; not inferred from date added"}
+              </dd>
+            </div>
+            <div>
+              <dt>Verified upstream</dt>
+              <dd>{data.provenance.upstream_url ?? "Not established"}</dd>
+            </div>
+            <div>
+              <dt>Upstream version / license</dt>
+              <dd>
+                {data.provenance.upstream_version ?? "Unknown"} /{" "}
+                {data.provenance.license ?? "Unverified"}
+              </dd>
+            </div>
+          </dl>
+          <h3>What can be reproduced</h3>
+          <p>
+            <strong>Artifact inference:</strong>{" "}
+            {data.provenance.inference_reproduction}
+          </p>
+          <p>
+            <strong>Training reproduction:</strong>{" "}
+            {data.provenance.training_reproduction}
+          </p>
+          <ul>
+            {data.provenance.limitations.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <details>
+            <summary>
+              Source investigation · reviewed {data.provenance.reviewed_at}
+            </summary>
+            <ul>
+              {data.provenance.evidence.map((item) => (
+                <li key={item.url}>
+                  <a href={item.url} target="_blank" rel="noreferrer">
+                    Candidate reference
+                  </a>{" "}
+                  — {item.finding}
+                </li>
+              ))}
+            </ul>
+          </details>
+        </div>
       </section>
       <section className="report-section" aria-labelledby="variables-heading">
         <p className="eyebrow">02 / VARIABLE REGISTER</p>

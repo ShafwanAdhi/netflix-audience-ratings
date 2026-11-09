@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ruff",
+    "exit_code": 0,
+    "command": "uv run ruff check ."
+  },
+  {
+    "name": "pytest",
+    "exit_code": 0,
+    "command": "uv run pytest -q"
+  },
+  {
+    "name": "readme",
+    "exit_code": 0,
+    "command": "uv run python scripts/refresh_readme.py --check"
+  },
+  {
+    "name": "application",
+    "exit_code": 0,
+    "command": "uv run python scripts/verify_project.py"
+  },
+  {
+    "name": "container-preflight",
+    "exit_code": 0,
+    "command": "uv run python deploy/validate_bundle.py"
+  },
+  {
+    "name": "diff",
+    "exit_code": 0,
+    "command": "git -c core.safecrlf=false diff --check"
+  }
+]

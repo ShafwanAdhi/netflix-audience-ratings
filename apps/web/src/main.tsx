@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router";
 import * as Tooltip from "@radix-ui/react-tooltip";
 import { App } from "./app/App";
 import "./styles.css";
+import "./portfolio.css";
 import "./motion.css";
 import "./data-visualization.css";
 import "./mobile.css";

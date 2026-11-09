@@ -1,4 +1,42 @@
 {
+  "provenance": {
+    "origin": "User-supplied Dataset.csv",
+    "source_sha256": "90b02beeb554921f81d3b9a774d0f7766f6a65240162565f6b4082165dc2a1d3",
+    "raw_rows": 8790,
+    "raw_columns": 10,
+    "release_year_min": 1925,
+    "release_year_max": 2021,
+    "date_added_min": "2008-01-01",
+    "date_added_max": "2021-09-25",
+    "acquired_at": null,
+    "upstream_url": null,
+    "upstream_version": null,
+    "license": null,
+    "verification_status": "Upstream source unverified",
+    "redistribution_status": "Redistribution permission unverified",
+    "reviewed_at": "2026-11-09",
+    "evidence": [
+      {
+        "url": "https://www.kaggle.com/datasets/shivamb/netflix-shows",
+        "finding": "Candidate catalog dataset. No verified byte match or transformation history connects it to the supplied 8,790-row, 10-column snapshot. Its license must not be inherited without that connection."
+      },
+      {
+        "url": "https://zenodo.org/records/13925131",
+        "finding": "Candidate mirror, version v1 dated 2024-10-13, references the Kaggle dataset and lists netflix_titles.csv. That publication date is not the acquisition date of this input. No exact-source match was established."
+      },
+      {
+        "url": "https://github.com/laiting-mona/netflix-content-analysis",
+        "finding": "Similar ten-column schema and a reported 8,790-row cleaned result; resemblance is not proof of provenance or permission."
+      }
+    ],
+    "inference_reproduction": "The included validated artifact supports local inference without the raw CSV.",
+    "training_reproduction": "Retraining requires the supplied CSV matching this SHA-256. No verified public acquisition URL for this exact input is available.",
+    "limitations": [
+      "The maximum date_added is an observed data value, not an acquisition date or independently verified collection date.",
+      "Raw CSV redistribution is not authorized by this record; raw data remains excluded from Git.",
+      "A checksum identifies bytes; it does not establish authorship, upstream provenance or license."
+    ]
+  },
   "task_id": 3,
   "title": "Audience Rating Classification",
   "run_id": "20261106T111736917654Z",
@@ -46,7 +84,7 @@
     {
       "name": "rating",
       "role": "Target",
-      "reason": "The assignment predicts the original 14 advisory classes.",
+      "reason": "The classifier predicts the original 14 advisory classes.",
       "treatment": "Keep all 14 labels, including NR/UR/TV-Y7-FV; never use as an input."
     },
     {
@@ -65,7 +103,7 @@
   "decisions": [
     {
       "action": "Keep the original labels",
-      "reason": "The assignment predicts advisory categories; collapsing rare classes changes that task.",
+      "reason": "The classifier predicts advisory categories; collapsing rare classes changes that task.",
       "evidence": "Fourteen classes remain in the split manifests and per-class report.",
       "limitation": "A class with one held-out example cannot support a reliable generalization claim."
     },

@@ -193,6 +193,9 @@
       },
       "DatasetInfo": {
         "properties": {
+          "provenance": {
+            "$ref": "#/components/schemas/Provenance"
+          },
           "task_id": {
             "type": "integer",
             "title": "Task Id"
@@ -263,6 +266,7 @@
         },
         "type": "object",
         "required": [
+          "provenance",
           "task_id",
           "title",
           "run_id",
@@ -673,6 +677,10 @@
       },
       "Overview": {
         "properties": {
+          "run_id": {
+            "type": "string",
+            "title": "Run Id"
+          },
           "rows": {
             "type": "integer",
             "title": "Rows"
@@ -737,6 +745,7 @@
         },
         "type": "object",
         "required": [
+          "run_id",
           "rows",
           "cleaned_rows",
           "columns",
@@ -924,6 +933,161 @@
           "probability"
         ],
         "title": "Probability"
+      },
+      "Provenance": {
+        "properties": {
+          "origin": {
+            "type": "string",
+            "title": "Origin"
+          },
+          "source_sha256": {
+            "type": "string",
+            "title": "Source Sha256"
+          },
+          "raw_rows": {
+            "type": "integer",
+            "title": "Raw Rows"
+          },
+          "raw_columns": {
+            "type": "integer",
+            "title": "Raw Columns"
+          },
+          "release_year_min": {
+            "type": "integer",
+            "title": "Release Year Min"
+          },
+          "release_year_max": {
+            "type": "integer",
+            "title": "Release Year Max"
+          },
+          "date_added_min": {
+            "type": "string",
+            "title": "Date Added Min"
+          },
+          "date_added_max": {
+            "type": "string",
+            "title": "Date Added Max"
+          },
+          "acquired_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Acquired At"
+          },
+          "upstream_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Upstream Url"
+          },
+          "upstream_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Upstream Version"
+          },
+          "license": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "License"
+          },
+          "verification_status": {
+            "type": "string",
+            "title": "Verification Status"
+          },
+          "redistribution_status": {
+            "type": "string",
+            "title": "Redistribution Status"
+          },
+          "reviewed_at": {
+            "type": "string",
+            "title": "Reviewed At"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/components/schemas/ProvenanceEvidence"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "inference_reproduction": {
+            "type": "string",
+            "title": "Inference Reproduction"
+          },
+          "training_reproduction": {
+            "type": "string",
+            "title": "Training Reproduction"
+          },
+          "limitations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Limitations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "origin",
+          "source_sha256",
+          "raw_rows",
+          "raw_columns",
+          "release_year_min",
+          "release_year_max",
+          "date_added_min",
+          "date_added_max",
+          "acquired_at",
+          "upstream_url",
+          "upstream_version",
+          "license",
+          "verification_status",
+          "redistribution_status",
+          "reviewed_at",
+          "evidence",
+          "inference_reproduction",
+          "training_reproduction",
+          "limitations"
+        ],
+        "title": "Provenance"
+      },
+      "ProvenanceEvidence": {
+        "properties": {
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "finding": {
+            "type": "string",
+            "title": "Finding"
+          }
+        },
+        "type": "object",
+        "required": [
+          "url",
+          "finding"
+        ],
+        "title": "ProvenanceEvidence"
       },
       "Segment": {
         "properties": {

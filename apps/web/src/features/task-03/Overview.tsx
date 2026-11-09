@@ -1,3 +1,4 @@
+import { CaseStudy, useRunEvidence } from "../../components/CaseStudy";
 import { Link } from "react-router";
 import {
   BarChart,
@@ -11,11 +12,34 @@ import {
 } from "recharts";
 import { ratingFamily, RATING_FAMILIES } from "../../lib/dataColors";
 import { DataLegend } from "../../components/DataLegend";
-import { useOverview } from "../../lib/api";
+import { useOverview, useEvaluation, modelName } from "../../lib/api";
 import { Note, PageHeading, State } from "../../components/Shared";
 export function OverviewPage() {
   const { data, error, isPending } = useOverview();
-  if (!data) return <State error={error} loading={isPending} />;
+  const evaluation = useEvaluation();
+  const evidence = useRunEvidence(evaluation.data?.run_id);
+  if (error || evaluation.error || evidence.error)
+    return <State error={error || evaluation.error || evidence.error} />;
+  if (!data || !evaluation.data || evidence.pending)
+    return (
+      <State loading={isPending || evaluation.isPending || evidence.pending} />
+    );
+  const result = evaluation.data;
+  if (data.run_id !== result.run_id)
+    return (
+      <State
+        error={
+          new Error("Overview and evaluation run identities do not match.")
+        }
+      />
+    );
+  const dummy = result.comparison.find((row) => row.model === "dummy")!;
+  const logistic = result.comparison.find(
+    (row) => row.model === "logistic_regression",
+  )!;
+  const selected = result.comparison.find(
+    (row) => row.model === result.model_id,
+  )!;
   const ratings = Object.entries(data.rating_counts).map(([label, count]) => ({
     label,
     count,
@@ -34,6 +58,35 @@ export function OverviewPage() {
         Predict content ratings from catalog metadata. Explore the data, compare
         classifiers, and inspect what the model learns.
       </PageHeading>
+      <CaseStudy
+        question="How much can catalog metadata tell us about content advisory labels?"
+        finding={
+          <>
+            {modelName(result.model_id)} achieved test macro-F1{" "}
+            <strong>{result.metrics.macro_f1.toFixed(3)}</strong> versus{" "}
+            <strong>{dummy.macro_f1.toFixed(3)}</strong> for Dummy, across{" "}
+            {result.labels.length} labels and{" "}
+            {result.test_rows.toLocaleString()} held-out titles. Accuracy was{" "}
+            {(result.metrics.accuracy * 100).toFixed(1)}% versus{" "}
+            {(dummy.accuracy * 100).toFixed(1)}%.
+          </>
+        }
+        decision={
+          <>
+            Select by training-only CV macro-F1 to give each label equal weight.
+            The selected model scored {selected.cv_macro_f1.toFixed(3)} in CV
+            versus {logistic.cv_macro_f1.toFixed(3)} for Logistic Regression.
+            Logistic Regression's higher test accuracy (
+            {(logistic.accuracy * 100).toFixed(1)}%) does not change the frozen
+            selection.
+          </>
+        }
+        limitation="Metadata cannot establish official suitability. Rare labels have very little support; these are advisory categories, not viewer review scores."
+        coverage="Source audit, deduplication, frozen splits, fold-fitted preprocessing, model comparison, director ablation, artifact validation, API and interactive inference."
+        action="Try a prediction"
+        href="/predict"
+        run={result.run_id}
+      />
       <div className="summary-strip">
         <div>
           <span>CATALOG TITLES</span>

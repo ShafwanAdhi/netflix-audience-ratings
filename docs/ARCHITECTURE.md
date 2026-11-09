@@ -25,3 +25,11 @@ Serialized Python module paths and storage keys remain stable so existing saved 
 ## Operation
 
 See [development](DEVELOPMENT.md) for setup and troubleshooting, [deployment](DEPLOYMENT.md) for Docker/HTTPS and rollback, and [verification](VERIFICATION.md) for recorded checks. No database, authentication service, public upload or runtime training service is required.
+
+## Portfolio presentation data flow
+
+Overview reads the existing frozen evaluation endpoint and the run-bound dataset endpoint; mismatched runs or unavailable evidence block the summary and expose retry. No headline metrics are separately entered in frontend code. Source provenance is an additive typed field on `GET /api/v1/dataset`; its hash must match the loaded model metadata. OpenAPI remains the source of TypeScript API types.
+
+The build emits five HTML shells with route-specific title, description, canonical, Open Graph and Twitter metadata. These are metadata documents for the existing SPA, not server-rendered analysis pages. FastAPI serves a route shell when available, regular files for assets, and the existing SPA fallback otherwise. Runtime inference and evaluation APIs do not train or rewrite artifacts.
+
+READMEs obtain their marked result sections from active, checksum-validated artifact files through `scripts/refresh_readme.py`. Model artifact bytes remain immutable. The repository remains independent of the other catalog projects.

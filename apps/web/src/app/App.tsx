@@ -1,3 +1,4 @@
+import { ProjectMetadata } from "./ProjectMetadata";
 import { useSectionNavigation } from "./useSectionNavigation";
 import { useWorkspaceMotion } from "./useWorkspaceMotion";
 import {
@@ -20,6 +21,7 @@ export function App() {
   const mainRef = useWorkspaceMotion(location.pathname);
   return (
     <>
+      <ProjectMetadata />
       <a href="#main" className="skip-link">
         Skip to content
       </a>

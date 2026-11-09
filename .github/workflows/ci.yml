@@ -16,7 +16,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: uv sync --frozen --all-packages
       - run: uv run ruff check .
-      - run: uv run pytest
       - run: pnpm test
       - run: pnpm build
+      - run: uv run pytest
+      - run: pnpm readme:check
       - run: pnpm verify

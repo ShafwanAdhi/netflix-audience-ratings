@@ -10,6 +10,8 @@
     "build": "pnpm --filter @lab/web build",
     "test": "pnpm --filter @lab/web test",
     "types": "uv run python scripts/export_openapi.py && pnpm --filter @lab/web generate:types",
-    "verify": "uv run python scripts/verify_project.py"
+    "verify": "uv run python scripts/verify_project.py",
+    "readme:results": "uv run python scripts/refresh_readme.py",
+    "readme:check": "uv run python scripts/refresh_readme.py --check"
   }
 }

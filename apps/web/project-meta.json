@@ -1,0 +1,27 @@
+{
+  "name": "Netflix Audience Ratings",
+  "origin": "https://netflix-audience-ratings.shafwan.digital",
+  "imageAlt": "Audience Ratings: Metadata classification, with held-out evidence.",
+  "routes": {
+    "/overview": {
+      "label": "Overview",
+      "description": "Compare advisory-label predictions with baselines, inspect rare-label limitations and try metadata-based inference."
+    },
+    "/dataset": {
+      "label": "About Dataset",
+      "description": "Source provenance, variable rationale, preparation outcomes and reproduction limits for Audience Ratings."
+    },
+    "/predict": {
+      "label": "Predict",
+      "description": "Try Movie and TV Show metadata examples with the frozen advisory classifier. Outputs are model estimates, not official certification."
+    },
+    "/evaluation": {
+      "label": "Evaluation",
+      "description": "Frozen model comparisons, baseline results and interpretation limits for Audience Ratings."
+    },
+    "/methodology": {
+      "label": "Methodology",
+      "description": "Data decisions, features, validation protocol and artifact lifecycle for Audience Ratings."
+    }
+  }
+}

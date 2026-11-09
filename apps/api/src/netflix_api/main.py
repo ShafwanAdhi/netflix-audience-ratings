@@ -82,6 +82,7 @@ def create_app(load_model=True):
             raise HTTPException(503, detail="Dataset audit is unavailable") from exc
         return {
             **audit,
+            "run_id": predictor().metadata["run_id"],
             "cleaned_rows": audit["rows_after_content_deduplication"],
             "duplicate_rows_removed": audit["duplicate_content_rows_excluding_id"],
             "repeated_entities": 4,
@@ -110,6 +111,9 @@ def create_app(load_model=True):
             requested = (web / path).resolve()
             if requested.is_relative_to(web.resolve()) and requested.is_file():
                 return FileResponse(requested)
+            route_html = requested / "index.html"
+            if route_html.is_relative_to(web.resolve()) and route_html.is_file():
+                return FileResponse(route_html)
             return FileResponse(web / "index.html")
 
     return app

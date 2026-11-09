@@ -1,0 +1,12 @@
+[
+  {
+    "name": "frontend",
+    "command": "corepack pnpm test",
+    "exit_code": 0
+  },
+  {
+    "name": "build",
+    "command": "corepack pnpm build",
+    "exit_code": 0
+  }
+]

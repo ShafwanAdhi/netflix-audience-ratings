@@ -23,9 +23,9 @@ uv run python scripts/evaluate.py
 uv run python scripts/refresh_dataset.py
 corepack pnpm types
 uv run ruff check .
-uv run pytest
 corepack pnpm test
 corepack pnpm build
+uv run pytest
 corepack pnpm verify
 ```
 
@@ -41,3 +41,13 @@ Training is offline and creates a new run. Refresh the dataset profile after act
 - API request during startup: wait for `/api/v1/health` readiness, then retry the page.
 
 For browser replay see [verification](VERIFICATION.md). For the production container see [deployment](DEPLOYMENT.md).
+
+## Portfolio evidence and sharing metadata
+
+`data/provenance.json` is the source investigation record; it is not a license grant. After updating it, run `uv run python scripts/refresh_dataset.py`. The generator rejects a source hash that differs from the active artifact. Never infer the acquisition date from `date_added`.
+
+Update only the marked README results with `corepack pnpm readme:results`; validate without writing with `corepack pnpm readme:check`. These commands verify bundle checksums, source provenance and active run identity. Narrative and screenshots remain reviewable editorial material.
+
+The frontend's `project-meta.json` defines production origin and five route summaries. `corepack pnpm build` generates initial route HTML, so link preview metadata is available without JavaScript. React updates the same metadata during client navigation. Query strings and fragments do not enter canonical URLs. The committed `social-preview.png` is a 1200 × 630 project illustration, not a performance chart.
+
+Build before running pytest: static-delivery tests inspect real route HTML and image responses. Local browser evidence for the portfolio revision is indexed in [verification](VERIFICATION.md). Source CSS preserves semantic chart colors and reduced-motion behavior.

@@ -41,7 +41,35 @@ class Partition(BaseModel):
     metrics: dict[str, float | None]
 
 
+class ProvenanceEvidence(BaseModel):
+    url: str
+    finding: str
+
+
+class Provenance(BaseModel):
+    origin: str
+    source_sha256: str
+    raw_rows: int
+    raw_columns: int
+    release_year_min: int
+    release_year_max: int
+    date_added_min: str
+    date_added_max: str
+    acquired_at: str | None
+    upstream_url: str | None
+    upstream_version: str | None
+    license: str | None
+    verification_status: str
+    redistribution_status: str
+    reviewed_at: str
+    evidence: list[ProvenanceEvidence]
+    inference_reproduction: str
+    training_reproduction: str
+    limitations: list[str]
+
+
 class DatasetInfo(BaseModel):
+    provenance: Provenance
     task_id: int
     title: str
     run_id: str
@@ -72,4 +100,7 @@ def dataset(request: Request):
             503,
             detail="Dataset evidence does not match the active artifact run. Rebuild the dataset profile.",
         )
+    provenance = profile.get("provenance", {})
+    if provenance.get("source_sha256") != service.metadata["source_sha256"]:
+        raise HTTPException(503, detail="Dataset provenance does not match the active source")
     return profile

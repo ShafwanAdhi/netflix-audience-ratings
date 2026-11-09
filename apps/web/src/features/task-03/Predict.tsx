@@ -1,3 +1,4 @@
+import { MultiSelect } from "../../components/MultiSelect";
 import { ratingFamily } from "../../lib/dataColors";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -94,7 +95,7 @@ export function PredictPage() {
             <span className="subtle-label">01 / INPUT</span>
           </div>
           <div className="example-buttons">
-            <span>Start with an example</span>
+            <span>Example input</span>
             <button onClick={() => loadExample("Movie")}>Movie</button>
             <button onClick={() => loadExample("TV Show")}>TV show</button>
           </div>
@@ -103,7 +104,11 @@ export function PredictPage() {
               {exampleNote}
             </p>
           )}
-          <form onSubmit={handleSubmit(submit)} noValidate>
+          <form
+            onSubmit={handleSubmit(submit)}
+            onChange={() => mutation.reset()}
+            noValidate
+          >
             <fieldset>
               <legend>Content type</legend>
               <div className="type-picker">
@@ -155,53 +160,26 @@ export function PredictPage() {
                 )}
               </label>
             </div>
-            <label htmlFor="countries">
-              Countries{" "}
-              <Help text="Choose one or more countries. On desktop, use Ctrl or Command for multiple selections. Leave unselected to use the unknown-country indicator." />
-              <select
-                id="countries"
-                multiple
-                size={4}
-                {...register("countries")}
-                aria-describedby="country-help"
-              >
-                {data.countries
-                  .filter((c) => c !== "Not Given")
-                  .map((country) => (
-                    <option key={country}>{country}</option>
-                  ))}
-              </select>
-              <small id="country-help">
-                Multiple selections supported.{" "}
-                <button
-                  className="inline-button"
-                  type="button"
-                  onClick={() => setValue("countries", [])}
-                >
-                  Use unknown country
-                </button>
-              </small>
-            </label>
-            <label>
-              Genres <span className="required">Required</span>
-              <select
-                multiple
-                size={5}
-                {...register("genres")}
-                aria-invalid={!!errors.genres}
-                aria-describedby="genre-help"
-              >
-                {data.genres.map((genre) => (
-                  <option key={genre}>{genre}</option>
-                ))}
-              </select>
-              <small id="genre-help">
-                Select one or more. Use Ctrl / Command on desktop.
-              </small>
-              {errors.genres && (
-                <small className="field-error">{errors.genres.message}</small>
-              )}
-            </label>
+            <MultiSelect
+              label="Countries"
+              options={data.countries}
+              value={watch("countries")}
+              unknown
+              onChange={(values) => {
+                setValue("countries", values, { shouldValidate: true });
+                mutation.reset();
+              }}
+            />
+            <MultiSelect
+              label="Genres"
+              options={data.genres}
+              value={watch("genres")}
+              error={errors.genres?.message}
+              onChange={(values) => {
+                setValue("genres", values, { shouldValidate: true });
+                mutation.reset();
+              }}
+            />
             {data.uses_director && (
               <label>
                 Director

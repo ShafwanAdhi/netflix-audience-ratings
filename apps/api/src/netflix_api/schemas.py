@@ -110,6 +110,7 @@ class Evaluation(BaseModel):
 
 
 class Overview(BaseModel):
+    run_id: str
     rows: int
     cleaned_rows: int
     columns: list[str]

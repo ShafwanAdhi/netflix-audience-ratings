@@ -95,7 +95,7 @@ def profile(task, bundle):
     variable(
         "rating",
         "Target" if task == 3 else "Excluded",
-        "The assignment predicts the original 14 advisory classes."
+        "The classifier predicts the original 14 advisory classes."
         if task == 3
         else "Advisory ratings are not viewer scores, commercial success or clustering ground truth.",
         "Keep all 14 labels, including NR/UR/TV-Y7-FV; never use as an input."
@@ -186,7 +186,7 @@ def profile(task, bundle):
         decisions = [
             {
                 "action": "Keep the original labels",
-                "reason": "The assignment predicts advisory categories; collapsing rare classes changes that task.",
+                "reason": "The classifier predicts advisory categories; collapsing rare classes changes that task.",
                 "evidence": "Fourteen classes remain in the split manifests and per-class report.",
                 "limitation": "A class with one held-out example cannot support a reliable generalization claim.",
             },
@@ -346,7 +346,11 @@ def profile(task, bundle):
                 "limitation": "Snapshot survivorship and metadata associations prevent causal or current-acquisition claims.",
             },
         ]
+    provenance = read(BASE / "data/provenance.json")
+    if provenance["source_sha256"] != metadata["source_sha256"]:
+        raise ValueError("Provenance does not match active source hash")
     return {
+        "provenance": provenance,
         "task_id": task,
         "title": PROJECTS[task][1],
         "run_id": metadata["run_id"],
